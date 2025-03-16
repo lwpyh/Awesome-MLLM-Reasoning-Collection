@@ -5,8 +5,6 @@ A collection of multimodal reasoning papers.
 
 ## Papers📄
 
-* [2503] [LMM-R1] [LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL](https://arxiv.org/pdf/2503.07536) (SEU) [Code 💻](https://github.com/TideDra/lmm-r1)
-
 * [2503] [VisualThinker-R1-Zero] [R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model](https://arxiv.org/abs/2503.05132) (UCLA) [Code 💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
 
 * [2503] [R1-Omni] [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379) (Alibaba) [Model 🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B) [Code 💻](https://github.com/HumanMLLM/R1-Omni)
@@ -78,9 +76,10 @@ A collection of multimodal reasoning papers.
 
 ### Image MLLM
 
-| Date             | Title                                                      | Intro                                                      | Approach                                                          | Task                                                         | Link  |
-| ----- | ------------------------------------------------------------ | ------------- | ---- | ------------------- |  ------------------- |
-| 25.03            | VisualPRM: An Effective Process Reward Model for Multimodal Reasoning  | -                                                          | Process Reward Model                                         | Math & MMMU                                                  | [[📑Paper]](https://arxiv.org/abs/2503.10291)[[model]](https://huggingface.co/OpenGVLab/VisualPRM-8B)[[data]](https://huggingface.co/datasets/OpenGVLab/VisualPRM400K)[[benchmark]](https://huggingface.co/datasets/OpenGVLab/VisualProcessBench)
+* 25.03 [LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL](https://arxiv.org/pdf/2503.07536) | [Paper📑](https://arxiv.org/pdf/2503.07536) [Code🖥️](https://github.com/TideDra/lmm-r1) [Dataset🤗](https://huggingface.co/datasets/VLM-Reasoner/VerMulti)
+  - A two-stage rule-based RL framework that efficiently enhances reasoning capabilities| Task: Math, Sokoban
+* 25.03 [VisualPRM: An Effective Process Reward Model for Multimodal Reasoning](https://arxiv.org/abs/2503.10291) | [Paper📑](https://arxiv.org/abs/2503.10291) [Code🖥️](https://github.com/OpenGVLab/InternVL) [Dataset🤗](https://huggingface.co/datasets/OpenGVLab/VisualProcessBench)
+     -  Process Reward Model                                         | Task: Math & MMMU                                                
 | 25.03            | R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization [[📑Paper]](https://arxiv.org/pdf/2503.10615)[[Project website]](https://yangyi-vai.notion.site/r1-onevision)[[🖥️Code]](https://github.com/Fancy-MLLM/R1-Onevision) | 155k R1-OneVision                                          | GRPO                                                         | Math                                                         |
 | 25.03            | MMR1: Advancing the Frontiers of Multimodal Reasoning [[🖥️Code]](https://github.com/LengSicong/MMR1) | -                                                          | GRPO                                                         | Math                                                         |
 | 25.03 (CVPR2025) | GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks [[📑Paper]](https://arxiv.org/pdf/2503.06514) | -                                                          | GFlowNets                                                    | NumberLine (NL) and BlackJack (BJ)                           |
