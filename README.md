@@ -86,7 +86,11 @@
 * 25.01 [InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model](https://arxiv.org/abs/2501.12368) | [Paper📑](https://arxiv.org/abs/2501.12368)[Code🖥️](https://github.com/InternLM/InternLM-XComposer)
   - A simple yet effective multi-modal reward model that aligns MLLMs with human preferences. | Reward & VQA  
 * 25.01 [LlamaV-o1: Rethinking Step-By-Step Visual Reasoning in LLMs](https://arxiv.org/abs/2501.06186) | [Paper📑](https://arxiv.org/abs/2501.06186)[Code🖥️](https://github.com/mbzuai-oryx/LlamaV-o1)
-  - A combined multi-step curriculum learning and beam search multimodal reasoning model |  VQA 
+  - A combined multi-step curriculum learning and beam search multimodal reasoning model |  VQA
+* 25.01 [ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding](https://arxiv.org/pdf/2501.05452) | [Paper📑](https://arxiv.org/pdf/2501.05452) [Code🖥️](https://github.com/zeyofu/ReFocus_Code) [Model🤗](https://huggingface.co/Fiaa/ReFocus)
+  - Perform visual chain of thought via input-image editing to help multimodal reasoning. | Task: VQA
+* 25.01 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought] | [Paper📑](https://arxiv.org/pdf/2501.07542)
+  - Enables visual thinking in MLLMs by generating image visualizations of their reasoning traces.  | Task: Visual CoT
 * 24.12 [Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search](https://arxiv.org/abs/2412.18319) | [Paper📑](https://arxiv.org/abs/2412.18319) [Code🖥️](https://github.com/HJYao00/Mulberry) [Dataset🤗](https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT)
   - Improve MLLM reasoning ability via collective monte carlo tree search | VQA 
 * 24.11  [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440) | [Paper📑](https://arxiv.org/abs/2411.10440) [Code🖥️](https://github.com/PKU-YuanGroup/LLaVA-CoT) [Model🤗](https://huggingface.co/Xkev/Llama-3.2V-11B-cot)
@@ -115,21 +119,21 @@
   - Integrate deep thinking capabilities into video understanding tasks through the R1 paradigm | Task:  video counting 
 * 25.01 [Temporal Preference Optimization for Long-Form Video Understanding](https://arxiv.org/abs/2501.13919) | [Paper📑](https://arxiv.org/abs/2501.13919)[Code🖥️](https://ruili33.github.io/tpo_website/)
   - A novel post-training framework designed to enhance the temporal grounding capabilities of video-LMMs through preference learning | Task: Video QA
-* 25.01 [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888https://github.com/bytedance/tarsier)  [Paper📑](https://arxiv.org/abs/2501.07888)[Code🖥️](https://github.com/bytedance/tarsier?tab=readme-ov-file) [Model🤗](https://huggingface.co/omni-research/Tarsier-34b)
-  - A family of VLMs designed for high-quality video captioning and understanding| Video caption & QA 
+* 25.01 [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888https://github.com/bytedance/tarsier) | [Paper📑](https://arxiv.org/abs/2501.07888)[Code🖥️](https://github.com/bytedance/tarsier?tab=readme-ov-file) [Model🤗](https://huggingface.co/omni-research/Tarsier-34b)
+  - A family of VLMs designed for high-quality video captioning and understanding | Task: Video captioning & QA 
 
 
 
 ### Visual Generation
 
-| Date  | Proj                                                         | Comment                                                    |
-| ----- | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| 25.03 | GoT: Unleashing Reasoning Capability of Multimodal Large Language Model for Visual Generation and Editing[[📑Paper]](https://arxiv.org/pdf/2503.10639) | A reasoning-guided framework for generation and editing.   |
-| 25.02 | C-Drag:Chain-of-Thought Driven Motion Controller for Video Generation[[📑Paper]](https://arxiv.org/pdf/2502.19868) | Calculate simple motion vector with LLM.                   |
-| 25.01 | Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step[[📑Paper]](https://arxiv.org/pdf/2501.13926) | Potential Assessment Reward Model for AR Image Generation. |
-| 25.01 | Imagine while Reasoning in Space: Multimodal Visualization-of-Thought[[📑Paper]](https://arxiv.org/pdf/2501.07542) | Visualization-of-Thought                                   |
-| 25.01 | ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding[[📑Paper]](https://arxiv.org/pdf/2501.05452) | Draw something!                                            |
-| 24.12 | EVLM: Self-Reflective Multimodal Reasoning for Cross-Dimensional Visual Editing[[📑Paper]](https://arxiv.org/pdf/2412.10566) | Thinking in text space with a caption model.               |
+* 25.03 [GoT: Unleashing Reasoning Capability of Multimodal Large Language Model for Visual Generation and Editing](https://arxiv.org/pdf/2503.10639) | [Paper📑](https://arxiv.org/pdf/2503.10639) 
+  - A paradigm that enables generation and editing through an explicit language reasoning process before outputting images   | Task: Image Generation
+* 25.02 [C-Drag:Chain-of-Thought Driven Motion Controller for Video Generation](https://arxiv.org/pdf/2502.19868) | [Paper📑](https://arxiv.org/pdf/2502.19868) [Code🖥️](https://github.com/WesLee88524/C-Drag-Official-Repo) [Dataset🤗](https://drive.google.com/file/d/1L2SYadeqZPObvSj9Mb6fK-KHtR0n-DKk/view)
+  - A Chain-of-Thought-based motion controller for controllable video generation | Task: Video Generation
+* 25.01 (CVPR25) [Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/pdf/2501.13926) | [Paper📑](https://arxiv.org/pdf/2501.13926) [Code🖥️](https://github.com/ZiyuGuo99/Image-Generation-CoT) [Model🤗](https://huggingface.co/ZiyuG/Image-Generation-CoT)
+  - The first comprehensive investigation of the potential of CoT reasoning to enhance autoregressive image generation. | Task: Image Generation
+* 24.12 [EVLM: Self-Reflective Multimodal Reasoning for Cross-Dimensional Visual Editing](https://arxiv.org/pdf/2412.10566) | [Paper📑](https://arxiv.org/pdf/2412.10566)
+  - A system designed to interpret such instructions in conjunction with reference visuals, producing precise and context-aware editing prompts.  | Task: Image Generation
 
 
 
