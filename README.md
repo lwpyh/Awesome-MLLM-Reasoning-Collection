@@ -1,28 +1,7 @@
 # Multimodal Reasoning Collections
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
-A collection of multimodal reasoning papers. 
-  
-* [2501] [Mulberry] [Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search](https://arxiv.org/pdf/2412.18319) (THU) [Model 🤗](https://huggingface.co/HuanjinYao/Mulberry_llava_8b) [Code 💻](https://github.com/HJYao00/Mulberry)
-
-* [2501] [Virgo] [Virgo: A Preliminary Exploration on Reproducing o1-like MLLM](https://arxiv.org/abs/2501.01904v2) (RUC) [Model 🤗](https://huggingface.co/RUC-AIBOX/Virgo-72B) [Code 💻](https://github.com/RUCAIBox/Virgo)
-  
-* [2501] [Text-to-image COT] [Can We Generate Images with CoT? Let’s Verify and Reinforce Image Generation Step by Step](https://arxiv.org/pdf/2501.13926) (CUHK) [Project 🌐](https://github.com/ZiyuGuo99/Image-Generation-CoT) [Model 🤗](https://huggingface.co/ZiyuG/Image-Generation-CoT)  [Code 💻](https://github.com/ZiyuGuo99/Image-Generation-CoT)
-  
-* [2501] [LlamaV-o1] [LlamaV-o1: Rethinking Step-by-step Visual Reasoning in LLMs](https://arxiv.org/pdf/2501.06186) (MBZUAI) [Project 🌐](https://mbzuai-oryx.github.io/LlamaV-o1/) [Model 🤗](https://huggingface.co/omkarthawakar/LlamaV-o1)  [Code 💻](https://github.com/mbzuai-oryx/LlamaV-o1)
-
-* [2411] [InternVL2-MPO] [Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization](https://arxiv.org/abs/2411.10442) (Shanghai AI Laboratory) [Project 🌐](https://internvl.github.io/blog/2024-11-14-InternVL-2.0-MPO/) [Model 🤗](https://huggingface.co/OpenGVLab/InternVL2-8B-MPO) [Code 💻](https://github.com/OpenGVLab/InternVL/tree/main/internvl_chat/shell/internvl2.0_mpo)
-
-* [2411] [Insight-V] [Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models](https://arxiv.org/pdf/2411.14432) (NTU) [Model 🤗](https://huggingface.co/collections/THUdyh/insight-v-673f5e1dd8ab5f2d8d332035) [Code 💻](https://github.com/dongyh20/Insight-V)
-  
-* [2411] [LLaVA-CoT] [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440v4) (PKU) [Project 🌐](https://github.com/PKU-YuanGroup/LLaVA-CoT) [Model 🤗](https://huggingface.co/Xkev/Llama-3.2V-11B-cot) [Demo🤗](https://huggingface.co/spaces/Xkev/Llama-3.2V-11B-cot) [Code 💻](https://github.com/PKU-YuanGroup/LLaVA-CoT)
-
-
 ## Benchmarks📊
-
-* [2502] [MM-IQ] [MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models](https://arxiv.org/pdf/2502.00698) (Tencent) [Project 🌐](https://acechq.github.io/MMIQ-benchmark/) [Dataset 🤗](https://huggingface.co/datasets/huanqia/MM-IQ) [Code 💻](https://github.com/AceCHQ/MMIQ) 
-
-* [2502] [MME-CoT] [MME-CoT: Benchmarking Chain-of-Thought in Large Multimodal Models for Reasoning Quality, Robustness, and Efficiency](https://arxiv.org/abs/2502.09621) (CUHK) [Project 🌐](https://mmecot.github.io/) [Dataset 🤗](https://huggingface.co/datasets/CaraJ/MME-CoT) [Code 💻](https://github.com/CaraJ7/MME-CoT)
 
 * [2502] [ZeroBench] [ZeroBench: An Impossible* Visual Benchmark for Contemporary Large Multimodal Models](https://arxiv.org/pdf/2502.09696) (Cambridge) [Project 🌐](https://zerobench.github.io/) [Dataset 🤗](https://huggingface.co/datasets/jonathan-roberts1/zerobench) [Code 💻](https://github.com/jonathan-roberts1/zerobench/)
 
@@ -58,6 +37,8 @@ A collection of multimodal reasoning papers.
 
 * 25.03 [LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL](https://arxiv.org/pdf/2503.07536) | [Paper📑](https://arxiv.org/pdf/2503.07536) [Code🖥️](https://github.com/TideDra/lmm-r1) [Dataset🤗](https://huggingface.co/datasets/VLM-Reasoner/VerMulti)
   - A two-stage rule-based RL framework that efficiently enhances reasoning capabilities | Task: Math & Sokoban
+* 25.03   [VLM-R1: A stable and generalizable R1-style Large Vision-Language Model](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) [Code🖥️](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) [Dataset🤗](https://huggingface.co/datasets/omlab/VLM-R1)  [Model🤗](https://huggingface.co/omlab/Qwen2.5VL-3B-VLM-R1-REC-500steps/tree/main)
+  - A reproduced R1-style VLM | Task: Referring Expression Comprehension                           |
 * 25.03 [VisualPRM: An Effective Process Reward Model for Multimodal Reasoning](https://arxiv.org/abs/2503.10291) | [Paper📑](https://arxiv.org/abs/2503.10291) [Code🖥️](https://github.com/OpenGVLab/InternVL) [Dataset🤗](https://huggingface.co/datasets/OpenGVLab/VisualProcessBench)
   - Improve the reasoning abilities of existing MLLMs with Best-of-N evaluation strategies | Task: Math & MMMU                                                
 * 25.03 [R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization](https://arxiv.org/pdf/2503.10615) | [Paper📑](https://arxiv.org/pdf/2503.10615) [Code🖥️](https://github.com/Fancy-MLLM/R1-Onevision) [Dataset🤗](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision)
@@ -66,8 +47,8 @@ A collection of multimodal reasoning papers.
   - a Large Multimodal Model specialized in mathematical tasks using GRPO | Task: Math
 * 25.03 [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132)  [Paper📑](https://arxiv.org/abs/2503.05132) | [Code💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
   - R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | Task: Counting & Reasoning & 3D Understanding (CV-Bench)
-* 25.03 (CVPR2025)[GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks](https://arxiv.org/pdf/2503.06514) [Paper📑](https://arxiv.org/pdf/2503.06514)
-  - Fine-tune VLMs using Generative Flow Network to promote generation of diverse solutions for complex reasoning tasks |  Task: NumberLine (NL) & BlackJack (BJ)
+* 25.03 (CVPR2025)[GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks](https://arxiv.org/pdf/2503.06514) | [Paper📑](https://arxiv.org/pdf/2503.06514)
+  - Fine-tune VLMs using GFlowNet to promote generation of diverse solutions.|  Task: NumberLine (NL) & BlackJack (BJ)
 * 25.03 [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/pdf/2503.07523) | [Paper📑](https://arxiv.org/pdf/2503.07523) [Code🖥️](https://github.com/zhangquanchen/VisRL) 
   - The first framework that applies reinforcement learning (RL) to the problem of intention-driven visual perception | Task: Visual CoT
 * 25.03 [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.01785) | [Paper📑](https://arxiv.org/abs/2503.01785) [Code🖥️](https://github.com/Liuziyu77/Visual-RFT) [Dataset🤗](https://huggingface.co/collections/laolao77/virft-datasets-67bc271b6f2833eccc0651df) 
@@ -82,44 +63,64 @@ A collection of multimodal reasoning papers.
   - Extend large-scale rule-based reinforcement learning to multimodal reasoning                              | Task: Math
 * 25.03  [Unified Reward Model for Multimodal Understanding and Generation](https://arxiv.org/abs/2503.05236) | [Paper📑](https://arxiv.org/abs/2503.05236) [Code🖥️](https://codegoat24.github.io/UnifiedReward/) [Dataset🤗](https://huggingface.co/collections/CodeGoat24/unifiedreward-training-data-67c300d4fd5eff00fa7f1ede)
   -  Improve MLLM's understanding and generation ability with DPO  | Task: VQA & Generation      
-| 25.03            | EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework [[🖥️Code]](https://github.com/hiyouga/EasyR1) | -                                                          | GRPO                                                         | Geometry3K                                                   |
-* [2502] [MedVLM-R1] [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634) (TUM)
-  
-* [2501] [Kimi k1.5] [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/pdf/2501.12599) (MoonshotAI) [Project 🌐](https://github.com/MoonshotAI/Kimi-k1.5)
-
-| 25.02            | MM-RLHF: The Next Step Forward in Multimodal LLM Alignment [[📑Paper]](https://arxiv.org/abs/2502.10391)[[🖥️Code]](https://mm-rlhf.github.io/) | -                                                          | DPO with 120k fine-grained, human-annotated preference comparison pairs. | Reward & Various VQA                                         |
-| 25.02            | OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference [[📑Paper]](https://arxiv.org/abs/2502.18411)[[🖥️Code]](https://github.com/PhoenixZ810/OmniAlign-V) | 200k sft data                                              | DPO                                                          | Alignment & Various VQA                                      |
-| 25.02            | Multimodal Open R1 [[🖥️Code]](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) | -                                                          | GRPO                                                         | Mathvista-mini, MMMU                                         |
-| 25.02            | VLM-R1: A stable and generalizable R1-style Large Vision-Language Model [[🖥️Code]](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) | -                                                          | GRPO                                                         | Referring Expression Comprehension                           |
-| 25.02            | R1-V: Reinforcing Super Generalization Ability in Vision Language Models with Less Than $3 [[🖥️Code]](https://github.com/Deep-Agent/R1-V) | -                                                          | GRPO                                                         | Item Counting, Number Related Reasoning and Geometry Reasoning |
-| 25.01            | Virgo: A Preliminary Exploration on Reproducing o1-like MLLM [[📑Paper]](https://arxiv.org/abs/2501.01904)[[🖥️Code]](https://github.com/RUCAIBox/Virgo) | 2k Text data from R1/QwQ and visual data from QvQ/SD       | -                                                            | Math & MMMU                                                  |
-| 25.01            | InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model [[📑Paper]](https://arxiv.org/abs/2501.12368)[[🖥️Code]](https://github.com/InternLM/InternLM-XComposer) | -                                                          | PPO                                                          | Reward & Various VQA                                         |
-| 25.01            | LlamaV-o1: Rethinking Step-By-Step Visual Reasoning in LLMs [[📑Paper]](https://arxiv.org/abs/2501.06186)[[🖥️Code]](https://github.com/mbzuai-oryx/LlamaV-o1) | LLaVA-CoT-100k & PixMo [13] subset                         | -                                                            | VRC-Bench & Various VQA                                      |
-| 24.12            | Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search [[📑Paper]](https://arxiv.org/abs/2412.18319)[[🖥️Code]](https://github.com/HJYao00/Mulberry) | 260k reasoning and reflection sft data by Collective MCTS  | -                                                            | Various VQA                                                  |
-| 24.11            | LLaVA-CoT: Let Vision Language Models Reason Step-by-Step [[📑Paper]](https://arxiv.org/abs/2411.10440)[[🖥️Code]](https://github.com/PKU-YuanGroup/LLaVA-CoT) | LLaVA-CoT-100k by GPT4-o                                   | -                                                            | Various VQA                                                  |
-| 24.11            | Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models [[📑Paper]](https://arxiv.org/abs/2411.14432)[[🖥️Code]](https://github.com/dongyh20/Insight-V) | sft for agent                                              | Iterative DPO                                                | Various VQA                                                  |
-| 24.11            | Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization [[📑Paper]](https://arxiv.org/abs/2411.10442) | -                                                          | MPO                                                          | Various VQA                                                  |
-| 24.10            | Improve Vision Language Model Chain-of-thought Reasoning [[📑Paper]](https://arxiv.org/pdf/2410.16198)[[🖥️Code]](https://github.com/RifleZhang/LLaVA-Reasoner-DPO) | 193k CoT sft data by GPT4-o                                | DPO                                                          | Various VQA                                                  |
-| 24.03            | Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning [[📑Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf)[[🖥️Code]](https://github.com/deepcs233/Visual-CoT) | visual chain-of-thought dataset comprising 438k data items | -                                                            | Various VQA                                                  |
-
+* 25.03 [EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework] [Code🖥️](https://github.com/hiyouga/EasyR1)
+  - A Multimodal GRPO training framework              | Task: Math      
+* 25.02 [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634)| [Paper📑](https://arxiv.org/pdf/2502.19634)
+  - A MLLM trained with GRPO for medical image VQA.| Task: Medical Image VQA
+* 25.02 [Qwen2.5-VL] [Qwen2.5-VL Technical Report](https://arxiv.org/pdf/2502.13923) | [Paper📑](https://arxiv.org/pdf/2502.13923) [Code🖥️](https://github.com/QwenLM/Qwen2.5-VL) [Huggingface🤗](https://huggingface.co/Qwen)
+   - The latest flagship model of Qwen vision-language series for various multimodal tasks | Task: Reasoning & Understainding
+* 25.02 [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391) | [Paper📑](https://arxiv.org/abs/2502.10391)[Project🌐](https://mm-rlhf.github.io/)
+  - A comprehensive project for aligning MlLMs with human preferences | Task: Reward & VQA 
+* 25.02    [Multimodal Open R1]((https://github.com/EvolvingLMMs-Lab/open-r1-multimodal)) | [Code🖥️](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) 
+  - A open-source database for video R1 reproduce.    | Task: Math           
+* 25.02 [R1-V: Reinforcing Super Generalization Ability in Vision Language Models with Less Than $3](https://github.com/Deep-Agent/R1-V) |  [Code🖥️](https://github.com/Deep-Agent/R1-V)
+  - A open-source project for VLM reasoning with GRPO | Task: Counting, Number Related Reasoning and Geometry Reasoning
+* 25.02 [Boosting Multimodal Reasoning with MCTS-Automated Structured Thinking](https://arxiv.org/pdf/2502.02339) | [Paper📑](https://arxiv.org/pdf/2502.02339)
+  - An automated structured thinking paradigm for multimodal reasoning via Monte Carlo Tree Search | Task: Math
+* 25.02 [MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification](https://www.arxiv.org/pdf/2502.13383) | [Paper📑](https://www.arxiv.org/pdf/2502.13383) [Code🖥️](https://github.com/Aurora-slz/MM-Verify)
+  - Enhance multimodal reasoning through longer inference and more robust verification. | Task: Math
+* 25.01 [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/pdf/2501.12599) (MoonshotAI) | [Project🌐](https://github.com/MoonshotAI/Kimi-k1.5)
+  - The latest flagship model of Kimi series for various multimodal tasks | Task: Reasoning & Understainding
+* 25.01 [Virgo: A Preliminary Exploration on Reproducing o1-like MLLM](https://arxiv.org/abs/2501.01904) | [Paper📑](https://arxiv.org/abs/2501.01904) [Code🖥️](https://github.com/RUCAIBox/Virgo) [Model🤗](https://huggingface.co/RUC-AIBOX/Virgo-72B)
+  - A o1-like MLLM for multimodal reasoning    |Task: Math & MMMU       
+* 25.01 [InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model](https://arxiv.org/abs/2501.12368) | [Paper📑](https://arxiv.org/abs/2501.12368)[Code🖥️](https://github.com/InternLM/InternLM-XComposer)
+  - A simple yet effective multi-modal reward model that aligns MLLMs with human preferences. | Reward & VQA  
+* 25.01 [LlamaV-o1: Rethinking Step-By-Step Visual Reasoning in LLMs](https://arxiv.org/abs/2501.06186) | [Paper📑](https://arxiv.org/abs/2501.06186)[Code🖥️](https://github.com/mbzuai-oryx/LlamaV-o1)
+  - A combined multi-step curriculum learning and beam search multimodal reasoning model |  VQA 
+* 24.12 [Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search](https://arxiv.org/abs/2412.18319) | [Paper📑](https://arxiv.org/abs/2412.18319) [Code🖥️](https://github.com/HJYao00/Mulberry) [Dataset🤗](https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT)
+  - Improve MLLM reasoning ability via collective monte carlo tree search | VQA 
+* 24.11  [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440) | [Paper📑](https://arxiv.org/abs/2411.10440) [Code🖥️](https://github.com/PKU-YuanGroup/LLaVA-CoT) [Model🤗](https://huggingface.co/Xkev/Llama-3.2V-11B-cot)
+  -  A novel MLLM designed to conduct autonomous multistage reasoning. | VQA
+* 24.11 [Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models](https://arxiv.org/abs/2411.14432) | [Paper📑](https://arxiv.org/abs/2411.14432) [Code🖥️](https://github.com/dongyh20/Insight-V) [Model🤗](https://huggingface.co/collections/THUdyh/insight-v-673f5e1dd8ab5f2d8d332035)
+  - Explore long-chain visual reasoning with MLLMs  | VQA  
+* 24.11 [Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization](https://arxiv.org/abs/2411.10442) | [Paper📑](https://arxiv.org/abs/2411.10442) [Code🖥️](https://github.com/OpenGVLab/InternVL/tree/main/internvl_chat/shell/internvl2.0_mpo) [Model🤗](https://huggingface.co/OpenGVLab/InternVL2-8B-MPO)
+  - A preference optimization (PO) process to enhance the multimodal reasoning capabilities of MLLMs.  | VQA                
+* 24.10 [Improve Vision Language Model Chain-of-thought Reasoning](https://arxiv.org/pdf/2410.16198) | [Paper📑](https://arxiv.org/pdf/2410.16198) [Code🖥️](https://github.com/RifleZhang/LLaVA-Reasoner-DPO)
+  - Apply reinforcement learning on 193k CoT sft data for reasoning | VQA    
+* 24.03  (NeurIPS24)[Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf) | [Paper📑](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf)[Code🖥️](https://github.com/deepcs233/Visual-CoT) [Dataset🤗](https://huggingface.co/datasets/deepcs233/Visual-CoT)
+  - Visual CoT for improve MLLMs' reasoning ability | VQA 
 
 
 
 
 ### Video MLLM
 
-| Date  | Project                                                      | SFT           | RL   | Task                |
-| ----- | ------------------------------------------------------------ | ------------- | ---- | ------------------- |
-| 25.03 | R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning [[📑Paper]](https://arxiv.org/abs/2503.05379)[[🖥️Code]](https://github.com/HumanMLLM/R1-Omni) | cold start    | GRPO | Emotion recognition |
-| 25.02 | video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model [[📑Paper]](https://arxiv.org/abs/2502.11775) | cold start    | DPO  | various video QA    |
-| 25.02 | Open-R1-Video[[🖥️Code]](https://github.com/Wang-Xiaodong1899/Open-R1-Video) | -             | GRPO | LongVideoBench      |
-| 25.02 | Video-R1: Towards Super Reasoning Ability in Video Understanding [[🖥️Code]](https://github.com/tulerfeng/Video-R1) | -             | GRPO | DVD-counting        |
-| 25.01 | Temporal Preference Optimization for Long-Form Video Understanding [[📑Paper]](https://arxiv.org/abs/2501.13919)[[🖥️Code]](https://ruili33.github.io/tpo_website/) | -             | DPO  | various video QA    |
-| 25.01 | Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding [[📑Paper]](https://arxiv.org/abs/2501.07888)[[🖥️Code]]() | main training | DPO  | Video caption & QA  |
+* 25.03 [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379) | [Paper📑](https://arxiv.org/abs/2503.05379)[Code🖥️](https://github.com/HumanMLLM/R1-Omni) [Model🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B/tree/main)
+  - Impove reasoning capability, emotion recognition accuracy, and generalization ability with RLVR.  | Task: Emotion recognition 
+* 25.02 [video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model](https://arxiv.org/abs/2502.11775) | [Paper📑](https://arxiv.org/abs/2502.11775) [Demo🖥️](https://github.com/BriansIDP/video-SALMONN-o1)
+  - A open-source reasoning-enhanced audio-visual LLM designed for general video understanding tasks.  | Task: Video QA  
+* 25.02 [Open-R1-Video]((https://github.com/Wang-Xiaodong1899/Open-R1-Video)) | [Code🖥️](https://github.com/Wang-Xiaodong1899/Open-R1-Video) [Dataset🤗](https://huggingface.co/datasets/Xiaodong/open-r1-video-4k)
+  - A open-source R1-style video understanding model | Task: Video QA     
+* 25.02 [Video-R1: Towards Super Reasoning Ability in Video Understanding](https://github.com/tulerfeng/Video-R1) | [Code🖥️](https://github.com/tulerfeng/Video-R1)
+  - Integrate deep thinking capabilities into video understanding tasks through the R1 paradigm | Task:  video counting 
+* 25.01 [Temporal Preference Optimization for Long-Form Video Understanding](https://arxiv.org/abs/2501.13919) | [Paper📑](https://arxiv.org/abs/2501.13919)[Code🖥️](https://ruili33.github.io/tpo_website/)
+  - A novel post-training framework designed to enhance the temporal grounding capabilities of video-LMMs through preference learning | Task: Video QA
+* 25.01 [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888https://github.com/bytedance/tarsier)  [Paper📑](https://arxiv.org/abs/2501.07888)[Code🖥️](https://github.com/bytedance/tarsier?tab=readme-ov-file) [Model🤗](https://huggingface.co/omni-research/Tarsier-34b)
+  - A family of VLMs designed for high-quality video captioning and understanding| Video caption & QA 
 
 
 
-### Image/Video Generation
+### Visual Generation
 
 | Date  | Proj                                                         | Comment                                                    |
 | ----- | ------------------------------------------------------------ | ---------------------------------------------------------- |
@@ -141,6 +142,10 @@ A collection of multimodal reasoning papers.
 
 
 ## Benchmark
+
+* 25.02 [OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference](https://arxiv.org/abs/2502.18411) | [Paper📑](https://arxiv.org/abs/2502.18411)[Code🖥️](https://github.com/PhoenixZ810/OmniAlign-V) [Dataset🤗](https://huggingface.co/datasets/PhoenixZ/OmniAlign-V/tree/main)
+  - 200k sft data  | Alignment & Various VQA
+* VCR-Bench (https://github.com/mbzuai-oryx/LlamaV-o1)                                     |
 
 | Date  | Project                                                      | Task                                     |
 | ----- | ------------------------------------------------------------ | ---------------------------------------- |
