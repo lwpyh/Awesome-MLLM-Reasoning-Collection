@@ -1,25 +1,7 @@
-# Awesome Multimodal Reasoning Papers
+# Multimodal Reasoning Collections
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 A collection of multimodal reasoning papers. 
-
-## Papers📄
-
-* [2503] [VisualThinker-R1-Zero] [R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model](https://arxiv.org/abs/2503.05132) (UCLA) [Code 💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
-
-* [2503] [R1-Omni] [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379) (Alibaba) [Model 🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B) [Code 💻](https://github.com/HumanMLLM/R1-Omni)
-
-* [2503] [Vision-R1] [Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](https://arxiv.org/pdf/2503.06749) (ECNU) [Code 💻](https://github.com/Osilly/Vision-R1)
-
-* [2503] [Seg-Zero] [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/pdf/2503.06520) (CUHK) [Model 🤗](https://huggingface.co/Ricky06662/Seg-Zero-7B) [Dataset 🤗](https://huggingface.co/datasets/Ricky06662/refCOCOg_2k_840) [Code 💻](https://github.com/dvlab-research/Seg-Zero)
-
-* [2503] [MM-Eureka] [MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning](https://github.com/ModalMinds/MM-EUREKA/blob/main/MM_Eureka_paper.pdf) (Shanghai AI Laboratory) [Models 🤗](https://huggingface.co/FanqingM) [Dataset 🤗](https://huggingface.co/datasets/FanqingM/MM-Eureka-Dataset) [Code 💻](https://github.com/ModalMinds/MM-EUREKA)
-
-* [2503] [Visual-RFT] [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/pdf/2503.01785) (SJTU) [Project 🌐](https://github.com/Liuziyu77/Visual-RFT) [Datasets 🤗](https://huggingface.co/collections/laolao77/virft-datasets-67bc271b6f2833eccc0651df) [Code 💻](https://github.com/Liuziyu77/Visual-RFT)
-
-* [2502] [MedVLM-R1] [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634) (TUM)
-  
-* [2501] [Kimi k1.5] [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/pdf/2501.12599) (MoonshotAI) [Project 🌐](https://github.com/MoonshotAI/Kimi-k1.5)
   
 * [2501] [Mulberry] [Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search](https://arxiv.org/pdf/2412.18319) (THU) [Model 🤗](https://huggingface.co/HuanjinYao/Mulberry_llava_8b) [Code 💻](https://github.com/HJYao00/Mulberry)
 
@@ -65,8 +47,6 @@ A collection of multimodal reasoning papers.
 
 * [R1-Onevision 💻](https://github.com/Fancy-MLLM/R1-Onevision)  ![R1-Onevision](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision) [Model 🤗](https://huggingface.co/Fancy-MLLM/R1-Onevision-7B)  [Dataset 🤗](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision) [Demo 🤗](https://huggingface.co/spaces/Fancy-MLLM/R1-Onevision) [Report 📝](https://yangyi-vai.notion.site/r1-onevision)
 
-* [VisualThinker-R1-Zero 💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)  ![R1-Onevision](https://img.shields.io/github/stars/turningpoint-ai/VisualThinker-R1-Zero) [Report 📝](https://turningpointai.notion.site/the-multimodal-aha-moment-on-2b-model) (Aha Moment on a 2B non-SFT Model)
-
 * [Open R1 Video 💻](https://github.com/Wang-Xiaodong1899/Open-R1-Video) ![Open R1 Video](https://img.shields.io/github/stars/Wang-Xiaodong1899/Open-R1-Video) [Models 🤗](https://huggingface.co/Xiaodong/Open-R1-Video-7B)  [Datasets 🤗](https://huggingface.co/datasets/Xiaodong/open-r1-video-4k) [Datasets 🤗](https://huggingface.co/datasets/Xiaodong/open-r1-video-4k)
 
 * [Video-R1 💻](https://github.com/tulerfeng/Video-R1) ![Video-R1](https://img.shields.io/github/stars/tulerfeng/Video-R1) [Code 💻](https://github.com/tulerfeng/Video-R1)
@@ -77,22 +57,36 @@ A collection of multimodal reasoning papers.
 ### Image MLLM
 
 * 25.03 [LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL](https://arxiv.org/pdf/2503.07536) | [Paper📑](https://arxiv.org/pdf/2503.07536) [Code🖥️](https://github.com/TideDra/lmm-r1) [Dataset🤗](https://huggingface.co/datasets/VLM-Reasoner/VerMulti)
-  - A two-stage rule-based RL framework that efficiently enhances reasoning capabilities| Task: Math, Sokoban
+  - A two-stage rule-based RL framework that efficiently enhances reasoning capabilities | Task: Math & Sokoban
 * 25.03 [VisualPRM: An Effective Process Reward Model for Multimodal Reasoning](https://arxiv.org/abs/2503.10291) | [Paper📑](https://arxiv.org/abs/2503.10291) [Code🖥️](https://github.com/OpenGVLab/InternVL) [Dataset🤗](https://huggingface.co/datasets/OpenGVLab/VisualProcessBench)
-     -  Improve the reasoning abilities of existing MLLMs with Best-of-N evaluation strategies                                         |Task: Math & MMMU                                                
-* 25.03            | R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization [[📑Paper]](https://arxiv.org/pdf/2503.10615)[[Project website]](https://yangyi-vai.notion.site/r1-onevision)[[🖥️Code]](https://github.com/Fancy-MLLM/R1-Onevision) | 155k R1-OneVision                                          | GRPO                                                         | Math                                                         |
-| 25.03            | MMR1: Advancing the Frontiers of Multimodal Reasoning [[🖥️Code]](https://github.com/LengSicong/MMR1) | -                                                          | GRPO                                                         | Math                                                         |
-| 25.03 (CVPR2025) | GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks [[📑Paper]](https://arxiv.org/pdf/2503.06514) | -                                                          | GFlowNets                                                    | NumberLine (NL) and BlackJack (BJ)                           |
-| 25.03            | VisRL: Intention-Driven Visual Perception via Reinforced Reasoning [[📑Paper]](https://arxiv.org/pdf/2503.07523)[[🖥️Code]](https://github.com/zhangquanchen/VisRL) | warm up                                                    | DPO                                                          | Various VQA                                                  |
-| 25.03            | Visual-RFT: Visual Reinforcement Fine-Tuning [[📑Paper]](https://arxiv.org/abs/2503.01785)[[🖥️Code]](https://github.com/Liuziyu77/Visual-RFT) | -                                                          | GRPO                                                         | Detection, Grounding, Classification                         |
-| 25.03            | LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL [[📑Paper]](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2503.07536)[[🖥️Code]](https://github.com/TideDra/lmm-r1) | -                                                          | PPO                                                          | Math, Sokoban-Global, Football-Online                        |
-| 25.03            | Boosting the Generalization and Reasoning of Vision Language Models with Curriculum Reinforcement Learning [[📑Paper]](https://arxiv.org/pdf/2503.07065) | Self-Improvement Training                                  | GRPO                                                         | Detection, Classification, Math                              |
-| 25.03            | Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models [[📑Paper]](https://arxiv.org/abs/2503.06749)[[🖥️Code]](https://github.com/Osilly/Vision-R1) | -                                                          | GRPO                                                         | Math                                                         |
-| 25.03            | Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement [[📑Paper]](https://arxiv.org/abs/2503.06520)[[🖥️Code]](https://github.com/dvlab-research/Seg-Zero) | -                                                          | GRPO                                                         | RefCOCO&ReasonSeg                                            |
-| 25.03            | R1-Zero’s “Aha Moment” in Visual Reasoning on a 2B Non-SFT Model [[📑Paper]](https://arxiv.org/abs/2503.05132)[[🖥️Code]](https://github.com/turningpoint-ai/VisualThinker-R1-Zero) | -                                                          | GRPO                                                         | CVBench                                                      |
-| 25.03            | MM-EUREKA: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning [[📑Paper]](https://arxiv.org/abs/2503.07365)[[🖥️Code]](https://github.com/ModalMinds/MM-EUREKA) | -                                                          | RLOO                                                         | Math                                                         |
-| 25.03            | Unified Reward Model for Multimodal Understanding and Generation [[📑Paper]](https://arxiv.org/abs/2503.05236)[[🖥️Code]](https://codegoat24.github.io/UnifiedReward/) | -                                                          | DPO                                                          | Various VQA & Generation                                     |
+  - Improve the reasoning abilities of existing MLLMs with Best-of-N evaluation strategies | Task: Math & MMMU                                                
+* 25.03 [R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization](https://arxiv.org/pdf/2503.10615) | [Paper📑](https://arxiv.org/pdf/2503.10615) [Code🖥️](https://github.com/Fancy-MLLM/R1-Onevision) [Dataset🤗](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision)
+  - A multimodal reasoning model bridged the gap between multimodal capabilities and reasoning abilities with GRPO | Task: Math  
+* 25.03 [MMR1: Advancing the Frontiers of Multimodal Reasoning](https://github.com/LengSicong/MMR1) | [Code🖥️](https://github.com/LengSicong/MMR1)
+  - a Large Multimodal Model specialized in mathematical tasks using GRPO | Task: Math
+* 25.03 [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132)  [Paper📑](https://arxiv.org/abs/2503.05132) | [Code💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
+  - R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | Task: Counting & Reasoning & 3D Understanding (CV-Bench)
+* 25.03 (CVPR2025)[GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks](https://arxiv.org/pdf/2503.06514) [Paper📑](https://arxiv.org/pdf/2503.06514)
+  - Fine-tune VLMs using Generative Flow Network to promote generation of diverse solutions for complex reasoning tasks |  Task: NumberLine (NL) & BlackJack (BJ)
+* 25.03 [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/pdf/2503.07523) | [Paper📑](https://arxiv.org/pdf/2503.07523) [Code🖥️](https://github.com/zhangquanchen/VisRL) 
+  - The first framework that applies reinforcement learning (RL) to the problem of intention-driven visual perception | Task: Visual CoT
+* 25.03 [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.01785) | [Paper📑](https://arxiv.org/abs/2503.01785) [Code🖥️](https://github.com/Liuziyu77/Visual-RFT) [Dataset🤗](https://huggingface.co/collections/laolao77/virft-datasets-67bc271b6f2833eccc0651df) 
+  - Extend Reinforcement Fine-Tuning on visual tasks with GRPO   | Task: Detection & Grounding & Classification
+* 25.03 [Boosting the Generalization and Reasoning of Vision Language Models with Curriculum Reinforcement Learning](https://arxiv.org/pdf/2503.07065) | [Paper📑](https://arxiv.org/pdf/2503.07065)
+  - Improve generalization and reasoning of VLMs with GRPO | Task: Detection & Classification & Math
+* 25.03 [Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](https://arxiv.org/abs/2503.06749) | [Paper📑](https://arxiv.org/abs/2503.06749)[Code🖥️](https://github.com/Osilly/Vision-R1)
+  - Improve reasoning ability of MLLM with GRPO                                                         | Task: Math      
+* 25.03 [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/abs/2503.06520) | [Paper📑](https://arxiv.org/abs/2503.06520) [Code🖥️](https://github.com/dvlab-research/Seg-Zero) [Model🤗](https://huggingface.co/Ricky06662/Seg-Zero-7B)
+  - Address object detection and segmentation with GRPO | Task: Object Detection & Object Segmentation            
+* 25.03 [MM-EUREKA: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning](https://arxiv.org/abs/2503.07365) | [Paper📑](https://arxiv.org/abs/2503.07365) [Code🖥️](https://github.com/ModalMinds/MM-EUREKA) [Dataset🤗](https://huggingface.co/datasets/FanqingM/MM-Eureka-Dataset)
+  - Extend large-scale rule-based reinforcement learning to multimodal reasoning                              | Task: Math
+* 25.03  [Unified Reward Model for Multimodal Understanding and Generation](https://arxiv.org/abs/2503.05236) | [Paper📑](https://arxiv.org/abs/2503.05236) [Code🖥️](https://codegoat24.github.io/UnifiedReward/) [Dataset🤗](https://huggingface.co/collections/CodeGoat24/unifiedreward-training-data-67c300d4fd5eff00fa7f1ede)
+  -  Improve MLLM's understanding and generation ability with DPO  | Task: VQA & Generation      
 | 25.03            | EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework [[🖥️Code]](https://github.com/hiyouga/EasyR1) | -                                                          | GRPO                                                         | Geometry3K                                                   |
+* [2502] [MedVLM-R1] [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634) (TUM)
+  
+* [2501] [Kimi k1.5] [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/pdf/2501.12599) (MoonshotAI) [Project 🌐](https://github.com/MoonshotAI/Kimi-k1.5)
+
 | 25.02            | MM-RLHF: The Next Step Forward in Multimodal LLM Alignment [[📑Paper]](https://arxiv.org/abs/2502.10391)[[🖥️Code]](https://mm-rlhf.github.io/) | -                                                          | DPO with 120k fine-grained, human-annotated preference comparison pairs. | Reward & Various VQA                                         |
 | 25.02            | OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference [[📑Paper]](https://arxiv.org/abs/2502.18411)[[🖥️Code]](https://github.com/PhoenixZ810/OmniAlign-V) | 200k sft data                                              | DPO                                                          | Alignment & Various VQA                                      |
 | 25.02            | Multimodal Open R1 [[🖥️Code]](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) | -                                                          | GRPO                                                         | Mathvista-mini, MMMU                                         |
