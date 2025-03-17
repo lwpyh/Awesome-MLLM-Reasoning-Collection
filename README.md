@@ -157,21 +157,18 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="benchmarks"></a>
 ## Benchmarks 📊
 
-
-* VCR-Bench (https://github.com/mbzuai-oryx/LlamaV-o1)                                     |
-
-| Date  | Project                                                      | Task                                     |
-| ----- | ------------------------------------------------------------ | ---------------------------------------- |
-| 25.03 | Integrating Chain-of-Thought for Multimodal Alignment: A Study on 3D Vision-Language Learning[[📑Paper]](https://arxiv.org/pdf/2503.06232)[[Data]](https://huggingface.co/datasets/Battam/3D-CoT) | 3D-CoT                                   |
-| 25.02 | MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models [[📑Paper]](https://arxiv.org/pdf/2502.00698)[[🖥️Code]](https://github.com/AceCHQ/MMIQ) | MM-IQ                                    |
-| 25.02 | MM-RLHF: The Next Step Forward in Multimodal LLM Alignment [[📑Paper]](https://arxiv.org/abs/2502.10391) | MM-RLHF-RewardBench, MM-RLHF-SafetyBench |
-| 25.02 | ZeroBench: An Impossible* Visual Benchmark for Contemporary Large Multimodal Models [Project 🌐](https://zerobench.github.io/) [Dataset 🤗](https://huggingface.co/datasets/jonathan-roberts1/zerobench) [Code 💻](https://github.com/jonathan-roberts1/zerobench/) ｜ 
-| 25.02 | MME-CoT: Benchmarking Chain-of-Thought in LMMs for Reasoning Quality, Robustness, and Efficiency [[📑Paper]](https://arxiv.org/pdf/2502.09621)[[🖥️Code]](https://github.com/CaraJ7/MME-CoT) | MME-CoT                                  |
-| 25.02 | OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference [[📑Paper]](https://arxiv.org/abs/2502.18411)[[🖥️Code]](https://github.com/PhoenixZ810/OmniAlign-V) | MM-AlignBench                            |
-| 25.01 | LlamaV-o1: Rethinking Step-By-Step Visual Reasoning in LLMs [[📑Paper]](https://arxiv.org/abs/2501.06186)[[🖥️Code]](https://github.com/mbzuai-oryx/LlamaV-o1) | VRCBench                                 |
-| 24.11 | VLRewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models [[📑Paper]](https://arxiv.org/abs/2411.17451) | VLRewardBench                            |
-| 24.05 | M3CoT: A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought [[📑Paper]](https://arxiv.org/html/2405.16473v1) | M3CoT                                    |
-
+| Date  | Project                                                   | Task                                     | Links |
+| ----- | --------------------------------------------------------- | ---------------------------------------- | ----- |
+｜ 25.03 ｜ V-STaR : Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning ｜ Spatio-temporal Reasoning | [[🌐 Project]](https://v-star-bench.github.io/) [[📑 Paper]](https://arxiv.org/abs/2311.17982) [[🤗 Data]] https://huggingface.co/datasets/V-STaR-Bench/V-STaR |
+| 25.03 | Integrating Chain-of-Thought for Multimodal Alignment: A Study on 3D Vision-Language Learning | 3D-CoT | [[📑 Paper]](https://arxiv.org/pdf/2503.06232) [[🤗 Data]](https://huggingface.co/datasets/Battam/3D-CoT) |
+| 25.02 | MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models | MM-IQ | [[📑 Paper]](https://arxiv.org/pdf/2502.00698) [[💻 Code]](https://github.com/AceCHQ/MMIQ) |
+| 25.02 | MM-RLHF: The Next Step Forward in Multimodal LLM Alignment | MM-RLHF-RewardBench, MM-RLHF-SafetyBench | [[📑 Paper]](https://arxiv.org/abs/2502.10391) |
+| 25.02 | ZeroBench: An Impossible* Visual Benchmark for Contemporary Large Multimodal Models | ZeroBench | [[🌐 Project]](https://zerobench.github.io/) [[🤗 Dataset]](https://huggingface.co/datasets/jonathan-roberts1/zerobench) [[💻 Code]](https://github.com/jonathan-roberts1/zerobench/) |
+| 25.02 | MME-CoT: Benchmarking Chain-of-Thought in LMMs for Reasoning Quality, Robustness, and Efficiency | MME-CoT | [[📑 Paper]](https://arxiv.org/pdf/2502.09621) [[💻 Code]](https://github.com/CaraJ7/MME-CoT) |
+| 25.02 | OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference | MM-AlignBench | [[📑 Paper]](https://arxiv.org/abs/2502.18411) [[💻 Code]](https://github.com/PhoenixZ810/OmniAlign-V) |
+| 25.01 | LlamaV-o1: Rethinking Step-By-Step Visual Reasoning in LLMs | VRCBench | [[📑 Paper]](https://arxiv.org/abs/2501.06186) [[💻 Code]](https://github.com/mbzuai-oryx/LlamaV-o1) |
+| 24.11 | VLRewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models | VLRewardBench | [[📑 Paper]](https://arxiv.org/abs/2411.17451) |
+| 24.05 | M3CoT: A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought | M3CoT | [[📑 Paper]](https://arxiv.org/html/2405.16473v1) |
 
 <a name="Open-sourceprojects"></a>
 ## Open-source Projects 
