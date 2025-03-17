@@ -1,4 +1,4 @@
-# Awesome-MLLM-Reasoning-Collection
+# MLLM-Reasoning-Collection
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 👏 Welcome to the Awesome-MLLM-Reasoning-Collections repository! This repository is a carefully curated collection of papers, code, datasets, benchmarks, and resources focused on reasoning within Multi-Modal Large Language Models (MLLMs).
