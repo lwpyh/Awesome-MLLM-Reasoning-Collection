@@ -159,7 +159,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 | Date  | Project                                                   | Task                                     | Links |
 | ----- | --------------------------------------------------------- | ---------------------------------------- | ----- |
-｜ 25.03 ｜ V-STaR : Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning ｜ Spatio-temporal Reasoning | [[🌐 Project]](https://v-star-bench.github.io/) [[📑 Paper]](https://arxiv.org/abs/2311.17982) [[🤗 Data]] https://huggingface.co/datasets/V-STaR-Bench/V-STaR |
+| 25.03 | V-STaR : Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning | Spatio-temporal Reasoning | [[🌐 Project]](https://v-star-bench.github.io/) [[📑 Paper]](https://arxiv.org/abs/2311.17982) [[🤗 Data]](https://huggingface.co/datasets/V-STaR-Bench/V-STaR) |
 | 25.03 | Integrating Chain-of-Thought for Multimodal Alignment: A Study on 3D Vision-Language Learning | 3D-CoT | [[📑 Paper]](https://arxiv.org/pdf/2503.06232) [[🤗 Data]](https://huggingface.co/datasets/Battam/3D-CoT) |
 | 25.02 | MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models | MM-IQ | [[📑 Paper]](https://arxiv.org/pdf/2502.00698) [[💻 Code]](https://github.com/AceCHQ/MMIQ) |
 | 25.02 | MM-RLHF: The Next Step Forward in Multimodal LLM Alignment | MM-RLHF-RewardBench, MM-RLHF-SafetyBench | [[📑 Paper]](https://arxiv.org/abs/2502.10391) |
