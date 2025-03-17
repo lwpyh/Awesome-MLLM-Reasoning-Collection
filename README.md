@@ -94,6 +94,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.01 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought] | [Paper📑](https://arxiv.org/pdf/2501.07542)
   - Enables visual thinking in MLLMs by generating image visualizations of their reasoning traces.  | Task: Spatial Reasoning
 #### Video MLLM
+* 25.03 [MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse](https://github.com/PzySeere/MetaSpatial) | [Code🖥️](https://github.com/PzySeere/MetaSpatial)
+  - Enhance spatial reasoning in VLMs using GRPO  | Task: 3D Spatial Reasoning
 * 25.02 [Video-R1: Towards Super Reasoning Ability in Video Understanding](https://github.com/tulerfeng/Video-R1) | [Code🖥️](https://github.com/tulerfeng/Video-R1)
   - Integrate deep thinking capabilities into video understanding tasks through the R1 paradigm | Task:  Video Counting 
 <a name="MathReasoning"></a>
