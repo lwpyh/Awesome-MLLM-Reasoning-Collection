@@ -1,6 +1,18 @@
 # Awesome-MLLM-Reasoning-Collections
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
+### Table of Contents
+- [Overview](#overview)
+- [Papers and Projects](#PapersandProjects)
+  * [VQA](#VQA)
+  * [Reasoning Segmentation and Detection](#ReasoningSegmentation)
+  * [Math Reasoning](#MathReasoning)
+  * [Video Generation](#VideoGeneration)
+- [Benchmarks](#sampled_videos)
+- [Citation and Acknowledgement](#citation_and_acknowledgement)
+
+<a name="updates"></a>
+
 ## Benchmarks📊
 
 * [2502] [ZeroBench] [ZeroBench: An Impossible* Visual Benchmark for Contemporary Large Multimodal Models](https://arxiv.org/pdf/2502.09696) (Cambridge) [Project 🌐](https://zerobench.github.io/) [Dataset 🤗](https://huggingface.co/datasets/jonathan-roberts1/zerobench) [Code 💻](https://github.com/jonathan-roberts1/zerobench/)
@@ -31,6 +43,7 @@
 * [Video-R1 💻](https://github.com/tulerfeng/Video-R1) ![Video-R1](https://img.shields.io/github/stars/tulerfeng/Video-R1) [Code 💻](https://github.com/tulerfeng/Video-R1)
  [Dataset 🤗](https://huggingface.co/datasets/Video-R1/DVD-counting)
 
+<a name="PapersandProjects"></a>
 ## Projects 📄
 
 ### Image MLLM
