@@ -6,7 +6,7 @@
 Feel free to ⭐ star and fork this repository to keep up with the latest advancements and contribute to the community.
 ### Table of Contents
 - [Papers and Projects](#PapersandProjects)
-  * [VQA](#VQA)
+  * [Commonsense Reasoning](#VQA)
   * [Reasoning Segmentation and Detection](#ReasoningSegmentation)
   * [Spatiao-Temporal Grounding and Understanding](#Spatiao-TemporalReasoning)
   * [Math Reasoning](#MathReasoning)
@@ -24,14 +24,12 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 ## Papers and Projects 📄
 
 <a name="VQA"></a>
-### VQA
+### Commonsense Reasoning
 #### Image MLLM
 * 25.03 [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/pdf/2503.07523) | [Paper📑](https://arxiv.org/pdf/2503.07523) [Code🖥️](https://github.com/zhangquanchen/VisRL) 
   - The first framework that applies reinforcement learning (RL) to the problem of intention-driven visual perception | Task: VQA
 * 25.03  [Unified Reward Model for Multimodal Understanding and Generation](https://arxiv.org/abs/2503.05236) | [Paper📑](https://arxiv.org/abs/2503.05236) [Code🖥️](https://codegoat24.github.io/UnifiedReward/) [Dataset🤗](https://huggingface.co/collections/CodeGoat24/unifiedreward-training-data-67c300d4fd5eff00fa7f1ede)
   -  Improve MLLM's understanding and generation ability with DPO  | Task: VQA & Generation
-* 25.02 [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634)| [Paper📑](https://arxiv.org/pdf/2502.19634)
-  - A MLLM trained with GRPO for medical image VQA.| Task: Medical Image VQA
 * 25.02 [Qwen2.5-VL Technical Report](https://arxiv.org/pdf/2502.13923) | [Paper📑](https://arxiv.org/pdf/2502.13923) [Code🖥️](https://github.com/QwenLM/Qwen2.5-VL) [Huggingface🤗](https://huggingface.co/Qwen)
    - The latest flagship model of Qwen vision-language series for various multimodal tasks | Task: Reasoning & Understainding
 * 25.02 [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391) | [Paper📑](https://arxiv.org/abs/2502.10391) [Project🌐](https://mm-rlhf.github.io/)
@@ -83,7 +81,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Address object detection and segmentation with GRPO | Task: Object Detection & Object Segmentation
 
 <a name="Spatiao-TemporalReasoning"></a>
-### Spatiao-Temporal Grounding and Understanding
+### Spatial and Temporal Grounding and Understanding
 #### Image MLLM
 * 25.03 [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132)  [Paper📑](https://arxiv.org/abs/2503.05132) | [Code💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
   - R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | Task: Counting & Reasoning & 3D Understanding (CV-Bench)
@@ -151,6 +149,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 #### Image MLLM
 * 25.03   [VLM-R1: A stable and generalizable R1-style Large Vision-Language Model](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) [Code🖥️](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) [Dataset🤗](https://huggingface.co/datasets/omlab/VLM-R1)  [Model🤗](https://huggingface.co/omlab/Qwen2.5VL-3B-VLM-R1-REC-500steps/tree/main)
   - A reproduced R1-style VLM | Task: Referring Expression Comprehension
+* 25.02 [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634)| [Paper📑](https://arxiv.org/pdf/2502.19634)
+  - A MLLM trained with GRPO for medical image VQA.| Task: Medical Image VQA
 #### Video MLLM
 * 25.03 [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379) | [Paper📑](https://arxiv.org/abs/2503.05379)[Code🖥️](https://github.com/HumanMLLM/R1-Omni) [Model🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B/tree/main)
   - Impove reasoning capability, emotion recognition accuracy, and generalization ability with RLVR.  | Task: Emotion recognition
