@@ -38,7 +38,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - The latest flagship model of Kimi series for various multimodal tasks | Task: Reasoning & Understainding
 * 25.01 [InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model](https://arxiv.org/abs/2501.12368) | [Paper📑](https://arxiv.org/abs/2501.12368) [Code🖥️](https://github.com/InternLM/InternLM-XComposer)
   - A simple yet effective multi-modal reward model that aligns MLLMs with human preferences | Reward & VQA  
-* 25.01 [LlamaV-o1: Rethinking Step-By-Step Visual Reasoning in LLMs](https://arxiv.org/abs/2501.06186) | [Paper📑](https://arxiv.org/abs/2501.06186)[Code🖥️](https://github.com/mbzuai-oryx/LlamaV-o1)
+* 25.01 [LlamaV-o1: Rethinking Step-By-Step Visual Reasoning in LLMs](https://arxiv.org/abs/2501.06186) | [Paper📑](https://arxiv.org/abs/2501.06186) [Code🖥️](https://github.com/mbzuai-oryx/LlamaV-o1)
   - A combined multi-step curriculum learning and beam search multimodal reasoning model |  VQA
 * 25.01 [ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding](https://arxiv.org/pdf/2501.05452) | [Paper📑](https://arxiv.org/pdf/2501.05452) [Code🖥️](https://github.com/zeyofu/ReFocus_Code) [Model🤗](https://huggingface.co/Fiaa/ReFocus)
   - Perform visual chain of thought via input-image editing to help multimodal reasoning. | Task: VQA
@@ -52,7 +52,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - A preference optimization (PO) process to enhance the multimodal reasoning capabilities of MLLMs.  | VQA                
 * 24.10 [Improve Vision Language Model Chain-of-thought Reasoning](https://arxiv.org/pdf/2410.16198) | [Paper📑](https://arxiv.org/pdf/2410.16198) [Code🖥️](https://github.com/RifleZhang/LLaVA-Reasoner-DPO)
   - Apply reinforcement learning on 193k CoT sft data for reasoning | VQA    
-* 24.03  (NeurIPS24)[Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf) | [Paper📑](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf)[Code🖥️](https://github.com/deepcs233/Visual-CoT) [Dataset🤗](https://huggingface.co/datasets/deepcs233/Visual-CoT)
+* 24.03  (NeurIPS24)[Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf) | [Paper📑](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf) [Code🖥️](https://github.com/deepcs233/Visual-CoT) 
+ [Dataset🤗](https://huggingface.co/datasets/deepcs233/Visual-CoT)
   - Visual CoT for improve MLLMs' reasoning ability | VQA 
 #### Video MLLM
 * 25.02 [video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model](https://arxiv.org/abs/2502.11775) | [Paper📑](https://arxiv.org/abs/2502.11775) [Demo🖥️](https://github.com/BriansIDP/video-SALMONN-o1)
@@ -61,13 +62,15 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - A open-source R1-style video understanding model | Task: Video QA
 * 25.01 [Temporal Preference Optimization for Long-Form Video Understanding](https://arxiv.org/abs/2501.13919) | [Paper📑](https://arxiv.org/abs/2501.13919)[Code🖥️](https://ruili33.github.io/tpo_website/)
   - A novel post-training framework designed to enhance the temporal grounding capabilities of video-LMMs through preference learning | Task: Video QA
-* 25.01 [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888https://github.com/bytedance/tarsier) | [Paper📑](https://arxiv.org/abs/2501.07888)[Code🖥️](https://github.com/bytedance/tarsier?tab=readme-ov-file) [Model🤗](https://huggingface.co/omni-research/Tarsier-34b)
+* 25.01 [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888https://github.com/bytedance/tarsier) | [Paper📑](https://arxiv.org/abs/2501.07888) [Code🖥️](https://github.com/bytedance/tarsier?tab=readme-ov-file) 
+ [Model🤗](https://huggingface.co/omni-research/Tarsier-34b)
   - A family of VLMs designed for high-quality video captioning and understanding | Task: Video captioning & QA 
 
 <a name="ReasoningSegmentation"></a>
 ### Reasoning Segmentation and Detection
 #### Image MLLM
-* 25.03 [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.01785) | [Paper📑](https://arxiv.org/abs/2503.01785) [Code🖥️](https://github.com/Liuziyu77/Visual-RFT) [Dataset🤗](https://huggingface.co/collections/laolao77/virft-datasets-67bc271b6f2833eccc0651df) 
+* 25.03 [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.01785) | [Paper📑](https://arxiv.org/abs/2503.01785) [Code🖥️](https://github.com/Liuziyu77/Visual-RFT) 
+ [Dataset🤗](https://huggingface.co/collections/laolao77/virft-datasets-67bc271b6f2833eccc0651df) 
   - Extend Reinforcement Fine-Tuning on visual tasks with GRPO   | Task: Detection & Grounding & Classification
 * 25.03 [Boosting the Generalization and Reasoning of Vision Language Models with Curriculum Reinforcement Learning](https://arxiv.org/pdf/2503.07065) | [Paper📑](https://arxiv.org/pdf/2503.07065)
   - Improve generalization and reasoning of VLMs with GRPO | Task: Detection & Classification & Math
