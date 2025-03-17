@@ -32,7 +32,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - A MLLM trained with GRPO for medical image VQA.| Task: Medical Image VQA
 * 25.02 [Qwen2.5-VL Technical Report](https://arxiv.org/pdf/2502.13923) | [Paper📑](https://arxiv.org/pdf/2502.13923) [Code🖥️](https://github.com/QwenLM/Qwen2.5-VL) [Huggingface🤗](https://huggingface.co/Qwen)
    - The latest flagship model of Qwen vision-language series for various multimodal tasks | Task: Reasoning & Understainding
-* 25.02 [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391) | [Paper📑](https://arxiv.org/abs/2502.10391)[Project🌐](https://mm-rlhf.github.io/)
+* 25.02 [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391) | [Paper📑](https://arxiv.org/abs/2502.10391) [Project🌐](https://mm-rlhf.github.io/)
   - A comprehensive project for aligning MlLMs with human preferences | Task: Reward & VQA
 * 25.01 [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/pdf/2501.12599) (MoonshotAI) | [Project🌐](https://github.com/MoonshotAI/Kimi-k1.5)
   - The latest flagship model of Kimi series for various multimodal tasks | Task: Reasoning & Understainding
