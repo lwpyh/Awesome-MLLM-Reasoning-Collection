@@ -8,16 +8,14 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 - [Papers and Projects](#PapersandProjects)
   * [Commonsense Reasoning](#VQA)
   * [Reasoning Segmentation and Detection](#ReasoningSegmentation)
-  * [Spatial and Temporal Grounding and Understanding](#Spatio-Temporal Reasoning)
+  * [Spatial and Temporal Grounding and Understanding](#Spatio-TemporalReasoning)
   * [Math Reasoning](#MathReasoning)
-  * [Chart Rasoning](#ChartReasoning)
+  * [Chart Rasoning](#ChartRasoning)
   * [Visual Generation](#VisualGeneration)
-  * [Action Reasoning](#ActionReasoning)
   * [Others](#others)
 - [Benchmarks](#benchmarks)
 - [Open-source projects](#Open-sourceprojects)
-- [Contibuting](#Contributing)
-- [Citation and Acknowledgement](#citation_and_acknowledgement)
+- [Contibuting](#Contributiong)
 
 
 <a name="PapersandProjects"></a>
@@ -80,8 +78,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.03 [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/abs/2503.06520) | [Paper📑](https://arxiv.org/abs/2503.06520) [Code🖥️](https://github.com/dvlab-research/Seg-Zero) [Model🤗](https://huggingface.co/Ricky06662/Seg-Zero-7B)
   - Address object detection and segmentation with GRPO | Task: Object Detection & Object Segmentation
 
-<a name="Spatio-Temporal Reasoning"></a>
-
+<a name="Spatio-TemporalReasoning"></a>
 ### Spatial and Temporal Grounding and Understanding
 #### Image MLLM
 * 25.03 [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132)  [Paper📑](https://arxiv.org/abs/2503.05132) | [Code💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
@@ -143,8 +140,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="ChartRasoning"></a>
 ### Chart Rasoning
 
-* 24.06 [Chartxiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs](https://arxiv.org/pdf/2406.18521) | [Paper](https://arxiv.org/pdf/2406.18521) [Project](https://charxiv.github.io/)
-
+* 24.09 [ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning](https://arxiv.org/abs/2402.12185) | [Project🌐](https://unimodal4reasoning.github.io/DocGenome_page/)  [Paper📑](https://arxiv.org/abs/2402.12185) [Code🖥️](https://github.com/Alpha-Innovator/ChartVLM)
+  - Offer a new perspective on handling chart reasoning tasks that strongly depend on interpretable patterns. | Task: Chart Reasoning
+* 24.02 (ACL24) [ChartAssisstant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning](https://arxiv.org/abs/2401.02384) | [Paper📑](https://arxiv.org/abs/2401.02384) [Code🖥️](https://github.com/OpenGVLab/ChartAst) [Dataset🤗]
+  - Use large-scale chart data to align and instruction tuning | Task: Chart Reasoning
 
 <a name="VisualGeneration"></a>
 ### Visual Generation
@@ -191,6 +190,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 | 24.11 | VLRewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models | VLRewardBench                            | [[📑 Paper]](https://arxiv.org/abs/2411.17451)                |
 | 24.11 | Grounded Multi-Hop VideoQA in Long-Form Egocentric Videos    | MH-VidQA                                 | [[Paper📑]](https://arxiv.org/pdf/2408.14469) [[Code💻]](https://github.com/MCG-NJU/VideoChat-Online) |
 | 24.07 | REXTIME: A Benchmark Suite for Reasoning-Across-Time in Videos | REXTIME                                  | [[Paper📑]](https://arxiv.org/abs/2406.19392) [[Code💻]](https://github.com/ReXTime/ReXTime) |
+| 24.06 | ChartMimic: Evaluating LMM’s Cross-Modal Reasoning Capability via Chart-to-Code Generation | ChartBench | [[Project🌐]](https://chartmimic.github.io/) [[Paper📑]](https://arxiv.org/abs/2406.09961) [[Code🖥️]](https://github.com/ChartMimic/ChartMimic) |
 | 24.05 | M3CoT: A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought | M3CoT                                    | [[📑 Paper]](https://arxiv.org/html/2405.16473v1)             |
 
 <a name="Open-sourceprojects"></a>
