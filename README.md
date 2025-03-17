@@ -6,6 +6,7 @@
 - [Papers and Projects](#PapersandProjects)
   * [VQA](#VQA)
   * [Reasoning Segmentation and Detection](#ReasoningSegmentation)
+  * [Spatiao-Temporal Reasoning](#Spatiao-TemporalReasoning)
   * [Math Reasoning](#MathReasoning)
   * [Video Generation](#VideoGeneration)
 - [Benchmarks](#sampled_videos)
