@@ -130,7 +130,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="ChartRasoning"></a>
 ### Chart Rasoning
 
-* 24.06 [Chartxiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs](https://arxiv.org/pdf/2406.18521) | [Paper](https://arxiv.org/pdf/2406.18521) [Project](https://charxiv.github.io/)
+* 24.06 [Chartxiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs](https://arxiv.org/pdf/2406.18521) | [Project🌐](https://charxiv.github.io/)  [Paper📑](https://arxiv.org/pdf/2406.18521) [Code🖥️](https://github.com/princeton-nlp/CharXiv)
+  - A comprehensive evaluation suite involving 2,323 natural, challenging, and diverse charts from scientific papers. 
 
 
 <a name="VisualGeneration"></a>
@@ -175,6 +176,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 | 25.02 | OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference | MM-AlignBench | [[📑 Paper]](https://arxiv.org/abs/2502.18411) [[💻 Code]](https://github.com/PhoenixZ810/OmniAlign-V) |
 | 25.01 | LlamaV-o1: Rethinking Step-By-Step Visual Reasoning in LLMs | VRCBench | [[📑 Paper]](https://arxiv.org/abs/2501.06186) [[💻 Code]](https://github.com/mbzuai-oryx/LlamaV-o1) |
 | 24.11 | VLRewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models | VLRewardBench | [[📑 Paper]](https://arxiv.org/abs/2411.17451) |
+| 24.06 |  Chartxiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs | Chartbench | [🌐Project](https://charxiv.github.io/)  [📑Paper](https://arxiv.org/pdf/2406.18521) [🖥️Code](https://github.com/princeton-nlp/CharXiv) |
 | 24.05 | M3CoT: A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought | M3CoT | [[📑 Paper]](https://arxiv.org/html/2405.16473v1) |
 
 <a name="Open-sourceprojects"></a>
