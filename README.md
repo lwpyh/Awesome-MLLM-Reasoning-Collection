@@ -8,7 +8,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 - [Papers and Projects](#PapersandProjects)
   * [Commonsense Reasoning](#VQA)
   * [Reasoning Segmentation and Detection](#ReasoningSegmentation)
-  * [Spatiao-Temporal Grounding and Understanding](#Spatiao-TemporalReasoning)
+  * [Spatiao and Temporal Grounding and Understanding](#Spatiao-TemporalReasoning)
   * [Math Reasoning](#MathReasoning)
   * [Chart Rasoning](#ChartReasoning)
   * [Visual Generation](#VisualGeneration)
@@ -126,6 +126,11 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - The latest flagship model of Kimi series for various multimodal tasks | Task: Reasoning & Understainding                  
 * 25.01 [Virgo: A Preliminary Exploration on Reproducing o1-like MLLM](https://arxiv.org/abs/2501.01904) | [Paper📑](https://arxiv.org/abs/2501.01904) [Code🖥️](https://github.com/RUCAIBox/Virgo) [Model🤗](https://huggingface.co/RUC-AIBOX/Virgo-72B)
   - A o1-like MLLM for multimodal reasoning    |Task: Math & MMMU      
+
+<a name="ChartRasoning"></a>
+### Chart Rasoning
+
+* 24.06 [Chartxiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs](https://arxiv.org/pdf/2406.18521) | [Paper](https://arxiv.org/pdf/2406.18521) [Project](https://charxiv.github.io/)
 
 
 <a name="VisualGeneration"></a>
