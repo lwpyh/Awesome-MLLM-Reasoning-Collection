@@ -1,7 +1,7 @@
 # Awesome-MLLM-Reasoning-Collections
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
-👏 Welcome to the Awesome-MLLM-Reasoning-Collections repository! This repository is a curated collection of the most influential papers, code, dataset, benchmarks, and resources about Reasoning in Multi-Modal Large Language Models (MLLMs) and Vision-Language Models (VLMs).
+👏 Welcome to the Awesome-MLLM-Reasoning-Collections repository! This repository is a carefully curated collection of papers, code, datasets, benchmarks, and resources focused on reasoning within Multi-Modal Large Language Models (MLLMs).
 
 Feel free to ⭐ star and fork this repository to keep up with the latest advancements and contribute to the community.
 ### Table of Contents
@@ -173,13 +173,6 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 | 24.11 | VLRewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models [[📑Paper]](https://arxiv.org/abs/2411.17451) | VLRewardBench                            |
 | 24.05 | M3CoT: A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought [[📑Paper]](https://arxiv.org/html/2405.16473v1) | M3CoT                                    |
 
-
-
-## Data
-
-| Date  | Project                                                      | Comment          |
-| ----- | ------------------------------------------------------------ | ---------------- |
-| 24.11 | VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained  Video Reasoning via Core Frame Selection[[📑Paper]](https://arxiv.org/abs/2411.14794)[[🖥️Code]](https://github.com/hshjerry/VideoEspresso) | various video QA |
 
 <a name="Open-sourceprojects"></a>
 ## Open-source Projects 
