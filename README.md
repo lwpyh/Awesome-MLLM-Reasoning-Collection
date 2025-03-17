@@ -8,7 +8,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 - [Papers and Projects](#PapersandProjects)
   * [Commonsense Reasoning](#VQA)
   * [Reasoning Segmentation and Detection](#ReasoningSegmentation)
-  * [Spatiao and Temporal Grounding and Understanding](#Spatiao-TemporalReasoning)
+  * [Spatial and Temporal Grounding and Understanding](#Spatio-Temporal Reasoning)
   * [Math Reasoning](#MathReasoning)
   * [Chart Rasoning](#ChartReasoning)
   * [Visual Generation](#VisualGeneration)
@@ -80,7 +80,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.03 [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/abs/2503.06520) | [Paper📑](https://arxiv.org/abs/2503.06520) [Code🖥️](https://github.com/dvlab-research/Seg-Zero) [Model🤗](https://huggingface.co/Ricky06662/Seg-Zero-7B)
   - Address object detection and segmentation with GRPO | Task: Object Detection & Object Segmentation
 
-<a name="Spatiao-TemporalReasoning"></a>
+<a name="Spatio-Temporal Reasoning"></a>
+
 ### Spatial and Temporal Grounding and Understanding
 #### Image MLLM
 * 25.03 [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132)  [Paper📑](https://arxiv.org/abs/2503.05132) | [Code💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
@@ -96,7 +97,19 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Enhance spatial reasoning in VLMs using GRPO  | Task: 3D Spatial Reasoning
 * 25.02 [Video-R1: Towards Super Reasoning Ability in Video Understanding](https://github.com/tulerfeng/Video-R1) | [Code🖥️](https://github.com/tulerfeng/Video-R1)
   - Integrate deep thinking capabilities into video understanding tasks through the R1 paradigm | Task:  Video Counting 
+* 24.12 [TIMEREFINE: Temporal Grounding with Time Refining Video LLM](https://arxiv.org/pdf/2412.09601) | [Paper📑](https://arxiv.org/pdf/2412.09601) | [Code🖥️](https://github.com/SJTUwxz/TimeRefine)
+  * Enhance Video LLMs to handle the temporal grounding task by modifying the learning objective
+* 24.11 (CVPR2025) [Number it: Temporal Grounding Videos like Flipping Manga](https://arxiv.org/pdf/2411.10332) | [Paper📑](https://arxiv.org/pdf/2411.10332) | [Code💻](https://github.com/yongliang-wu/NumPro)
+  * Enhances Video-LLMs by overlaying frame numbers onto video frames
+* 24.11 [TimeMarker: A Versatile Video-LLM for Long and Short Video Understanding with Superior Temporal Localization Ability](https://arxiv.org/abs/2411.18211) | [Paper📑](https://arxiv.org/pdf/2411.18211) | [Code💻](https://github.com/TimeMarker-LLM/TimeMarker/)
+  * A versatile Video-LLM featuring robust temporal localization abilities
+* 24.08 (AAAI2025) [Grounded Multi-Hop VideoQA in Long-Form Egocentric Videos](https://arxiv.org/abs/2408.14469) | [Paper📑](https://arxiv.org/pdf/2408.14469) | [Code💻](https://github.com/qirui-chen/MultiHop-EgoQA)
+  * Leverage the world knowledge reasoning capabilities of MLLMs to retrieve temporal evidence in the video with flexible grounding tokens.
+* 24.08 (ICLR2025) [TRACE: Temporal Grounding Video LLM via Casual Event Modeling](https://arxiv.org/abs/2410.05643) | [Paper📑](https://arxiv.org/pdf/2410.05643) | [Code💻](https://github.com/gyxxyg/TRACE)
+  * Tailored to implement the causal event modeling framework through timestamps, salient scores, and textual captions.
+
 <a name="MathReasoning"></a>
+
 ### Math Reasoning
 #### Image MLLM
 * 25.03 [LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL](https://arxiv.org/pdf/2503.07536) | [Paper📑](https://arxiv.org/pdf/2503.07536) [Code🖥️](https://github.com/TideDra/lmm-r1) [Dataset🤗](https://huggingface.co/datasets/VLM-Reasoner/VerMulti)
