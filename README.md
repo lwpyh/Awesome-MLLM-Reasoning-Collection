@@ -77,7 +77,18 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Improve generalization and reasoning of VLMs with GRPO | Task: Detection & Classification & Math
 * 25.03 [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/abs/2503.06520) | [Paper📑](https://arxiv.org/abs/2503.06520) [Code🖥️](https://github.com/dvlab-research/Seg-Zero) [Model🤗](https://huggingface.co/Ricky06662/Seg-Zero-7B)
   - Address object detection and segmentation with GRPO | Task: Object Detection & Object Segmentation
-
+* 24.07 (CVPR24) [Learning to Localize Objects Improves Spatial Reasoning in Visual-LLMs](https://openaccess.thecvf.com/content/CVPR2024/papers/Ranasinghe_Learning_to_Localize_Objects_Improves_Spatial_Reasoning_in_Visual-LLMs_CVPR_2024_paper.pdf) | [Paper📑](https://openaccess.thecvf.com/content/CVPR2024/papers/Ranasinghe_Learning_to_Localize_Objects_Improves_Spatial_Reasoning_in_Visual-LLMs_CVPR_2024_paper.pdf)
+ - Explore how image-space coordinate based instruction fine-tuning objectives could inject spatial awareness into V-LLMs | Task: Reasoning Localization
+* 23.12 (CVPR24) [PixelLM:Pixel Reasoning with Large Multimodal Model](https://arxiv.org/abs/2312.02228) | [Paper📑](https://arxiv.org/pdf/2312.02228.pdf) [Code🖥️](https://github.com/MaverickRen/PixelLM)
+  - An effective and efficient LMM for pixel-level reasoning and understanding | Task: Reasoning Segmentation
+* 23.08 (CVPR24)[LISA: Reasoning Segmentation via Large Language Model](https://arxiv.org/abs/2308.00692) | [Paper📑](https://arxiv.org/abs/2308.00692) [Code🖥️](https://github.com/showlab/VideoLISA) [Dataset🤗](https://drive.google.com/drive/folders/125mewyg5Ao6tZ3ZdJ-1-E3n04LGVELqy?usp=sharing)
+  - Inherit the language generation capabilities of the MLLM while also possessing the ability to produce segmentation masks. | Task: Reasoning Segmentation
+#### Video MLLM
+* 24.07 (NeruIPS24)[One Token to Seg Them All: Language Instructed Reasoning Segmentation in Videos](https://arxiv.org/abs/2409.19603) |  [Paper📑](https://arxiv.org/abs/2409.19603) [Code🖥️](https://github.com/dvlab-research/LISA) [Model🤗](https://huggingface.co/ZechenBai/VideoLISA-3.8B)
+  - Integrating a Sparse Dense Sampling strategy into the video-LLM to balance temporal context and spatial detail within computational constraints |  Task: Reasoning Segmentation
+* 24.01 (CVPR24) [OMG-LLaVA: Bridging Image-level, Object-level, Pixel-level Reasoning and Understanding](https://arxiv.org/abs/2401.10229) | [Paper📑](https://arxiv.org/abs/2401.10229) [Code🖥️](https://github.com/lxtGH/OMG-Seg)
+  - A transformer-based encoder-decoder architecture with task-specific queries and outputs for multiple tasks | Task: Reasoning Segmentation/Detection
+ 
 <a name="Spatio-TemporalReasoning"></a>
 ### Spatial and Temporal Grounding and Understanding
 #### Image MLLM
