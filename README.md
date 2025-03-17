@@ -57,6 +57,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Visual CoT for MLLM reasoning | VQA
 
 #### Video MLLM
+* 25.02 [CoS: Chain-of-Shot Prompting for Long Video Understanding](https://arxiv.org/pdf/2502.06428) | [Paper📑](https://arxiv.org/pdf/2502.06428) [Code🖥️](https://github.com/lwpyh/CoS_codes1)
+  - Approach long video understanding by optimising input video information to fully utilise MLLM’s ability to comprehend long videos. | Task: Video VQA
 * 25.02 [video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model](https://arxiv.org/abs/2502.11775) | [Paper📑](https://arxiv.org/abs/2502.11775) [Demo🖥️](https://github.com/BriansIDP/video-SALMONN-o1)
   - A open-source reasoning-enhanced audio-visual LLM designed for general video understanding tasks.  | Task: Video QA  
 * 25.02 [Open-R1-Video]((https://github.com/Wang-Xiaodong1899/Open-R1-Video)) | [Code🖥️](https://github.com/Wang-Xiaodong1899/Open-R1-Video) [Dataset🤗](https://huggingface.co/datasets/Xiaodong/open-r1-video-4k)
@@ -209,28 +211,20 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="Open-sourceprojects"></a>
 
 ## Open-source Projects 
-* [EasyR1 💻](https://github.com/hiyouga/EasyR1)  ![EasyR1](https://img.shields.io/github/stars/hiyouga/EasyR1) (An Efficient, Scalable, Multi-Modality RL Training Framework)
+| Project | GitHub Stars | Links |
+|---------|-------------|-------|
+| **EasyR1** | ![EasyR1](https://img.shields.io/github/stars/hiyouga/EasyR1) | [💻 GitHub](https://github.com/hiyouga/EasyR1) |
+| **Multimodal Open R1** | ![Multimodal Open R1](https://img.shields.io/github/stars/EvolvingLMMs-Lab/open-r1-multimodal) | [💻 GitHub](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) [🤗 Model](https://huggingface.co/lmms-lab/Qwen2-VL-2B-GRPO-8k) [🤗 Dataset](https://huggingface.co/datasets/lmms-lab/multimodal-open-r1-8k-verified) |
+| **LMM-R1** | ![LMM-R1](https://img.shields.io/github/stars/TideDra/lmm-r1) | [💻 GitHub](https://github.com/TideDra/lmm-r1) |
+| **MMR1** | ![MMR1](https://img.shields.io/github/stars/LengSicong/MMR1) | [💻 GitHub](https://github.com/LengSicong/MMR1) [🤗 Model](https://huggingface.co/MMR1/MMR1-Math-v0-7B) [🤗 Dataset](https://huggingface.co/datasets/MMR1/MMR1-Math-RL-Data-v0) |
+| **R1-V** | ![R1-V](https://img.shields.io/github/stars/Deep-Agent/R1-V) | [💻 GitHub](https://github.com/Deep-Agent/R1-V) [🎯 Blog](https://deepagent.notion.site/rlvr-in-vlms) [🤗 Dataset](https://huggingface.co/collections/MMInstruction/r1-v-67aae24fa56af9d2e2755f82) |
+| **R1-Multimodal-Journey** | ![R1-Multimodal-Journey](https://img.shields.io/github/stars/FanqingM/R1-Multimodal-Journey) | [💻 GitHub](https://github.com/FanqingM/R1-Multimodal-Journey) |
+| **VLM-R1** | ![VLM-R1](https://img.shields.io/github/stars/om-ai-lab/VLM-R1) | [💻 GitHub](https://github.com/om-ai-lab/VLM-R1) [🤗 Model](https://huggingface.co/omlab/Qwen2.5VL-3B-VLM-R1-REC-500steps) [🤗 Dataset](https://huggingface.co/datasets/omlab/VLM-R1) [🤗 Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression) |
+| **R1-Vision** | ![R1-Vision](https://img.shields.io/github/stars/yuyq96/R1-Vision) | [💻 GitHub](https://github.com/yuyq96/R1-Vision) [🤗 Cold-Start Dataset](https://huggingface.co/collections/yuyq96/r1-vision-67a6fb7898423dca453efa83) |
+| **R1-Onevision** | ![R1-Onevision](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision) | [💻 GitHub](https://github.com/Fancy-MLLM/R1-Onevision) [🤗 Model](https://huggingface.co/Fancy-MLLM/R1-Onevision-7B) [🤗 Dataset](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision) [🤗 Demo](https://huggingface.co/spaces/Fancy-MLLM/R1-Onevision) [📝 Report](https://yangyi-vai.notion.site/r1-onevision) |
+| **Open R1 Video** | ![Open R1 Video](https://img.shields.io/github/stars/Wang-Xiaodong1899/Open-R1-Video) | [💻 GitHub](https://github.com/Wang-Xiaodong1899/Open-R1-Video) [🤗 Model](https://huggingface.co/Xiaodong/Open-R1-Video-7B) [🤗 Dataset](https://huggingface.co/datasets/Xiaodong/open-r1-video-4k) |
+| **Video-R1** | ![Video-R1](https://img.shields.io/github/stars/tulerfeng/Video-R1) | [💻 GitHub](https://github.com/tulerfeng/Video-R1) [🤗 Dataset](https://huggingface.co/datasets/Video-R1/DVD-counting) |
 
-* [Multimodal Open R1 💻](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal)  ![Multimodal Open R1](https://img.shields.io/github/stars/EvolvingLMMs-Lab/open-r1-multimodal) [Model 🤗](https://huggingface.co/lmms-lab/Qwen2-VL-2B-GRPO-8k) [Dataset 🤗](https://huggingface.co/datasets/lmms-lab/multimodal-open-r1-8k-verified)
-  
-* [LMM-R1 💻](https://github.com/TideDra/lmm-r1) ![LMM-R1](https://img.shields.io/github/stars/TideDra/lmm-r1) [Code 💻](https://github.com/TideDra/lmm-r1)
-
-* [MMR1 💻](https://github.com/LengSicong/MMR1) ![LengSicong/MMR1](https://img.shields.io/github/stars/LengSicong/MMR1) [Code 💻](https://github.com/LengSicong/MMR1) [Model 🤗](https://huggingface.co/MMR1/MMR1-Math-v0-7B) [Dataset 🤗](https://huggingface.co/datasets/MMR1/MMR1-Math-RL-Data-v0) 
-
-* [R1-Multimodal-Journey 💻](https://github.com/FanqingM/R1-Multimodal-Journey) ![R1-Multimodal-Journey](https://img.shields.io/github/stars/FanqingM/R1-Multimodal-Journey) (Latest progress at [MM-Eureka](https://github.com/ModalMinds/MM-EUREKA))
-
-* [R1-V 💻](https://github.com/Deep-Agent/R1-V)  ![R1-V](https://img.shields.io/github/stars/Deep-Agent/R1-V) [Blog 🎯](https://deepagent.notion.site/rlvr-in-vlms) [Datasets 🤗](https://huggingface.co/collections/MMInstruction/r1-v-67aae24fa56af9d2e2755f82)
-  
-* [VLM-R1 💻](https://github.com/om-ai-lab/VLM-R1)  ![VLM-R1](https://img.shields.io/github/stars/om-ai-lab/VLM-R1) [Model 🤗](https://huggingface.co/omlab/Qwen2.5VL-3B-VLM-R1-REC-500steps)  [Dataset 🤗](https://huggingface.co/datasets/omlab/VLM-R1) [Demo 🤗](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)
-
-* [R1-Vision 💻](https://github.com/yuyq96/R1-Vision) ![R1-Vision](https://img.shields.io/github/stars/yuyq96/R1-Vision) [Cold-Start Datasets 🤗](https://huggingface.co/collections/yuyq96/r1-vision-67a6fb7898423dca453efa83)
-
-* [R1-Onevision 💻](https://github.com/Fancy-MLLM/R1-Onevision)  ![R1-Onevision](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision) [Model 🤗](https://huggingface.co/Fancy-MLLM/R1-Onevision-7B)  [Dataset 🤗](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision) [Demo 🤗](https://huggingface.co/spaces/Fancy-MLLM/R1-Onevision) [Report 📝](https://yangyi-vai.notion.site/r1-onevision)
-
-* [Open R1 Video 💻](https://github.com/Wang-Xiaodong1899/Open-R1-Video) ![Open R1 Video](https://img.shields.io/github/stars/Wang-Xiaodong1899/Open-R1-Video) [Models 🤗](https://huggingface.co/Xiaodong/Open-R1-Video-7B)  [Datasets 🤗](https://huggingface.co/datasets/Xiaodong/open-r1-video-4k) [Datasets 🤗](https://huggingface.co/datasets/Xiaodong/open-r1-video-4k)
-
-* [Video-R1 💻](https://github.com/tulerfeng/Video-R1) ![Video-R1](https://img.shields.io/github/stars/tulerfeng/Video-R1) [Code 💻](https://github.com/tulerfeng/Video-R1)
- [Dataset 🤗](https://huggingface.co/datasets/Video-R1/DVD-counting)
 
 <a name="Contributiong"></a>
 ## Contributing 
