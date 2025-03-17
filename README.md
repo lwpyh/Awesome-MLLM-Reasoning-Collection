@@ -56,7 +56,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Apply reinforcement learning on 193k CoT sft data for reasoning | VQA    
 * 24.03  (NeurIPS24)[Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf) | [Paper📑](https://proceedings.neurips.cc/paper_files/paper/2024/file/0ff38d72a2e0aa6dbe42de83a17b2223-Paper-Datasets_and_Benchmarks_Track.pdf) [Code🖥️](https://github.com/deepcs233/Visual-CoT) 
  [Dataset🤗](https://huggingface.co/datasets/deepcs233/Visual-CoT)
-  - Visual CoT for improve MLLMs' reasoning ability | VQA 
+  - Visual CoT for improve MLLMs' reasoning ability | VQA
+* 23.02 [Multimodal Chain-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2302.00923) | [Paper📑](https://arxiv.org/abs/2302.00923) [Code🖥️](https://github.com/amazon-science/mm-cot)
+  - Visual CoT for MLLM reasoning | VQA
+
 #### Video MLLM
 * 25.02 [video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model](https://arxiv.org/abs/2502.11775) | [Paper📑](https://arxiv.org/abs/2502.11775) [Demo🖥️](https://github.com/BriansIDP/video-SALMONN-o1)
   - A open-source reasoning-enhanced audio-visual LLM designed for general video understanding tasks.  | Task: Video QA  
@@ -149,12 +152,6 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 #### Video MLLM
 * 25.03 [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379) | [Paper📑](https://arxiv.org/abs/2503.05379)[Code🖥️](https://github.com/HumanMLLM/R1-Omni) [Model🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B/tree/main)
   - Impove reasoning capability, emotion recognition accuracy, and generalization ability with RLVR.  | Task: Emotion recognition
-
-### LLM
-
-| Date  | Project                                                      | Comment |
-| ----- | ------------------------------------------------------------ | ------- |
-| 23.02 | Multimodal Chain-of-Thought Reasoning in Language Models [[📑Paper]](https://arxiv.org/abs/2302.00923) [[🖥️Code]](https://github.com/amazon-science/mm-cot) |         |
 
 
 <a name="benchmarks"></a>
