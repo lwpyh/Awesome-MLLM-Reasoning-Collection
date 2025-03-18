@@ -5,17 +5,30 @@
 
 Feel free to ⭐ star and fork this repository to keep up with the latest advancements and contribute to the community.
 ### Table of Contents
-- [Papers and Projects](#PapersandProjects)
-  * [Commonsense Reasoning](#VQA)
-  * [Reasoning Segmentation and Detection](#ReasoningSegmentation)
-  * [Spatial and Temporal Grounding and Understanding](#Spatio-TemporalReasoning)
-  * [Math Reasoning](#MathReasoning)
-  * [Chart Rasoning](#ChartRasoning)
-  * [Visual Generation](#VisualGeneration)
-  * [Others](#others)
-- [Benchmarks](#benchmarks)
-- [Open-source projects](#Open-sourceprojects)
-- [Contibuting](#Contributiong)
+- [Awesome-MLLM-Reasoning-Collection](#awesome-mllm-reasoning-collection)
+    - [Table of Contents](#table-of-contents)
+  - [Papers and Projects 📄](#papers-and-projects-)
+    - [Commonsense Reasoning](#commonsense-reasoning)
+      - [Image MLLM](#image-mllm)
+      - [Video MLLM](#video-mllm)
+    - [Reasoning Segmentation and Detection](#reasoning-segmentation-and-detection)
+      - [Image MLLM](#image-mllm-1)
+      - [Video MLLM](#video-mllm-1)
+    - [Spatial and Temporal Grounding and Understanding](#spatial-and-temporal-grounding-and-understanding)
+      - [Image MLLM](#image-mllm-2)
+      - [Video MLLM](#video-mllm-2)
+    - [Math Reasoning](#math-reasoning)
+      - [Image MLLM](#image-mllm-3)
+    - [Chart Rasoning](#chart-rasoning)
+    - [Visual Generation](#visual-generation)
+      - [Image MLLM](#image-mllm-4)
+      - [Video MLLM](#video-mllm-3)
+    - [Others](#others)
+      - [Image MLLM](#image-mllm-5)
+      - [Video MLLM](#video-mllm-4)
+  - [Benchmarks 📊](#benchmarks-)
+  - [Open-source Projects](#open-source-projects)
+  - [Contributing](#contributing)
 
 
 <a name="PapersandProjects"></a>
@@ -109,6 +122,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.01 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought] | [Paper📑](https://arxiv.org/pdf/2501.07542)
   - Enables visual thinking in MLLMs by generating image visualizations of their reasoning traces.  | Task: Spatial Reasoning
 #### Video MLLM
+* 25.03 [TimeZero: Temporal Video Grounding with Reasoning-Guided LVLM](https://arxiv.org/abs/2503.13377) | [Paper📑](https://arxiv.org/abs/2503.13377) [Code💻](https://github.com/www-Ye/TimeZero) [Model🤗](https://huggingface.co/wwwyyy/TimeZero-Charades-7B)
+  - A reasoning-guided MLLM for temporal video grounding, trained with GRPO. | Task: Temporal Grounding
 * 25.03 [LLaVA-ST: A Multimodal Large Language Model for Fine-Grained Spatial-Temporal Understanding](https://arxiv.org/abs/2501.08282) | [Paper📑](https://arxiv.org/abs/2501.08282) [Code💻](https://github.com/appletea233/LLaVA-ST)
   - A MLLM for fine-grained spatial-temporal multimodal understanding. | Task: Spatial-Temporal Understanding
 * 25.03 [MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse](https://github.com/PzySeere/MetaSpatial) | [Code🖥️](https://github.com/PzySeere/MetaSpatial)
