@@ -26,6 +26,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 #### Image MLLM
 * 25.03 [Skywork-R1V: Pioneering Multimodal Reasoning with CoT](https://github.com/SkyworkAI/Skywork-R1V/blob/main/Skywork_R1V.pdf) | [Paper📑](https://github.com/SkyworkAI/Skywork-R1V/blob/main/Skywork_R1V.pdf) [Code🖥️](https://github.com/SkyworkAI/Skywork-R1V) [Model🤗](https://huggingface.co/Skywork/Skywork-R1V-38B)
   - The first industry open-sourced multimodal reasoning model with advanced visual chain-of-thought capabilities | Task: Reasoning & Understainding
+* 25.03 [DAPO: an Open-Source LLM Reinforcement Learning System at Scale](https://dapo-sia.github.io/static/pdf/dapo_paper.pdf) | [Paper📑](https://dapo-sia.github.io/static/pdf/dapo_paper.pdf) [Code🖥️](https://github.com/BytedTsinghua-SIA/DAPO) [Data🤗](https://huggingface.co/datasets/BytedTsinghua-SIA/DAPO-Math-17k)
+  - Propose the Decoupled Clip and Dynamic sAmpling Policy Optimization (DAPO) algorithm. | Task: Math
 * 25.03 [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/pdf/2503.07523) | [Paper📑](https://arxiv.org/pdf/2503.07523) [Code🖥️](https://github.com/zhangquanchen/VisRL) 
   - The first framework that applies reinforcement learning (RL) to the problem of intention-driven visual perception | Task: VQA
 * 25.03  [Unified Reward Model for Multimodal Understanding and Generation](https://arxiv.org/abs/2503.05236) | [Paper📑](https://arxiv.org/abs/2503.05236) [Code🖥️](https://codegoat24.github.io/UnifiedReward/) [Dataset🤗](https://huggingface.co/collections/CodeGoat24/unifiedreward-training-data-67c300d4fd5eff00fa7f1ede)
