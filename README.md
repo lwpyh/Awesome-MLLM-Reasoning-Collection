@@ -247,6 +247,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 | **R1-Onevision** | ![R1-Onevision](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision) | [💻 GitHub](https://github.com/Fancy-MLLM/R1-Onevision) [🤗 Model](https://huggingface.co/Fancy-MLLM/R1-Onevision-7B) [🤗 Dataset](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision) [🤗 Demo](https://huggingface.co/spaces/Fancy-MLLM/R1-Onevision) [📝 Report](https://yangyi-vai.notion.site/r1-onevision) |
 | **Open R1 Video** | ![Open R1 Video](https://img.shields.io/github/stars/Wang-Xiaodong1899/Open-R1-Video) | [💻 GitHub](https://github.com/Wang-Xiaodong1899/Open-R1-Video) [🤗 Model](https://huggingface.co/Xiaodong/Open-R1-Video-7B) [🤗 Dataset](https://huggingface.co/datasets/Xiaodong/open-r1-video-4k) |
 | **Video-R1** | ![Video-R1](https://img.shields.io/github/stars/tulerfeng/Video-R1) | [💻 GitHub](https://github.com/tulerfeng/Video-R1) [🤗 Dataset](https://huggingface.co/datasets/Video-R1/DVD-counting) |
+| **Open-LLaVA-Video-R1** | ![Open-LLaVA-Video-R1](https://img.shields.io/github/stars/Hui-design/Open-LLaVA-Video-R1) | [💻 GitHub](https://github.com/Hui-design/Open-LLaVA-Video-R1) |
 
 
 <a name="Contributiong"></a>
