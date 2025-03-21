@@ -126,6 +126,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.01 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought] | [Paper📑](https://arxiv.org/pdf/2501.07542)
   - Enables visual thinking in MLLMs by generating image visualizations of their reasoning traces.  | Task: Spatial Reasoning
 #### Video MLLM
+* 25.03 [Envolving Temporal Reasoning Capability into LMMs via Temporal Consistent Reward](https://github.com/appletea233/Temporal-R1) | [Code💻](https://github.com/appletea233/Temporal-R1) [Model🤗](https://huggingface.co/appletea2333)
+  - Investigate the potential of GRPO in the video temporal grounding task, which demands precise temporal alignment between visual and linguistic modalities as well as advanced reasoning capabilities | Task: Temporal Grounding
 * 25.03 [TimeZero: Temporal Video Grounding with Reasoning-Guided LVLM](https://arxiv.org/abs/2503.13377) | [Paper📑](https://arxiv.org/abs/2503.13377) [Code💻](https://github.com/www-Ye/TimeZero) [Model🤗](https://huggingface.co/wwwyyy/TimeZero-Charades-7B)
   - A reasoning-guided MLLM for temporal video grounding, trained with GRPO. | Task: Temporal Grounding
 * 25.03 [LLaVA-ST: A Multimodal Large Language Model for Fine-Grained Spatial-Temporal Understanding](https://arxiv.org/abs/2501.08282) | [Paper📑](https://arxiv.org/abs/2501.08282) [Code💻](https://github.com/appletea233/LLaVA-ST)
