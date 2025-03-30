@@ -153,6 +153,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 ### Math Reasoning
 #### Image MLLM
+* 25.03 [OpenVLThinker: An Early Exploration to Vision-Language Reasoning via Iterative Self-Improvement](https://arxiv.org/abs/2503.17352) | [Paper📑](https://arxiv.org/abs/2503.17352) [Code🖥️](https://github.com/yihedeng9/OpenVLThinker) [Dataset🤗](https://huggingface.co/ydeng9/OpenVLThinker-7B)
+  - Investigate whether R1-like reasoning capabilities can be successfully integrated into LVLMs and assesses their impact on challenging multimodal reasoning tasks. | Task: Math
 * 25.03 [R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization](https://arxiv.org/html/2503.12937v1) | [Paper📑](https://arxiv.org/html/2503.12937v1) [Code🖥️](https://github.com/jingyi0000/R1-VL) [Dataset🤗](https://github.com/jingyi0000/R1-VL#)
   - Design Step-wise Group Relative Policy Optimization (StepGRPO) that enables MLLMs to self-improve reasoning ability. | Task: Math 
 * 25.03 [LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL](https://arxiv.org/pdf/2503.07536) | [Paper📑](https://arxiv.org/pdf/2503.07536) [Code🖥️](https://github.com/TideDra/lmm-r1) [Dataset🤗](https://huggingface.co/datasets/VLM-Reasoner/VerMulti)
@@ -211,6 +213,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="others"></a>
 ### Others
 #### Image MLLM
+* 25.03 [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2503.21620) [Paper📑](https://arxiv.org/pdf/2503.21620)
+  - Introduce a unified rule-based action reward, enabling model optimization via policy-based algorithms like GRPO. | Task: UI 
 * 25.03   [VLM-R1: A stable and generalizable R1-style Large Vision-Language Model](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) [Code🖥️](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) [Dataset🤗](https://huggingface.co/datasets/omlab/VLM-R1)  [Model🤗](https://huggingface.co/omlab/Qwen2.5VL-3B-VLM-R1-REC-500steps/tree/main)
   - A reproduced R1-style VLM | Task: Referring Expression Comprehension
 * 25.02 [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634)| [Paper📑](https://arxiv.org/pdf/2502.19634)
