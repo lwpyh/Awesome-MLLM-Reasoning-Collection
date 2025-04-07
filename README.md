@@ -132,6 +132,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.01 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/pdf/2501.07542) | [Paper📑](https://arxiv.org/pdf/2501.07542)
   - Enables visual thinking in MLLMs by generating image visualizations of their reasoning traces.  | Task: Spatial Reasoning
 #### Video MLLM
+* 25.04 [Improved Visual-Spatial Reasoning via R1-Zero-Like Training](https://arxiv.org/abs/2504.00883) | [Paper📑](https://arxiv.org/abs/2504.00883) [Code💻](https://github.com/zhijie-group/R1-Zero-VSI)
+  - Incorporate GRPO training for improved visual-spatial reasoning, using the carefully curated VSI-100k dataset. | Task: Video Understanding
 * 25.03 [Envolving Temporal Reasoning Capability into LMMs via Temporal Consistent Reward](https://github.com/appletea233/Temporal-R1) | [Code💻](https://github.com/appletea233/Temporal-R1) [Model🤗](https://huggingface.co/appletea2333)
   - Investigate the potential of GRPO in the video temporal grounding task, which demands precise temporal alignment between visual and linguistic modalities as well as advanced reasoning capabilities | Task: Temporal Grounding
 * 25.03 [TimeZero: Temporal Video Grounding with Reasoning-Guided LVLM](https://arxiv.org/abs/2503.13377) | [Paper📑](https://arxiv.org/abs/2503.13377) [Code💻](https://github.com/www-Ye/TimeZero) [Model🤗](https://huggingface.co/wwwyyy/TimeZero-Charades-7B)
@@ -157,6 +159,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 ### Math Reasoning
 #### Image MLLM
+* 25.04 [GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning]() | [Paper📑](https://github.com/RyanLiu112/GenPRM/blob/main/static/paper.pdf) [Project🌐](https://ryanliu112.github.io/GenPRM/) [Code🖥️](https://github.com/RyanLiu112/GenPRM)
+  - A generative process reward model that performs explicit COT reasoning with code verification before providing judgment for each reasoning step. | Task: Math
 * 25.03 [OpenVLThinker: An Early Exploration to Vision-Language Reasoning via Iterative Self-Improvement](https://arxiv.org/abs/2503.17352) | [Paper📑](https://arxiv.org/abs/2503.17352) [Code🖥️](https://github.com/yihedeng9/OpenVLThinker) [Dataset🤗](https://huggingface.co/ydeng9/OpenVLThinker-7B)
   - Investigate whether R1-like reasoning capabilities can be successfully integrated into LVLMs and assesses their impact on challenging multimodal reasoning tasks. | Task: Math
 * 25.03 [R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization](https://arxiv.org/html/2503.12937v1) | [Paper📑](https://arxiv.org/html/2503.12937v1) [Code🖥️](https://github.com/jingyi0000/R1-VL) [Dataset🤗](https://github.com/jingyi0000/R1-VL#)
@@ -233,6 +237,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 | Date  | Project                                                      | Task                                     | Links                                                        |
 | ----- | ------------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------------ |
+| 25.04 | Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing | Reasoning-Informed viSual Editing | [[📑 Paper]](https://arxiv.org/abs/2504.02826) [[💻 Code]](https://github.com/PhoenixZ810/RISEBench)
 | 25.03 | V-STaR : Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning | Spatio-temporal Reasoning                | [[🌐 Project]](https://v-star-bench.github.io/) [[📑 Paper]](https://arxiv.org/abs/2311.17982) [[🤗 Data]](https://huggingface.co/datasets/V-STaR-Bench/V-STaR) |
 | 25.03 | MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs | Spatio-temporal Understanding | [[📑Paper]](https://arxiv.org/pdf/2503.13111) |
 | 25.03 | Integrating Chain-of-Thought for Multimodal Alignment: A Study on 3D Vision-Language Learning | 3D-CoT                                   | [[📑 Paper]](https://arxiv.org/pdf/2503.06232) [[🤗 Data]](https://huggingface.co/datasets/Battam/3D-CoT) |
