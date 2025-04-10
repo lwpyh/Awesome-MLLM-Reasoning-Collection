@@ -123,6 +123,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="Spatio-TemporalReasoning"></a>
 ### Spatial and Temporal Grounding and Understanding
 #### Image MLLM
+* 25.04 [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning](https://arxiv.org/html/2503.20752v2) | [Paper📑](https://arxiv.org/html/2503.20752v2) [Project🌐](https://tanhuajie.github.io/ReasonRFT/) [Code🖥️](https://github.com/tanhuajie/Reason-RFT) [Dataset🤗](https://huggingface.co/datasets/tanhuajie2001/Reason-RFT-CoT-Dataset)
+  - Introduce a combined RL and SFT training paradigm to enhance visual reasoning capabilities in multimodal models. | Task: Spatial Reasoning & Understanding
 * 25.03 [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132)  [Paper📑](https://arxiv.org/abs/2503.05132) | [Code💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
   - R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | Task: Counting & Reasoning & 3D Understanding (CV-Bench)
 * 25.03 (CVPR2025)[GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks](https://arxiv.org/pdf/2503.06514) | [Paper📑](https://arxiv.org/pdf/2503.06514)
@@ -259,6 +261,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 ## Open-source Projects 
 | Project | GitHub Stars | Links |
 |---------|-------------|-------|
+| **Reason-RFT** | ![Reason-RFT](https://img.shields.io/github/stars/tanhuajie/Reason-RFT) | [💻 GitHub](https://github.com/tanhuajie/Reason-RFT) [🤗 Dataset](https://huggingface.co/datasets/tanhuajie2001/Reason-RFT-CoT-Dataset) |
 | **EasyR1** | ![EasyR1](https://img.shields.io/github/stars/hiyouga/EasyR1) | [💻 GitHub](https://github.com/hiyouga/EasyR1) |
 | **Multimodal Open R1** | ![Multimodal Open R1](https://img.shields.io/github/stars/EvolvingLMMs-Lab/open-r1-multimodal) | [💻 GitHub](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) [🤗 Model](https://huggingface.co/lmms-lab/Qwen2-VL-2B-GRPO-8k) [🤗 Dataset](https://huggingface.co/datasets/lmms-lab/multimodal-open-r1-8k-verified) |
 | **LMM-R1** | ![LMM-R1](https://img.shields.io/github/stars/TideDra/lmm-r1) | [💻 GitHub](https://github.com/TideDra/lmm-r1) |
