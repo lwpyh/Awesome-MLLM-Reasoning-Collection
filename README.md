@@ -127,10 +127,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 #### Image MLLM
 * 25.04 [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning](https://arxiv.org/html/2503.20752v2) | [Paper📑](https://arxiv.org/html/2503.20752v2) [Project🌐](https://tanhuajie.github.io/ReasonRFT/) [Code🖥️](https://github.com/tanhuajie/Reason-RFT) [Dataset🤗](https://huggingface.co/datasets/tanhuajie2001/Reason-RFT-CoT-Dataset)
   - Introduce a combined RL and SFT training paradigm to enhance visual reasoning capabilities in multimodal models. | Task: Spatial Reasoning & Understanding
-* 25.03 [InteractVLM: 3D Interaction Reasoning from 2D Foundational Models](https://arxiv.org/abs/2504.05303) | [Paper📑](https://arxiv.org/abs/2504.05303) [Project🌐](https://embodied-reasoner.github.io/ )[Code💻](https://github.com/saidwivedi/InteractVLM) [Dataset🤗](https://huggingface.co/datasets/zwq2018/embodied_reasoner)
+* 25.04 [InteractVLM: 3D Interaction Reasoning from 2D Foundational Models](https://arxiv.org/abs/2504.05303) | [Paper📑](https://arxiv.org/abs/2504.05303) [Code💻](https://github.com/saidwivedi/InteractVLM)
   - Harnesses the broad visual knowledge of large Vision-Language Models (VLMs), fine-tuned with limited 3D contact data. Task: 3D Reconstruction
-* 25.03 [Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks](https://arxiv.org/abs/2503.21696) [Code💻](https://github.com/zwq2018/embodied_reasoner) 
-  - A model that extends O1-style reasoning to interactive embodied tasks. 
+* 25.03 [Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks](https://arxiv.org/abs/2503.21696) | [Paper📑](https://arxiv.org/abs/2503.21696) [Code💻](https://github.com/zwq2018/embodied_reasoner)  [Project🌐](https://embodied-reasoner.github.io/ ) [Dataset🤗](https://huggingface.co/datasets/zwq2018/embodied_reasoner)
+  - A model that extends O1-style reasoning to interactive embodied tasks. | Task: Interactive Embodied Tasks
 * 25.03 [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132) | [Paper📑](https://arxiv.org/abs/2503.05132) [Code💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
   - R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | Task: Counting & Reasoning & 3D Understanding (CV-Bench)
 * 25.03 (CVPR2025)[GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks](https://arxiv.org/pdf/2503.06514) | [Paper📑](https://arxiv.org/pdf/2503.06514)
@@ -213,8 +213,11 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Integrates text and image retrieval through various agents, enabling collaborative reasoning across modalities. | Task: Document Reasoning
 * 24.09 [ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning](https://arxiv.org/abs/2402.12185) | [Project🌐](https://unimodal4reasoning.github.io/DocGenome_page/)  [Paper📑](https://arxiv.org/abs/2402.12185) [Code🖥️](https://github.com/Alpha-Innovator/ChartVLM)
   - Offer a new perspective on handling chart reasoning tasks that strongly depend on interpretable patterns. | Task: Chart Reasoning
+* 24.07 (EMNLP24) [Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053) | [Paper📑](https://arxiv.org/abs/2407.07053)  [Project🌐](https://multi-modal-self-instruct.github.io/) [Code🖥️](https://github.com/zwq2018/Multi-modal-Self-instruct) [Dataset🤗](https://huggingface.co/datasets/zwq2018/Multi-modal-Self-instruct)
+  - A multi-modal self-instruct, utilizing large language models and their code capabilities to synthesize massive abstract images and visual reasoning instructions across daily scenarios. | Task: Chart Reasoning
 * 24.02 (ACL24) [ChartAssisstant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning](https://arxiv.org/abs/2401.02384) | [Paper📑](https://arxiv.org/abs/2401.02384) [Code🖥️](https://github.com/OpenGVLab/ChartAst) [Dataset🤗]
   - Use large-scale chart data to align and instruction tuning | Task: Chart Reasoning
+
 
 <a name="VisualGeneration"></a>
 ### Visual Generation
