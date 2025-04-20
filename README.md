@@ -127,8 +127,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 #### Image MLLM
 * 25.04 [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning](https://arxiv.org/html/2503.20752v2) | [Paper📑](https://arxiv.org/html/2503.20752v2) [Project🌐](https://tanhuajie.github.io/ReasonRFT/) [Code🖥️](https://github.com/tanhuajie/Reason-RFT) [Dataset🤗](https://huggingface.co/datasets/tanhuajie2001/Reason-RFT-CoT-Dataset)
   - Introduce a combined RL and SFT training paradigm to enhance visual reasoning capabilities in multimodal models. | Task: Spatial Reasoning & Understanding
-* 25.04 [InteractVLM: 3D Interaction Reasoning from 2D Foundational Models](https://arxiv.org/abs/2504.05303) | [Paper📑](https://arxiv.org/abs/2504.05303) [Code💻](https://github.com/saidwivedi/InteractVLM)
+* 25.03 [InteractVLM: 3D Interaction Reasoning from 2D Foundational Models](https://arxiv.org/abs/2504.05303) | [Paper📑](https://arxiv.org/abs/2504.05303) [Project🌐](https://embodied-reasoner.github.io/ )[Code💻](https://github.com/saidwivedi/InteractVLM) [Dataset🤗](https://huggingface.co/datasets/zwq2018/embodied_reasoner)
   - Harnesses the broad visual knowledge of large Vision-Language Models (VLMs), fine-tuned with limited 3D contact data. Task: 3D Reconstruction
+* 25.03 [Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks](https://arxiv.org/abs/2503.21696) [Code💻](https://github.com/zwq2018/embodied_reasoner) 
+  - A model that extends O1-style reasoning to interactive embodied tasks. 
 * 25.03 [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132) | [Paper📑](https://arxiv.org/abs/2503.05132) [Code💻](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
   - R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | Task: Counting & Reasoning & 3D Understanding (CV-Bench)
 * 25.03 (CVPR2025)[GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks](https://arxiv.org/pdf/2503.06514) | [Paper📑](https://arxiv.org/pdf/2503.06514)
