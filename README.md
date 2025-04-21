@@ -169,6 +169,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 ### Math Reasoning
 #### Image MLLM
+* 25.04 [NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation](https://arxiv.org/pdf/2504.13055) | [Paper📑](https://arxiv.org/pdf/2504.13055) [Code🖥️](https://github.com/John-AI-Lab/NoisyRollout) [Model🤗](https://huggingface.co/collections/xyliu6/noisyrollout-67ff992d1cf251087fe021a2)
+  - Introduces targeted rollout diversity by mixing rollouts from both clean and moderately distorted images, encouraging the model to learn more robust behaviors. | Task: Math
 * 25.04 [VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning](https://arxiv.org/abs/2504.08837) | [Paper📑](https://arxiv.org/abs/2504.08837) [Code🖥️](https://github.com/TIGER-AI-Lab/VL-Rethinker/) [Model🤗](https://huggingface.co/TIGER-Lab/VL-Rethinker-7B)
   - Aim to enhance the slow-thinking capabilities of vision-language models using reinforcement learning (without relying on distillation) to advance the SOTA. | Task: Math
 * 25.04 [SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement](https://arxiv.org/abs/2504.07934) | [Paper📑](https://arxiv.org/abs/2504.07934) [Code🖥️](https://github.com/si0wang/ThinkLite-VL)
@@ -292,6 +294,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 | **Video-R1** | ![Video-R1](https://img.shields.io/github/stars/tulerfeng/Video-R1) | [💻 GitHub](https://github.com/tulerfeng/Video-R1) [🤗 Dataset](https://huggingface.co/datasets/Video-R1/DVD-counting) |
 | **Open-LLaVA-Video-R1** | ![Open-LLaVA-Video-R1](https://img.shields.io/github/stars/Hui-design/Open-LLaVA-Video-R1) | [💻 GitHub](https://github.com/Hui-design/Open-LLaVA-Video-R1) |
 | **R1V-Free** | ![R1V-Free](https://img.shields.io/github/stars/Exgc/R1V-Free) | [💻 GitHub](https://github.com/Exgc/R1V-Free) |
+| **SeekWorld** | ![SeekWorld](https://img.shields.io/github/stars/TheEighthDay/SeekWorld) | [💻 GitHub](https://github.com/TheEighthDay/SeekWorld) |
 
 <a name="Contributiong"></a>
 ## Contributing 
