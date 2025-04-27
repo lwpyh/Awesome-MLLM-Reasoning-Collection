@@ -76,6 +76,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Visual CoT for MLLM reasoning | VQA
 
 #### Video MLLM
+* 25.04 [ViSMaP: Unsupervised Hour-long Video Summarisation by Meta-Prompting](https://arxiv.org/abs/2504.15921) | [Paper📑](https://arxiv.org/abs/2504.15921)
+  - A system to summarise hour long videos with no-supervision. | Task: video Summary
 * 25.04 [TinyLLaVA-Video-R1: Towards Smaller LMMs for Video Reasoning](https://arxiv.org/abs/2504.09641) | [Paper📑](https://arxiv.org/abs/2504.09641) [Code🖥️](https://github.com/ZhangXJ199/TinyLLaVA-Video-R1) | [Model🤗](https://huggingface.co/Zhang199/TinyLLaVA-Video-R1)
   - Present the small-scale video reasoning model TinyLLaVA-Video-R1 | Task: Video QA
 * 25.04 [VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning](https://arxiv.org/abs/2503.13444) | [Paper📑](https://arxiv.org/abs/2503.13444) [Code🖥️](https://github.com/yeliudev/VideoMind) | [Dataset🤗](https://huggingface.co/datasets/yeliudev/VideoMind-Dataset)
@@ -125,6 +127,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="Spatio-TemporalReasoning"></a>
 ### Spatial and Temporal Grounding and Understanding
 #### Image MLLM
+* 25.04 [Perspective-Aware Reasoning in Vision-Language Models via Mental Imagery Simulation](https://arxiv.org/pdf/2504.17207) | [Paper📑](https://arxiv.org/pdf/2504.17207) [Project🌐](https://apc-vlm.github.io/) [Code🖥️](https://github.com/KAIST-Visual-AI-Group/APC-VLM) 
+  - A framework for perspective-aware reasoning in vision-language models (VLMs) through mental imagery simulation. | Task: Spatial Reasoning & Understanding
 * 25.04 [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning](https://arxiv.org/html/2503.20752v2) | [Paper📑](https://arxiv.org/html/2503.20752v2) [Project🌐](https://tanhuajie.github.io/ReasonRFT/) [Code🖥️](https://github.com/tanhuajie/Reason-RFT) [Dataset🤗](https://huggingface.co/datasets/tanhuajie2001/Reason-RFT-CoT-Dataset)
   - Introduce a combined RL and SFT training paradigm to enhance visual reasoning capabilities in multimodal models. | Task: Spatial Reasoning & Understanding
 * 25.04 [InteractVLM: 3D Interaction Reasoning from 2D Foundational Models](https://arxiv.org/abs/2504.05303) | [Paper📑](https://arxiv.org/abs/2504.05303) [Code💻](https://github.com/saidwivedi/InteractVLM)
@@ -140,6 +144,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.01 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/pdf/2501.07542) | [Paper📑](https://arxiv.org/pdf/2501.07542)
   - Enables visual thinking in MLLMs by generating image visualizations of their reasoning traces.  | Task: Spatial Reasoning
 #### Video MLLM
+* 25.94 [VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2504.06958) | [Paper📑](https://arxiv.org/pdf/2504.06958) [Code💻](https://github.com/OpenGVLab/VideoChat-R1)
+  - A novel spatiao-temporal perception framework with GRPO | Task: Spatial Understanding and Grounding
 * 25.04 [VisuoThink: Empowering LVLM Reasoning with Multimodal Tree Search](https://arxiv.org/html/2504.09130v1) | [Paper📑](https://arxiv.org/html/2504.09130v1) [Code💻](https://github.com/ekonwang/VisuoThink)
   - A novel framework that seamlessly integrates visuospatial and linguistic domains | Task: Geometry and Spatial Reasoning
 * 25.04 [Improved Visual-Spatial Reasoning via R1-Zero-Like Training](https://arxiv.org/abs/2504.00883) | [Paper📑](https://arxiv.org/abs/2504.00883) [Code💻](https://github.com/zhijie-group/R1-Zero-VSI)
@@ -240,9 +246,11 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="others"></a>
 ### Others
 #### Image MLLM
-* 25.04 [GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents](https://arxiv.org/pdf/2504.10458) [Paper📑](https://arxiv.org/pdf/2504.10458)
+* 25.04 [InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners](https://arxiv.org/pdf/2504.14239) | Paper📑](https://arxiv.org/pdf/2504.14239) [Code🖥️](https://github.com/Reallm-Labs/InfiGUI-R1)
+  - an MLLM-based GUI agent designed to progressively evolve agents from Reactive Actors to Deliberative Reasoners. | task: UI
+* 25.04 [GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents](https://arxiv.org/pdf/2504.10458) | [Paper📑](https://arxiv.org/pdf/2504.10458)
   - Enhances GUI agent through RL with unified action space modeling, achieving superior cross-platform performance using only 0.02% of the data required by previous methods. | Task: UI 
-* 25.03 [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2503.21620) [Paper📑](https://arxiv.org/pdf/2503.21620)
+* 25.03 [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2503.21620) | [Paper📑](https://arxiv.org/pdf/2503.21620)
   - Introduce a unified rule-based action reward, enabling model optimization via policy-based algorithms like GRPO. | Task: UI 
 * 25.03   [VLM-R1: A stable and generalizable R1-style Large Vision-Language Model](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) [Code🖥️](https://github.com/om-ai-lab/VLM-R1/tree/main?tab=readme-ov-file) [Dataset🤗](https://huggingface.co/datasets/omlab/VLM-R1)  [Model🤗](https://huggingface.co/omlab/Qwen2.5VL-3B-VLM-R1-REC-500steps/tree/main)
   - A reproduced R1-style VLM | Task: Referring Expression Comprehension
@@ -258,6 +266,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 | Date  | Project                                                      | Task                                     | Links                                                        |
 | ----- | ------------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------------ |
+| 25.04 | VisuLogic: A Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models | Visual Reasoning | [[🌐 Project]](https://visulogic-benchmark.github.io/VisuLogic/) [[📑 Paper]](http://arxiv.org/abs/2504.15279) [[💻 Code]](https://github.com/VisuLogic-Benchmark/VisuLogic-Eval) [[🤗 Data]](https://huggingface.co/datasets/VisuLogic/VisuLogic) |
+| 25.04 | IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs | Image-Grounded Video Perception and Reasoning | [[📑 Paper]](https://arxiv.org/pdf/2504.15415) [[💻 Code]](https://github.com/multimodal-art-projection/IV-Bench) |
 | 25.04 | Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing | Reasoning-Informed viSual Editing | [[📑 Paper]](https://arxiv.org/abs/2504.02826) [[💻 Code]](https://github.com/PhoenixZ810/RISEBench)
 | 25.03 | V-STaR : Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning | Spatio-temporal Reasoning                | [[🌐 Project]](https://v-star-bench.github.io/) [[📑 Paper]](https://arxiv.org/abs/2311.17982) [[🤗 Data]](https://huggingface.co/datasets/V-STaR-Bench/V-STaR) |
 | 25.03 | MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs | Spatio-temporal Understanding | [[📑Paper]](https://arxiv.org/pdf/2503.13111) |
