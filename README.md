@@ -37,6 +37,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="VQA"></a>
 ### Commonsense Reasoning
 #### Image MLLM
+* 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) | [Paper📑](https://arxiv.org/pdf/2505.04623) [Code🖥️](https://github.com/HarryHsing/EchoInk) [Model🤗](https://huggingface.co/harryhsing/EchoInk-R1-7B)
+  - The first general framework for unified audio-visual reasoning via reinforcement learning | Task: Reasoning & Understainding
 * 25.03 [Skywork-R1V: Pioneering Multimodal Reasoning with CoT](https://github.com/SkyworkAI/Skywork-R1V/blob/main/Skywork_R1V.pdf) | [Paper📑](https://github.com/SkyworkAI/Skywork-R1V/blob/main/Skywork_R1V.pdf) [Code🖥️](https://github.com/SkyworkAI/Skywork-R1V) [Model🤗](https://huggingface.co/Skywork/Skywork-R1V-38B)
   - The first industry open-sourced multimodal reasoning model with advanced visual chain-of-thought capabilities | Task: Reasoning & Understainding
 * 25.03 [CMMCoT: Enhancing Complex Multi-Image Comprehension via Multi-Modal Chain-of-Thought and Memory Augmentation](https://arxiv.org/pdf/2503.05255) | [Paper📑](https://arxiv.org/pdf/2503.05255)
@@ -76,8 +78,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Visual CoT for MLLM reasoning | VQA
 
 #### Video MLLM
+* 25.04 [Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.03318) | [Paper📑](https://arxiv.org/pdf/2505.03318) [Project🌐](https://codegoat24.github.io/UnifiedReward/think) [Code🖥️](https://github.com/CodeGoat24/UnifiedReward)
+  - The first unified multimodal CoT reward model, capable of step-by-step long-chain reasoning for visual understanding and generation reward tasks. | Task: Video Understanding and Feneration
 * 25.04 [ViSMaP: Unsupervised Hour-long Video Summarisation by Meta-Prompting](https://arxiv.org/abs/2504.15921) | [Paper📑](https://arxiv.org/abs/2504.15921)
-  - A system to summarise hour long videos with no-supervision. | Task: video Summary
+  - A system to summarise hour long videos with no-supervision. | Task: Video Summary
 * 25.04 [TinyLLaVA-Video-R1: Towards Smaller LMMs for Video Reasoning](https://arxiv.org/abs/2504.09641) | [Paper📑](https://arxiv.org/abs/2504.09641) [Code🖥️](https://github.com/ZhangXJ199/TinyLLaVA-Video-R1) | [Model🤗](https://huggingface.co/Zhang199/TinyLLaVA-Video-R1)
   - Present the small-scale video reasoning model TinyLLaVA-Video-R1 | Task: Video QA
 * 25.04 [VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning](https://arxiv.org/abs/2503.13444) | [Paper📑](https://arxiv.org/abs/2503.13444) [Code🖥️](https://github.com/yeliudev/VideoMind) | [Dataset🤗](https://huggingface.co/datasets/yeliudev/VideoMind-Dataset)
@@ -94,7 +98,9 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - A novel post-training framework designed to enhance the temporal grounding capabilities of video-LMMs through preference learning | Task: Video QA
 * 25.01 [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888https://github.com/bytedance/tarsier) | [Paper📑](https://arxiv.org/abs/2501.07888) [Code🖥️](https://github.com/bytedance/tarsier?tab=readme-ov-file) 
  [Model🤗](https://huggingface.co/omni-research/Tarsier-34b)
-  - A family of VLMs designed for high-quality video captioning and understanding | Task: Video captioning & QA 
+  - A family of VLMs designed for high-quality video captioning and understanding | Task: Video captioning & QA
+* 24.12 (ECCV24) [VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](https://arxiv.org/abs/2403.11481) | [Paper📑](https://arxiv.org/abs/2403.11481) [Code🖥️](https://github.com/YueFan1014/VideoAgent) [Project🌐](https://videoagent.github.io/)
+  - Explore how reconciling several foundation models with a novel unified memory mechanism could tackle the challenging video understanding problem  | Task: Video captioning & QA
 
 <a name="ReasoningSegmentation"></a>
 ### Reasoning Segmentation and Detection
@@ -230,6 +236,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="VisualGeneration"></a>
 ### Visual Generation
 #### Image MLLM
+* 25.05 [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/pdf/2505.00703) | [Paper📑](https://arxiv.org/pdf/2505.00703) [Code🖥️](https://github.com/CaraJ7/T2I-R1)
+  - A novel reasoning-enhanced text-to-image generation model powered by RL with a bi-level CoT reasoning process | Task: Video Generation
 * 25.03 [GoT: Unleashing Reasoning Capability of Multimodal Large Language Model for Visual Generation and Editing](https://arxiv.org/pdf/2503.10639) | [Paper📑](https://arxiv.org/pdf/2503.10639) 
   - A paradigm that enables generation and editing through an explicit language reasoning process before outputting images   | Task: Image Generation
 * 25.03  [Unified Reward Model for Multimodal Understanding and Generation](https://arxiv.org/abs/2503.05236) | [Paper📑](https://arxiv.org/abs/2503.05236) [Code🖥️](https://codegoat24.github.io/UnifiedReward/) [Dataset🤗](https://huggingface.co/collections/CodeGoat24/unifiedreward-training-data-67c300d4fd5eff00fa7f1ede)
@@ -246,7 +254,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="others"></a>
 ### Others
 #### Image MLLM
-* 25.04 [InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners](https://arxiv.org/pdf/2504.14239) | Paper📑](https://arxiv.org/pdf/2504.14239) [Code🖥️](https://github.com/Reallm-Labs/InfiGUI-R1)
+* 25.04 [InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners](https://arxiv.org/pdf/2504.14239) | [Paper📑](https://arxiv.org/pdf/2504.14239) [Code🖥️](https://github.com/Reallm-Labs/InfiGUI-R1)
   - an MLLM-based GUI agent designed to progressively evolve agents from Reactive Actors to Deliberative Reasoners. | task: UI
 * 25.04 [GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents](https://arxiv.org/pdf/2504.10458) | [Paper📑](https://arxiv.org/pdf/2504.10458)
   - Enhances GUI agent through RL with unified action space modeling, achieving superior cross-platform performance using only 0.02% of the data required by previous methods. | Task: UI 
@@ -257,9 +265,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.02 [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634)| [Paper📑](https://arxiv.org/pdf/2502.19634)
   - A MLLM trained with GRPO for medical image VQA.| Task: Medical Image VQA
 #### Video MLLM
-* 25.03 [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379) | [Paper📑](https://arxiv.org/abs/2503.05379)[Code🖥️](https://github.com/HumanMLLM/R1-Omni) [Model🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B/tree/main)
+* 25.03 [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379) | [Paper📑](https://arxiv.org/abs/2503.05379) [Code🖥️](https://github.com/HumanMLLM/R1-Omni) [Model🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B/tree/main)
   - Impove reasoning capability, emotion recognition accuracy, and generalization ability with RLVR.  | Task: Emotion recognition
-
 
 <a name="benchmarks"></a>
 ## Benchmarks 📊
