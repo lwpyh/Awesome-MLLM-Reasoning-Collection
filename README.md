@@ -150,7 +150,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.01 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/pdf/2501.07542) | [Paper📑](https://arxiv.org/pdf/2501.07542)
   - Enables visual thinking in MLLMs by generating image visualizations of their reasoning traces.  | Task: Spatial Reasoning
 #### Video MLLM
-* 25.94 [VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2504.06958) | [Paper📑](https://arxiv.org/pdf/2504.06958) [Code💻](https://github.com/OpenGVLab/VideoChat-R1)
+* 25.04 [VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2504.06958) | [Paper📑](https://arxiv.org/pdf/2504.06958) [Code💻](https://github.com/OpenGVLab/VideoChat-R1)
   - A novel spatiao-temporal perception framework with GRPO | Task: Spatial Understanding and Grounding
 * 25.04 [VisuoThink: Empowering LVLM Reasoning with Multimodal Tree Search](https://arxiv.org/html/2504.09130v1) | [Paper📑](https://arxiv.org/html/2504.09130v1) [Code💻](https://github.com/ekonwang/VisuoThink)
   - A novel framework that seamlessly integrates visuospatial and linguistic domains | Task: Geometry and Spatial Reasoning
@@ -181,6 +181,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 ### Math Reasoning
 #### Image MLLM
+* 25.05 [X-Reasoner: Towards Generalizable Reasoning Across Modalities and Domains](https://arxiv.org/abs/2505.03981) | [Paper📑](https://arxiv.org/abs/2505.03981) [Code🖥️](github.com/microsoft/x-reasoner) 
+  - A training recipe that optimizes the reasoning capability of VLMs with SFT and RL on general-domain text-only data. | Task: Math
 * 25.04 [NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation](https://arxiv.org/pdf/2504.13055) | [Paper📑](https://arxiv.org/pdf/2504.13055) [Code🖥️](https://github.com/John-AI-Lab/NoisyRollout) [Model🤗](https://huggingface.co/collections/xyliu6/noisyrollout-67ff992d1cf251087fe021a2)
   - Introduces targeted rollout diversity by mixing rollouts from both clean and moderately distorted images, encouraging the model to learn more robust behaviors. | Task: Math
 * 25.04 [VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning](https://arxiv.org/abs/2504.08837) | [Paper📑](https://arxiv.org/abs/2504.08837) [Code🖥️](https://github.com/TIGER-AI-Lab/VL-Rethinker/) [Model🤗](https://huggingface.co/TIGER-Lab/VL-Rethinker-7B)
@@ -273,6 +275,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 | Date  | Project                                                      | Task                                     | Links                                                        |
 | ----- | ------------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------------ |
+| 25.05 | On Path to Multimodal Generalist: General-Level and General-Bench | Multimodal Generation | [[🌐 Project]](https://generalist.top/) [[📑 Paper]](https://arxiv.org/abs/2505.04620) [[🤗 Data]](https://huggingface.co/General-Level) |
 | 25.04 | VisuLogic: A Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models | Visual Reasoning | [[🌐 Project]](https://visulogic-benchmark.github.io/VisuLogic/) [[📑 Paper]](http://arxiv.org/abs/2504.15279) [[💻 Code]](https://github.com/VisuLogic-Benchmark/VisuLogic-Eval) [[🤗 Data]](https://huggingface.co/datasets/VisuLogic/VisuLogic) |
 | 25.04 | IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs | Image-Grounded Video Perception and Reasoning | [[📑 Paper]](https://arxiv.org/pdf/2504.15415) [[💻 Code]](https://github.com/multimodal-art-projection/IV-Bench) |
 | 25.04 | Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing | Reasoning-Informed viSual Editing | [[📑 Paper]](https://arxiv.org/abs/2504.02826) [[💻 Code]](https://github.com/PhoenixZ810/RISEBench)
