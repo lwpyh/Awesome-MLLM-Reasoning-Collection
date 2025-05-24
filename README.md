@@ -12,6 +12,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
       - [Image MLLM](#image-mllm)
       - [Video MLLM](#video-mllm)
       - [Audio MLLM](#audio-mllm)
+      - [Omni MLLM](#omni-mllm)
     - [Reasoning Segmentation and Detection](#reasoning-segmentation-and-detection)
       - [Image MLLM](#image-mllm-1)
       - [Video MLLM](#video-mllm-1)
@@ -125,6 +126,14 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 23.09 (NAACL2024) [MusiLingo: Bridging Music and Text with Pre-trained Language Models for Music Captioning and Query Response](https://arxiv.org/pdf/2309.08730)
   - Music-language for understanding and captioning tasks.
 
+#### Omni MLLM
+* 25.03 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215)
+* 25.01 [OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561)
+* 24.10 [Baichuan-Omni Technical Report](https://arxiv.org/abs/2410.08565)
+* 24.09 [MIO: A Foundation Model on Multimodal Tokens](https://arxiv.org/html/2409.17692v1)
+* 24.08 [MiniCPM-V: A GPT-4V Level MLLM on Your Phone](https://arxiv.org/abs/2408.01800) [[Code]](https://github.com/OpenBMB/MiniCPM-o)
+* 24.02 [AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling](https://arxiv.org/html/2402.12226v2)
+* 23.12 [Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action](https://arxiv.org/abs/2312.17172)
 
 <a name="ReasoningSegmentation"></a>
 ### Reasoning Segmentation and Detection
