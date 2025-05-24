@@ -11,6 +11,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
     - [Commonsense Reasoning](#commonsense-reasoning)
       - [Image MLLM](#image-mllm)
       - [Video MLLM](#video-mllm)
+      - [Audio MLLM](#audio-mllm)
     - [Reasoning Segmentation and Detection](#reasoning-segmentation-and-detection)
       - [Image MLLM](#image-mllm-1)
       - [Video MLLM](#video-mllm-1)
@@ -101,6 +102,29 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - A family of VLMs designed for high-quality video captioning and understanding | Task: Video captioning & QA
 * 24.12 (ECCV24) [VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](https://arxiv.org/abs/2403.11481) | [Paper📑](https://arxiv.org/abs/2403.11481) [Code🖥️](https://github.com/YueFan1014/VideoAgent) [Project🌐](https://videoagent.github.io/)
   - Explore how reconciling several foundation models with a novel unified memory mechanism could tackle the challenging video understanding problem  | Task: Video captioning & QA
+
+#### Audio MLLM
+* 25.03 [Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models](https://arxiv.org/pdf/2503.02318)  [Project🌐](https://xzf-thu.github.io/Audio-Reasoner/)
+  - Utilizing CoT data for audio understanding tasks.
+* 25.03 [Mellow: a small audio language model for reasoning](https://arxiv.org/pdf/2503.08540) [Code🖥️](https://github.com/soham97/mellow)
+  - Small audio-language model (167M) designed for audio understanding, audio entailment, audio difference and captioning.
+* 25.03 [Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities](https://arxiv.org/pdf/2503.03983) [Project🌐](https://research.nvidia.com/labs/adlr/AF2/)
+  - NVIDIA audio-language for various audio understanding and reasoning.
+* 25.01 [Audio-CoT: Exploring Chain-of-Thought Reasoning in Large Audio Language Model](https://arxiv.org/pdf/2501.07246)
+  - Finetuning Qwen2-Audio with CoT data for audio understanding and retrieval tasks.
+* 24.07 [Qwen2-Audio Technical Report](https://arxiv.org/abs/2407.10759) [Paper📑](https://arxiv.org/abs/2407.10759)  [Code🖥️](https://github.com/QwenLM/Qwen2-Audio)
+  - Qwen audio-language series for various audio understanding tasks especially for speech.
+* 24.07 (EMNLP2024) [GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities](https://arxiv.org/pdf/2406.11768)  [Project🌐](https://sreyan88.github.io/gamaaudio/)
+  - NVIDIA audio-language for various audio understanding and reasoning.
+* 24.02 (ICML2024)[Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities](https://arxiv.org/pdf/2402.01831) [Code🖥️](https://github.com/NVIDIA/audio-flamingo)
+  - audio-language for various audio understanding and reasoning with Q-formers.
+* 23.11 [Qwen-Audio: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models](https://arxiv.org/pdf/2311.07919) [Code🖥️](https://github.com/QwenLM/Qwen-Audio)
+  - Qwen audio-language series for various audio understanding tasks in speech sound and music.
+* 23.10 (ICLR2024) [SALMONN: Towards Generic Hearing Abilities for Large Language Models](https://arxiv.org/pdf/2310.13289) [Code🖥️](https://github.com/bytedance/SALMONN)
+  - Bytedance audio-language for various audio understanding tasks especially for speech and sound with Q-former.
+* 23.09 (NAACL2024) [MusiLingo: Bridging Music and Text with Pre-trained Language Models for Music Captioning and Query Response](https://arxiv.org/pdf/2309.08730)
+  - Music-language for understanding and captioning tasks.
+
 
 <a name="ReasoningSegmentation"></a>
 ### Reasoning Segmentation and Detection
