@@ -39,6 +39,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="VQA"></a>
 ### Commonsense Reasoning
 #### Image MLLM
+* 25.05 [Sherlock: Self-Correcting Reasoning in Vision-Language Models](http://arxiv.org/pdf/2505.22651) | [Paper📑](http://arxiv.org/pdf/2505.22651) [Code🖥️](https://github.com/DripNowhy/Sherlock) [Model🤗](https://huggingface.co/collections/Tuwhy/sherlock-6835f46e450a48f228f7e80d)
+  - Explore self-correction as a strategy to enhance reasoning VLMs | Task: Reasoning & Understainding
 * 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) | [Paper📑](https://arxiv.org/pdf/2505.04623) [Code🖥️](https://github.com/HarryHsing/EchoInk) [Model🤗](https://huggingface.co/harryhsing/EchoInk-R1-7B)
   - The first general framework for unified audio-visual reasoning via reinforcement learning | Task: Reasoning & Understainding
 * 25.03 [Skywork-R1V: Pioneering Multimodal Reasoning with CoT](https://github.com/SkyworkAI/Skywork-R1V/blob/main/Skywork_R1V.pdf) | [Paper📑](https://github.com/SkyworkAI/Skywork-R1V/blob/main/Skywork_R1V.pdf) [Code🖥️](https://github.com/SkyworkAI/Skywork-R1V) [Model🤗](https://huggingface.co/Skywork/Skywork-R1V-38B)
@@ -138,6 +140,9 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="ReasoningSegmentation"></a>
 ### Reasoning Segmentation and Detection
 #### Image MLLM
+* 25.06 [Rex-Thinker: Grounded Object Referring via Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.04034) | [Paper📑](https://arxiv.org/abs/2506.04034) [Code🖥️](https://rexthinker.github.io/) 
+ [Model🤗](https://huggingface.co/IDEA-Research/Rex-Thinker-GRPO-7B) 
+  - a grounded model reasons step-by-step—just like a human would   | Task: Detection & Grounding
 * 25.03 [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.01785) | [Paper📑](https://arxiv.org/abs/2503.01785) [Code🖥️](https://github.com/Liuziyu77/Visual-RFT) 
  [Dataset🤗](https://huggingface.co/collections/laolao77/virft-datasets-67bc271b6f2833eccc0651df) 
   - Extend Reinforcement Fine-Tuning on visual tasks with GRPO   | Task: Detection & Grounding & Classification
@@ -214,6 +219,12 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 ### Math Reasoning
 #### Image MLLM
+* 25.06 [SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis](https://arxiv.org/abs/2506.02096) [Paper📑](https://arxiv.org/abs/2506.02096) [Code🖥️](https://github.com/NUS-TRAIL/SynthRL) [Model🤗](https://huggingface.co/collections/Jakumetsu/synthrl-6839d265136fa9ca717105c5)
+  - A novel framework that enhances the reasoning capabilities of multimodal large language models. | Task: Math
+* 25.06 [SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](https://arxiv.org/abs/2506.01713) [Paper📑](https://arxiv.org/abs/2506.01713) [Code🖥️](https://github.com/SUSTechBruce/SRPO_MLLMs) [Model🤗](https://huggingface.co/datasets/SRPOMLLMs/srpo-sft-data)
+  - scale the training data with correctness and distribution guarantees to achieve better performance. | Task: Math
+* 25.05 [Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO](https://arxiv.org/pdf/2505.22453) [Paper📑](https://arxiv.org/pdf/2505.22453) [Code🖥️](https://github.com/waltonfuture/MM-UPT) 
+  - A Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO. | Task: Math
 * 25.05 [X-Reasoner: Towards Generalizable Reasoning Across Modalities and Domains](https://arxiv.org/abs/2505.03981) | [Paper📑](https://arxiv.org/abs/2505.03981) [Code🖥️](github.com/microsoft/x-reasoner) 
   - A training recipe that optimizes the reasoning capability of VLMs with SFT and RL on general-domain text-only data. | Task: Math
 * 25.04 [NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation](https://arxiv.org/pdf/2504.13055) | [Paper📑](https://arxiv.org/pdf/2504.13055) [Code🖥️](https://github.com/John-AI-Lab/NoisyRollout) [Model🤗](https://huggingface.co/collections/xyliu6/noisyrollout-67ff992d1cf251087fe021a2)
@@ -308,6 +319,9 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 | Date  | Project                                                      | Task                                     | Links                                                        |
 | ----- | ------------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------------ |
+| 25.06 | FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation | Financial Multi-Modal Reasoning Reasoning | [[📑 Paper]](https://github.com/luo-junyu/FinMME). [[💻 Code]](https://github.com/luo-junyu/FinMME). [[🤗 Data]](https://huggingface.co/datasets/luojunyu/FinMME)
+| 25.06 | MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos | Video Reasoning | [[📑 Paper]](https://arxiv.org/abs/2506.04141). [[💻 Code]](https://github.com/GaryStack/MMR-V). [[🌐 Project]](https://mmr-v.github.io/home_page.html) [[🤗 Data]](https://huggingface.co/datasets/JokerJan/MMR-VBench)
+| 25.06 | OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models | Spatial Reasoning | [[📑 Paper]](https://arxiv.org/abs/2506.03135). [[💻 Code]](https://github.com/qizekun/OmniSpatial). [[🌐 Project]](https://qizekun.github.io/omnispatial/) [[🤗 Data]](https://huggingface.co/qizekun/datasets/OmniSpatial)
 | 25.05 | MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix | Multi-step Audio Reasoning | [[📑 Paper]](https://arxiv.org/abs/2505.13032). [[💻 Code]](https://github.com/ddlBoJack/MMAR). [[🎥 demo]](https://youtube.com/watch?v=Dab13opIGqU) [[🤗 Data]](https://huggingface.co/datasets/BoJack/MMAR)
 | 25.05 | On Path to Multimodal Generalist: General-Level and General-Bench | Multimodal Generation | [[🌐 Project]](https://generalist.top/) [[📑 Paper]](https://arxiv.org/abs/2505.04620) [[🤗 Data]](https://huggingface.co/General-Level) |
 | 25.04 | VisuLogic: A Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models | Visual Reasoning | [[🌐 Project]](https://visulogic-benchmark.github.io/VisuLogic/) [[📑 Paper]](http://arxiv.org/abs/2504.15279) [[💻 Code]](https://github.com/VisuLogic-Benchmark/VisuLogic-Eval) [[🤗 Data]](https://huggingface.co/datasets/VisuLogic/VisuLogic) |
