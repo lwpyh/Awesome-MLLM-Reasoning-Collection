@@ -39,6 +39,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="VQA"></a>
 ### Commonsense Reasoning
 #### Image MLLM
+* 25.06 [Vision Matters: Simple Visual Perturbations Can Boost Multimodal Math Reasoning](https://arxiv.org/abs/2506.09736) | [Paper📑](https://arxiv.org/abs/2506.09736) [Code🖥️](https://github.com/YutingLi0606/Vision-Matters) [Model🤗](https://huggingface.co/collections/Yuting6/vision-matters-684801dd1879d3e639a930d1)
+  - Simple visual perturbation framework that can be easily integrated into existing post-training pipelines including SFT, DPO, and GRPO. | Task: Reasoning & Understainding
 * 25.05 [Sherlock: Self-Correcting Reasoning in Vision-Language Models](http://arxiv.org/pdf/2505.22651) | [Paper📑](http://arxiv.org/pdf/2505.22651) [Code🖥️](https://github.com/DripNowhy/Sherlock) [Model🤗](https://huggingface.co/collections/Tuwhy/sherlock-6835f46e450a48f228f7e80d)
   - Explore self-correction as a strategy to enhance reasoning VLMs | Task: Reasoning & Understainding
 * 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) | [Paper📑](https://arxiv.org/pdf/2505.04623) [Code🖥️](https://github.com/HarryHsing/EchoInk) [Model🤗](https://huggingface.co/harryhsing/EchoInk-R1-7B)
