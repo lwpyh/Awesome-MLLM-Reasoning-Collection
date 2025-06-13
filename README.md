@@ -111,12 +111,16 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Explore how reconciling several foundation models with a novel unified memory mechanism could tackle the challenging video understanding problem  | Task: Video captioning & QA
 
 #### Audio MLLM
+* 25.05 [Omni-R1: Do You Really Need Audio to Fine-Tune Your Audio LLM?](https://arxiv.org/abs/2505.09439)  
+ - Utilizing GRPO to enhance audio reasoning performance
+* 25.04 [Kimi-Audio Technical Report](https://arxiv.org/abs/2504.18425)  [Code🖥️](https://github.com/MoonshotAI/Kimi-Audio)
 * 25.03 [Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models](https://arxiv.org/pdf/2503.02318)  [Project🌐](https://xzf-thu.github.io/Audio-Reasoner/)
   - Utilizing CoT data for audio understanding tasks.
-* 25.03 [Mellow: a small audio language model for reasoning](https://arxiv.org/pdf/2503.08540) [Code🖥️](https://github.com/soham97/mellow)
+* 25.03 [Mellow: a small audio language model for reasoning](https://arxiv.org/pdf/2503.08540)  [Code🖥️](https://github.com/soham97/mellow)
   - Small audio-language model (167M) designed for audio understanding, audio entailment, audio difference and captioning.
 * 25.03 [Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities](https://arxiv.org/pdf/2503.03983) [Project🌐](https://research.nvidia.com/labs/adlr/AF2/)
   - NVIDIA audio-language for various audio understanding and reasoning.
+* 25.02 [Step-Audio: Unified Understanding and Generation in Intelligent Speech Interaction](https://arxiv.org/abs/2502.11946) [Code🖥️](https://github.com/stepfun-ai/Step-Audio)
 * 25.01 [Audio-CoT: Exploring Chain-of-Thought Reasoning in Large Audio Language Model](https://arxiv.org/pdf/2501.07246)
   - Finetuning Qwen2-Audio with CoT data for audio understanding and retrieval tasks.
 * 24.07 [Qwen2-Audio Technical Report](https://arxiv.org/abs/2407.10759) [Paper📑](https://arxiv.org/abs/2407.10759)  [Code🖥️](https://github.com/QwenLM/Qwen2-Audio)
