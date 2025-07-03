@@ -39,6 +39,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="VQA"></a>
 ### Commonsense Reasoning
 #### Image MLLM
+* 25.07 [GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://arxiv.org/abs/2507.01006) | [Paper📑](https://arxiv.org/abs/2507.01006) [Code🖥️](https://github.com/THUDM/GLM-4.1V-Thinking) 
+  - A reasoning-centric training framework for general-purpose multimodal reasoning. | Task: Reasoning & Understainding
+* 25.07 [MiCo: Multi-image Contrast for Reinforcement Visual Reasoning](https://arxiv.org/abs/2506.22434) | [Paper📑](https://arxiv.org/abs/2506.22434)
+   - Construct image triplets comprising two augmented views of the same image and a third, similar but distinct image. | Task: Reasoning & Understainding
 * 25.06 [Vision Matters: Simple Visual Perturbations Can Boost Multimodal Math Reasoning](https://arxiv.org/abs/2506.09736) | [Paper📑](https://arxiv.org/abs/2506.09736) [Code🖥️](https://github.com/YutingLi0606/Vision-Matters) [Model🤗](https://huggingface.co/collections/Yuting6/vision-matters-684801dd1879d3e639a930d1)
   - Simple visual perturbation framework that can be easily integrated into existing post-training pipelines including SFT, DPO, and GRPO. | Task: Reasoning & Understainding
 * 25.05 [Sherlock: Self-Correcting Reasoning in Vision-Language Models](http://arxiv.org/pdf/2505.22651) | [Paper📑](http://arxiv.org/pdf/2505.22651) [Code🖥️](https://github.com/DripNowhy/Sherlock) [Model🤗](https://huggingface.co/collections/Tuwhy/sherlock-6835f46e450a48f228f7e80d)
@@ -148,6 +152,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="ReasoningSegmentation"></a>
 ### Reasoning Segmentation and Detection
 #### Image MLLM
+* 25.07 [UrbanLLaVA: A Multi-modal Large Language Model for Urban Intelligence with Spatial Reasoning and Understanding](https://arxiv.org/abs/2506.23219) | [Paper📑](https://arxiv.org/abs/2506.23219) [Code🖥️](https://github.com/tsinghua-fib-lab/UrbanLLaVA) 
+  - A multi-stage training framework that decouples spatial reasoning enhancement from domain knowledge learning, thereby improving performance across diverse urban tasks.   | Task: Urban tasks
+* 25.07 [Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs](https://arxiv.org/abs/2506.21656) | [Paper📑](https://arxiv.org/abs/2506.21656)
+  - A novel fine-grained preference optimization approach that significantly improves spatial reasoning capabilities in  VLMs | Task: Spatial Tasks
 * 25.06 [Rex-Thinker: Grounded Object Referring via Chain-of-Thought Reasoning](https://arxiv.org/abs/2506.04034) | [Paper📑](https://arxiv.org/abs/2506.04034) [Code🖥️](https://rexthinker.github.io/) 
  [Model🤗](https://huggingface.co/IDEA-Research/Rex-Thinker-GRPO-7B) 
   - a grounded model reasons step-by-step—just like a human would   | Task: Detection & Grounding
