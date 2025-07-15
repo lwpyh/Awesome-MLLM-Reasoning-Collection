@@ -235,6 +235,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 ### Math Reasoning
 #### Image MLLM
+* 25.07 [The Synergy Dilemma of Long-CoT SFT and RL: Investigating Post-Training Techniques for Reasoning VLMs](https://www.arxiv.org/abs/2507.07562) [Paper📑](https://www.arxiv.org/abs/2507.07562) [Code🖥️](https://github.com/JierunChen/SFT-RL-SynergyDilemma) 
+  - a systematic investigation into the distinct roles and interplay of long-CoT SFT and RL across multiple multimodal reasoning benchmarks. | Task: Math
 * 25.06 [SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis](https://arxiv.org/abs/2506.02096) [Paper📑](https://arxiv.org/abs/2506.02096) [Code🖥️](https://github.com/NUS-TRAIL/SynthRL) [Model🤗](https://huggingface.co/collections/Jakumetsu/synthrl-6839d265136fa9ca717105c5)
   - A novel framework that enhances the reasoning capabilities of multimodal large language models. | Task: Math
 * 25.06 [SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](https://arxiv.org/abs/2506.01713) [Paper📑](https://arxiv.org/abs/2506.01713) [Code🖥️](https://github.com/SUSTechBruce/SRPO_MLLMs) [Model🤗](https://huggingface.co/datasets/SRPOMLLMs/srpo-sft-data)
