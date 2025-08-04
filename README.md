@@ -45,6 +45,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
    - Construct image triplets comprising two augmented views of the same image and a third, similar but distinct image. | Task: Reasoning & Understainding
 * 25.06 [Vision Matters: Simple Visual Perturbations Can Boost Multimodal Math Reasoning](https://arxiv.org/abs/2506.09736) | [Paper📑](https://arxiv.org/abs/2506.09736) [Code🖥️](https://github.com/YutingLi0606/Vision-Matters) [Model🤗](https://huggingface.co/collections/Yuting6/vision-matters-684801dd1879d3e639a930d1)
   - Simple visual perturbation framework that can be easily integrated into existing post-training pipelines including SFT, DPO, and GRPO. | Task: Reasoning & Understainding
+* 25.05 [Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.14677) | [Paper📑](https://arxiv.org/pdf/2505.14677) [Code🖥️](https://github.com/maifoundations/Visionary-R1) [Model🤗](https://huggingface.co/maifoundations/Visionary-R1)
 * 25.05 [Sherlock: Self-Correcting Reasoning in Vision-Language Models](http://arxiv.org/pdf/2505.22651) | [Paper📑](http://arxiv.org/pdf/2505.22651) [Code🖥️](https://github.com/DripNowhy/Sherlock) [Model🤗](https://huggingface.co/collections/Tuwhy/sherlock-6835f46e450a48f228f7e80d)
   - Explore self-correction as a strategy to enhance reasoning VLMs | Task: Reasoning & Understainding
 * 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) | [Paper📑](https://arxiv.org/pdf/2505.04623) [Code🖥️](https://github.com/HarryHsing/EchoInk) [Model🤗](https://huggingface.co/harryhsing/EchoInk-R1-7B)
@@ -89,9 +90,13 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 #### Video MLLM
 * 25.07 [Scaling RL to Long Videos](https://arxiv.org/abs/2507.07966)| [Paper📑](https://arxiv.org/pdf/2507.07966) [Model🤗](https://huggingface.co/Efficient-Large-Model/LongVILA-R1-7B) [Code🖥️](https://github.com/NVlabs/Long-RL)
+* 25.06 [DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](https://arxiv.org/abs/2506.07464)|[Paper📑](https://arxiv.org/pdf/2506.07464) 
 * 25.06 [VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](https://arxiv.org/abs/2505.12434) | [Paper📑](https://arxiv.org/abs/2505.12434) [Model🤗](https://huggingface.co/QiWang98/VideoRFT) [Code🖥️](https://github.com/QiWang98/VideoRFT)
   - Extend Reinforcement Fine-Tuning (RFT) to the video reasoning domain, a long-standing challenge. | Task: Video Understanding & Reasoning
-* 25.05 [Video-R1: Reinforcing Video Reasoning in MLLMs](https://arxiv.org/abs/2503.21776) | [Paper📑](https://arxiv.org/pdf/2503.21776) [Model🤗](https://huggingface.co/Video-R1/Video-R1-7B) [Code🖥️](https://github.com/tulerfeng/Video-R1)
+* 25.06 [VersaVid-R1: A Versatile Video Understanding and Reasoning Model from Question Answering to Captioning Tasks](https://www.arxiv.org/abs/2506.09079)|[Paper📑](https://www.arxiv.org/pdf/2506.09079) [Model🤗](https://huggingface.co/VersaVid-R1/VersaVid-R1) [Code🖥️](https://github.com/VersaVid-R1/VersaVid-R1)
+* 25.05 [SpaceR: Reinforcing MLLMs in Video Spatial  Reasoning](https://arxiv.org/abs/2504.01805v2)|[Paper📑](https://arxiv.org/pdf/2504.01805v2) [Model🤗](https://huggingface.co/RUBBISHLIKE/SpaceR) [Code🖥️](https://github.com/OuyangKun10/SpaceR)
+* 25.05 [Video-R1: Reinforcing Video Reasoning in MLLMs](https://arxiv.org/abs/2503.21776) | [Paper📑](https://arxiv.org/pdf/2503.21776)[Model🤗](https://huggingface.co/Video-R1/Video-R1-7B)  [Code🖥️](https://github.com/tulerfeng/Video-R1)
+* 25.04 [TinyLLaVA-Video-R1: Towards Smaller LMMs for Video Reasoning](https://arxiv.org/abs/2504.09641) |  [Paper📑](https://arxiv.org/pdf/2504.09641) [Model🤗](https://huggingface.co/Zhang199/TinyLLaVA-Video-R1) [Code🖥️](https://github.com/ZhangXJ199/TinyLLaVA-Video-R1)
 * 25.04 [Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.03318) | [Paper📑](https://arxiv.org/pdf/2505.03318) [Project🌐](https://codegoat24.github.io/UnifiedReward/think) [Code🖥️](https://github.com/CodeGoat24/UnifiedReward)
   - The first unified multimodal CoT reward model, capable of step-by-step long-chain reasoning for visual understanding and generation reward tasks. | Task: Video Understanding and Feneration
 * 25.04 [ViSMaP: Unsupervised Hour-long Video Summarisation by Meta-Prompting](https://arxiv.org/abs/2504.15921) | [Paper📑](https://arxiv.org/abs/2504.15921)
@@ -102,6 +107,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - A novel video-language agent designed for temporal-grounded video understanding. | Task: Video QA
 * 25.04 [Exploring the Effect of Reinforcement Learning on Video Understanding: Insights from SEED-Bench-R1](https://arxiv.org/pdf/2503.24376) | [Paper📑](https://arxiv.org/pdf/2503.24376) [Code🖥️](https://github.com/TencentARC/SEED-Bench-R1) | [Dataset🤗](https://huggingface.co/datasets/TencentARC/SEED-Bench-R1)
   - Reveals that RL enhances visual perception but often produces less logically coherent reasoning chains. | Task: Video QA
+* 25.03 [VIDEOTREE: Adaptive Tree-based Video Representation for LLM Reasoning on Long Videos](https://arxiv.org/abs/2405.19209) |[Paper📑](https://arxiv.org/pdf/2405.19209) [Code🖥️](https://github.com/Ziyang412/VideoTree) 
 * 25.02 [CoS: Chain-of-Shot Prompting for Long Video Understanding](https://arxiv.org/pdf/2502.06428) | [Paper📑](https://arxiv.org/pdf/2502.06428) [Code🖥️](https://github.com/lwpyh/CoS_codes1)
   - Approach long video understanding by optimising input video information to fully utilise MLLM’s ability to comprehend long videos. | Task: Video VQA
 * 25.02 [video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model](https://arxiv.org/abs/2502.11775) | [Paper📑](https://arxiv.org/abs/2502.11775) [Demo🖥️](https://github.com/BriansIDP/video-SALMONN-o1)
@@ -111,7 +117,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.01 [Temporal Preference Optimization for Long-Form Video Understanding](https://arxiv.org/abs/2501.13919) | [Paper📑](https://arxiv.org/abs/2501.13919)[Code🖥️](https://ruili33.github.io/tpo_website/)
   - A novel post-training framework designed to enhance the temporal grounding capabilities of video-LMMs through preference learning | Task: Video QA
 * 25.01 [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888https://github.com/bytedance/tarsier) | [Paper📑](https://arxiv.org/abs/2501.07888) [Code🖥️](https://github.com/bytedance/tarsier?tab=readme-ov-file) 
- [Model🤗](https://huggingface.co/omni-research/Tarsier-34b)
+  [Model🤗](https://huggingface.co/omni-research/Tarsier-34b)
   - A family of VLMs designed for high-quality video captioning and understanding | Task: Video captioning & QA
 * 24.12 (ECCV24) [VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](https://arxiv.org/abs/2403.11481) | [Paper📑](https://arxiv.org/abs/2403.11481) [Code🖥️](https://github.com/YueFan1014/VideoAgent) [Project🌐](https://videoagent.github.io/)
   - Explore how reconciling several foundation models with a novel unified memory mechanism could tackle the challenging video understanding problem  | Task: Video captioning & QA
@@ -320,9 +326,9 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 
 <a name="others"></a>
-### Reasoning with agent
+### Reasoning with Agent/Tool
 
-* 
+* 25.06 [Ego-R1: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/abs/2506.13654)|[Paper📑](https://arxiv.org/pdf/2506.13654) [Code🖥️](https://github.com/egolife-ai/Ego-R1) [Project🌐](https://egolife-ai.github.io/Ego-R1/)
 * 25.05 [ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.19470) | [Paper📑](https://arxiv.org/pdf/2503.19470) [Code🖥️](https://github.com/Agent-RL/ReCall) 
 * 25.05 [Reinforcement Learning for Long-Horizon Interactive LLM Agents](https://arxiv.org/abs/2502.01600)|[Paper📑](https://arxiv.org/pdf/2502.01600) 
 * 25.05 [RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2504.20073) |[Paper📑](https://arxiv.org/pdf/2504.20073) [Code🖥️](https://github.com/RAGEN-AI/RAGEN) [Project🌐](https://ragen-ai.github.io/)
@@ -360,6 +366,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 | Date  | Project                                                      | Task                                          | Links                                                        |
 | ----- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ |
+| 25.07 | Towards Video Thinking Test: A Holistic Benchmark for Advanced Video  Reasoning and Understanding | Video Reasoning and Understanding             | [[📑 Paper]](https://arxiv.org/abs/2507.15028).  [[🌐 Project]](https://zhangyuanhan-ai.github.io/video-tt/) [[🤗 Data]](https://huggingface.co/datasets/lmms-lab/video-tt) |
 | 25.06 | FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation | Financial Multi-Modal Reasoning Reasoning     | [[📑 Paper]](https://github.com/luo-junyu/FinMME). [[💻 Code]](https://github.com/luo-junyu/FinMME). [[🤗 Data]](https://huggingface.co/datasets/luojunyu/FinMME) |
 | 25.06 | MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos | Video Reasoning                               | [[📑 Paper]](https://arxiv.org/abs/2506.04141). [[💻 Code]](https://github.com/GaryStack/MMR-V). [[🌐 Project]](https://mmr-v.github.io/home_page.html) [[🤗 Data]](https://huggingface.co/datasets/JokerJan/MMR-VBench) |
 | 25.06 | OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models | Spatial Reasoning                             | [[📑 Paper]](https://arxiv.org/abs/2506.03135). [[💻 Code]](https://github.com/qizekun/OmniSpatial). [[🌐 Project]](https://qizekun.github.io/omnispatial/) [[🤗 Data]](https://huggingface.co/qizekun/datasets/OmniSpatial) |
