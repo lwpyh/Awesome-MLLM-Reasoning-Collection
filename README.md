@@ -341,6 +341,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.04 [DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments](https://arxiv.org/abs/2504.03160) |[Paper📑](https://arxiv.org/pdf/2504.03160) [Code🖥️](https://github.com/GAIR-NLP/DeepResearcher) 
 * 25.03 [TORL: Scaling Tool-Integrated RL](https://arxiv.org/abs/2503.23383) | [Paper📑](https://arxiv.org/pdf/2503.23383) [Code🖥️](https://github.com/GAIR-NLP/ToRL) 
 * 25.03 [R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.05592) | [Paper📑](https://arxiv.org/pdf/2503.05592) 
+* 25.02 (CVPR25)[Enhancing Video-LLM Reasoning via Agent-of-Thoughts Distillation](https://arxiv.org/abs/2412.01694) | [Paper📑](https://arxiv.org/pdf/2412.01694) 
 * 24.12 (ECCV24) [VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](https://arxiv.org/abs/2403.11481) | [Paper📑](https://arxiv.org/abs/2403.11481) [Code🖥️](https://github.com/YueFan1014/VideoAgent) [Project🌐](https://videoagent.github.io/)
   - Explore how reconciling several foundation models with a novel unified memory mechanism could tackle the challenging video understanding problem  | Task: Video captioning & QA
 
