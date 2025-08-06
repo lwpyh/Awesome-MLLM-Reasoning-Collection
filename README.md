@@ -297,6 +297,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 <a name="ChartRasoning"></a>
 ### Chart Rasoning
+* 25.07 [Chart-R1: Chain-of-Thought Supervision and Reinforcement for Advanced Chart Reasoner](https://arxiv.org/abs/2507.15509) | [Paper📑](https://arxiv.org/abs/2507.15509) [Code🖥️](https://github.com/DocTron-hub/Chart-R1)
+  - Combines chain-of-thought supervision with reinforcement learning, supported by programmatically synthesized step-by-step reasoning data. | Task: Chart Reasoning
 * 25.03 [MDocAgent: A Multi-Modal Multi-Agent Framework for Document Understanding](https://arxiv.org/pdf/2503.13964v1) | [Paper📑](https://arxiv.org/pdf/2503.13964v1) [Code🖥️](https://github.com/aiming-lab/MDocAgent)
   - Integrates text and image retrieval through various agents, enabling collaborative reasoning across modalities. | Task: Document Reasoning
 * 24.09 [ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning](https://arxiv.org/abs/2402.12185) | [Project🌐](https://unimodal4reasoning.github.io/DocGenome_page/)  [Paper📑](https://arxiv.org/abs/2402.12185) [Code🖥️](https://github.com/Alpha-Innovator/ChartVLM)
