@@ -25,6 +25,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
     - [Visual Generation](#visual-generation)
       - [Image MLLM](#image-mllm-4)
       - [Video MLLM](#video-mllm-3)
+    - [Reasoning with Agent/Tool](#reasoning-with-agent) 
     - [Others](#others)
       - [Image MLLM](#image-mllm-5)
       - [Video MLLM](#video-mllm-4)
@@ -327,7 +328,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - A Chain-of-Thought-based motion controller for controllable video generation | Task: Video Generation
 
 
-<a name="others"></a>
+<a name="reasoning-with-agent"></a>
 ### Reasoning with Agent/Tool
 
 * 25.06 [Ego-R1: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/abs/2506.13654)|[Paper📑](https://arxiv.org/pdf/2506.13654) [Code🖥️](https://github.com/egolife-ai/Ego-R1) [Project🌐](https://egolife-ai.github.io/Ego-R1/)
