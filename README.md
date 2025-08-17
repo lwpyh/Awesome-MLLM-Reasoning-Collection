@@ -17,10 +17,12 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
       - [Image MLLM](#image-mllm-1)
       - [Video MLLM](#video-mllm-1)
       - [Audio MLLM](#audio-mllm-1)
+      - [Omni MLLM](#omni-mllm-1)
     - [Spatial and Temporal Grounding and Understanding](#spatial-and-temporal-grounding-and-understanding)
       - [Image MLLM](#image-mllm-2)
       - [Video MLLM](#video-mllm-2)
       - [Audio MLLM](#audio-mllm-2)
+      - [Omni MLLM](#omni-mllm-2)
     - [Math Reasoning](#math-reasoning)
       - [Image MLLM](#image-mllm-3)
     - [Chart Rasoning](#chart-rasoning)
@@ -30,11 +32,12 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
     - [Reasoning with Agent/Tool](#reasoning-with-agent) 
     - [Medical Reasoning](#medical-reasoning)
       - [Audio MLLM](#audio-mllm-3)
-      - [Omni MLLM](#omni-mllm-2)
+      - [Omni MLLM](#omni-mllm-3)
     - [Others](#others)
       - [Image MLLM](#image-mllm-5)
       - [Video MLLM](#video-mllm-4)
       - [Audio MLLM](#audio-mlllm-4)
+      - [Omni MLLM](#omni-mllm-4)
   - [Benchmarks 📊](#benchmarks-)
   - [Open-source Projects](#open-source-projects)
   - [Contributing](#contributing)
@@ -161,6 +164,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Music-language for understanding and captioning tasks.
 
 #### Omni MLLM
+* 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/abs/2505.04623)
 * 25.03 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215)
 * 25.01 [OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561)
 * 24.10 [Baichuan-Omni Technical Report](https://arxiv.org/abs/2410.08565)
@@ -206,6 +210,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - A transformer-based encoder-decoder architecture with task-specific queries and outputs for multiple tasks | Task: Reasoning Segmentation/Detection
 #### Audio MLLM
 * 24.10 [Can Large Audio-Language Models Truly Hear? Tackling Hallucinations with Multi-Task Assessment and Stepwise Audio Reasoning](https://arxiv.org/abs/2410.16130)
+
+#### Omni MLLM
+* 25.07 [Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual Segmentation](https://arxiv.org/abs/2507.22886)
+* 24.08 [Unleashing the Temporal-Spatial Reasoning Capacity of GPT for Training-Free Audio and Language Referenced Video Object Segmentation](https://arxiv.org/abs/2408.15876)
 
 <a name="Spatio-TemporalReasoning"></a>
 ### Spatial and Temporal Grounding and Understanding
@@ -258,6 +266,9 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.07 [Towards Spatial Audio Understanding via Question Answering](https://arxiv.org/abs/2507.09195)
 * 24.06 (InterSpeech 2024) [Can Large Language Models Understand Spatial Audio?](https://arxiv.org/abs/2406.07914) | 
 * 24.02 (ICML 2024)[BAT: Learning to Reason about Spatial Sounds with Large Language Models](https://arxiv.org/abs/2402.01591) |
+
+#### Omni MLLM
+* 24.06 [VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs](https://arxiv.org/abs/2406.07476)
 
 <a name="MathReasoning"></a>
 
@@ -394,6 +405,13 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 #### Audio MLLM
 * 24.09 [What Are They Doing? Joint Audio-Speech Co-Reasoning](https://arxiv.org/abs/2409.14526)
+* 24.09 [Chain-of-Thought Prompting for Speech Translation](https://arxiv.org/abs/2409.11538)
+
+#### Omni LLM
+* 25.05 [AVCD: Mitigating Hallucinations in Audio-Visual Large Language Models through Contrastive Decoding](https://arxiv.org/abs/2505.20862)
+* 25.03 [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379)
+* 23.11 [X-InstructBLIP: A Framework for Aligning Image, 3D, Audio, Video to LLMs and its Emergent Cross-Modal Reasoning](https://arxiv.org/abs/2311.18799)
+
 
 <a name="benchmarks"></a>
 ## Benchmarks 📊
