@@ -16,6 +16,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
     - [Reasoning Segmentation and Detection](#reasoning-segmentation-and-detection)
       - [Image MLLM](#image-mllm-1)
       - [Video MLLM](#video-mllm-1)
+      - [Audio MLLM](#audio-mllm-1)
     - [Spatial and Temporal Grounding and Understanding](#spatial-and-temporal-grounding-and-understanding)
       - [Image MLLM](#image-mllm-2)
       - [Video MLLM](#video-mllm-2)
@@ -244,6 +245,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   * Leverage the world knowledge reasoning capabilities of MLLMs to retrieve temporal evidence in the video with flexible grounding tokens. | Task: Multi-Hop VideoQA
 * 24.08 (ICLR2025) [TRACE: Temporal Grounding Video LLM via Casual Event Modeling](https://arxiv.org/abs/2410.05643) | [Paper📑](https://arxiv.org/pdf/2410.05643) | [Code💻](https://github.com/gyxxyg/TRACE)
   * Tailored to implement the causal event modeling framework through timestamps, salient scores, and textual captions. | Task: Temporal Grounding
+#### Audio MLLM
+* 25.07 [Towards Spatial Audio Understanding via Question Answering](https://arxiv.org/abs/2507.09195)
+* 24.06 (InterSpeech 2024) [Can Large Language Models Understand Spatial Audio?](https://arxiv.org/abs/2406.07914) | 
+* 24.02 (ICML 2024)[BAT: Learning to Reason about Spatial Sounds with Large Language Models](https://arxiv.org/abs/2402.01591) |
 
 <a name="MathReasoning"></a>
 
@@ -355,10 +360,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 ### Medical Reasoning
 #### Image MLLM
 #### Audio MLLM
-* 25.04 [AuscMLLM: Bridging Classification and Reasoning in Heart Sound Analysis with a Multimodal Large Language Model](https://ieeexplore.ieee.org/document/10889373) |
-* 24.09 [Multi-Task Learning for Audio-Based Infant Cry Detection and Reasoning](https://ieeexplore.ieee.org/document/10663705) | 
+* 25.04 (ICASSP 2025) [AuscMLLM: Bridging Classification and Reasoning in Heart Sound Analysis with a Multimodal Large Language Model](https://ieeexplore.ieee.org/document/10889373) |
+* 24.09 (JBHI 2024) [Multi-Task Learning for Audio-Based Infant Cry Detection and Reasoning](https://ieeexplore.ieee.org/document/10663705) | 
 #### Omni MLLM
-* 25.06 [MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration](https://aclanthology.org/2025.findings-acl.1298/) | [Paper📑](https://aclanthology.org/2025.findings-acl.1298/) [Code🖥️](https://github.com/yczhou001/MAM) 
+* 25.06 (ACL 2025) [MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration](https://aclanthology.org/2025.findings-acl.1298/) | [Paper📑](https://aclanthology.org/2025.findings-acl.1298/) [Code🖥️](https://github.com/yczhou001/MAM) 
 
 
 ### Others
