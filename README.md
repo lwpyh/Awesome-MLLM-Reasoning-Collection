@@ -26,6 +26,9 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
       - [Image MLLM](#image-mllm-4)
       - [Video MLLM](#video-mllm-3)
     - [Reasoning with Agent/Tool](#reasoning-with-agent) 
+    - [Medical Reasoning](#medical-reasoning)
+      - [Audio MLLM](#audio-mllm-2)
+      - [Omni MLLM](#omni-mllm-2)
     - [Others](#others)
       - [Image MLLM](#image-mllm-5)
       - [Video MLLM](#video-mllm-4)
@@ -347,6 +350,16 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.02 (CVPR25)[Enhancing Video-LLM Reasoning via Agent-of-Thoughts Distillation](https://arxiv.org/abs/2412.01694) | [Paper📑](https://arxiv.org/pdf/2412.01694) 
 * 24.12 (ECCV24) [VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](https://arxiv.org/abs/2403.11481) | [Paper📑](https://arxiv.org/abs/2403.11481) [Code🖥️](https://github.com/YueFan1014/VideoAgent) [Project🌐](https://videoagent.github.io/)
   - Explore how reconciling several foundation models with a novel unified memory mechanism could tackle the challenging video understanding problem  | Task: Video captioning & QA
+
+<a name="medical-reasoning"></a>
+### Medical Reasoning
+#### Image MLLM
+#### Audio MLLM
+* 25.04 [AuscMLLM: Bridging Classification and Reasoning in Heart Sound Analysis with a Multimodal Large Language Model](https://ieeexplore.ieee.org/document/10889373) |
+* 24.09 [Multi-Task Learning for Audio-Based Infant Cry Detection and Reasoning](https://ieeexplore.ieee.org/document/10663705) | 
+#### Omni MLLM
+* 25.06 [MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration](https://aclanthology.org/2025.findings-acl.1298/) | [Paper📑](https://aclanthology.org/2025.findings-acl.1298/) [Code🖥️](https://github.com/yczhou001/MAM) 
+
 
 ### Others
 
