@@ -20,6 +20,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
     - [Spatial and Temporal Grounding and Understanding](#spatial-and-temporal-grounding-and-understanding)
       - [Image MLLM](#image-mllm-2)
       - [Video MLLM](#video-mllm-2)
+      - [Audio MLLM](#audio-mllm-2)
     - [Math Reasoning](#math-reasoning)
       - [Image MLLM](#image-mllm-3)
     - [Chart Rasoning](#chart-rasoning)
@@ -28,11 +29,12 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
       - [Video MLLM](#video-mllm-3)
     - [Reasoning with Agent/Tool](#reasoning-with-agent) 
     - [Medical Reasoning](#medical-reasoning)
-      - [Audio MLLM](#audio-mllm-2)
+      - [Audio MLLM](#audio-mllm-3)
       - [Omni MLLM](#omni-mllm-2)
     - [Others](#others)
       - [Image MLLM](#image-mllm-5)
       - [Video MLLM](#video-mllm-4)
+      - [Audio MLLM](#audio-mlllm-4)
   - [Benchmarks 📊](#benchmarks-)
   - [Open-source Projects](#open-source-projects)
   - [Contributing](#contributing)
@@ -128,9 +130,14 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Explore how reconciling several foundation models with a novel unified memory mechanism could tackle the challenging video understanding problem  | Task: Video captioning & QA
 
 #### Audio MLLM
+* 25.07 [Audio Entailment: Assessing Deductive Reasoning for Audio Understanding](https://arxiv.org/abs/2407.18062)
+* 25.07 [Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models](https://arxiv.org/abs/2507.08128)
+* 25.05 [AudSemThinker: Enhancing Audio-Language Models Through Reasoning over Semantics of Sound](https://arxiv.org/abs/2505.14142)
 * 25.05 [Omni-R1: Do You Really Need Audio to Fine-Tune Your Audio LLM?](https://arxiv.org/abs/2505.09439)  
  - Utilizing GRPO to enhance audio reasoning performance
+* 25.04 [SARI: Structured Audio Reasoning via Curriculum-Guided Reinforcement Learning](https://arxiv.org/abs/2504.15900)
 * 25.04 [Kimi-Audio Technical Report](https://arxiv.org/abs/2504.18425)  [Code🖥️](https://github.com/MoonshotAI/Kimi-Audio)
+* 25.03 [Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering](https://arxiv.org/html/2503.11197v1)
 * 25.03 [Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models](https://arxiv.org/pdf/2503.02318)  [Project🌐](https://xzf-thu.github.io/Audio-Reasoner/)
   - Utilizing CoT data for audio understanding tasks.
 * 25.03 [Mellow: a small audio language model for reasoning](https://arxiv.org/pdf/2503.08540)  [Code🖥️](https://github.com/soham97/mellow)
@@ -197,6 +204,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Integrating a Sparse Dense Sampling strategy into the video-LLM to balance temporal context and spatial detail within computational constraints |  Task: Reasoning Segmentation
 * 24.01 (CVPR24) [OMG-LLaVA: Bridging Image-level, Object-level, Pixel-level Reasoning and Understanding](https://arxiv.org/abs/2401.10229) | [Paper📑](https://arxiv.org/abs/2401.10229) [Code🖥️](https://github.com/lxtGH/OMG-Seg)
   - A transformer-based encoder-decoder architecture with task-specific queries and outputs for multiple tasks | Task: Reasoning Segmentation/Detection
+#### Audio MLLM
+* 24.10 [Can Large Audio-Language Models Truly Hear? Tackling Hallucinations with Multi-Task Assessment and Stepwise Audio Reasoning](https://arxiv.org/abs/2410.16130)
 
 <a name="Spatio-TemporalReasoning"></a>
 ### Spatial and Temporal Grounding and Understanding
@@ -382,6 +391,9 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 #### Video MLLM
 * 25.03 [R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning](https://arxiv.org/abs/2503.05379) | [Paper📑](https://arxiv.org/abs/2503.05379) [Code🖥️](https://github.com/HumanMLLM/R1-Omni) [Model🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B/tree/main)
   - Impove reasoning capability, emotion recognition accuracy, and generalization ability with RLVR.  | Task: Emotion recognition
+
+#### Audio MLLM
+* 24.09 [What Are They Doing? Joint Audio-Speech Co-Reasoning](https://arxiv.org/abs/2409.14526)
 
 <a name="benchmarks"></a>
 ## Benchmarks 📊
