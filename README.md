@@ -33,6 +33,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
     - [Medical Reasoning](#medical-reasoning)
       - [Audio MLLM](#audio-mllm-3)
       - [Omni MLLM](#omni-mllm-3)
+    - [Embodied Reasoning](#embodied-reasoning)
     - [Others](#others)
       - [Image MLLM](#image-mllm-5)
       - [Video MLLM](#video-mllm-4)
@@ -386,6 +387,49 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 24.09 (JBHI 2024) [Multi-Task Learning for Audio-Based Infant Cry Detection and Reasoning](https://ieeexplore.ieee.org/document/10663705) | 
 #### Omni MLLM
 * 25.06 (ACL 2025) [MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration](https://aclanthology.org/2025.findings-acl.1298/) | [Paper📑](https://aclanthology.org/2025.findings-acl.1298/) [Code🖥️](https://github.com/yczhou001/MAM) 
+
+<a name="embodied-reasoning"></a>
+### Embodied Reasoning
+
+* 23.07 [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/) | [Paper📑](https://arxiv.org/pdf/2307.15818) [Project🌐](https://robotics-transformer2.github.io)
+  - Co-finetunes a VLM on web and robot data, establishing the VLA paradigm by transferring internet-scale knowledge to robot control. | Task: General Robotic Manipulation
+
+* 24.05 [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) | [Paper📑](https://arxiv.org/pdf/2405.12213) [Code🖥️](https://github.com/octo-models/octo) [Project🌐](https://octo-models.github.io/) [Model🤗](https://huggingface.co/rail-berkeley/octo-base-1.5)
+  - An open-source, generalist transformer policy pretrained on the large-scale Open X-Embodiment dataset, designed for efficient fine-tuning to new robots and tasks. | Task: Robotics
+
+* 24.06 [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | [Paper📑](https://arxiv.org/pdf/2406.09246) [Code🖥️](https://github.com/openvla/openvla) [Project🌐](https://openvla.github.io/) [Model🤗](https://huggingface.co/openvla)
+    - A 7B-parameter open-source VLA model trained on the Open X-Embodiment dataset, achieving state-of-the-art performance for generalist manipulation. | Task: VLA
+
+* 24.10 [π₀: A Vision-Language-Action Flow Model for General Robot Control](https://www.physicalintelligence.company/blog/pi0) | [Paper📑](https://arxiv.org/abs/2410.24164) [Code🖥️](https://github.com/Physical-Intelligence/openpi)
+  - A generalist policy using a novel flow matching architecture atop a pretrained VLM, enabling zero-shot generalization for dexterous manipulation. | Task: Robot Control
+
+* 25.01 [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://www.physicalintelligence.company/research/fast) | [Paper📑](https://arxiv.org/pdf/2501.09747) [Code🖥️](https://github.com/Physical-Intelligence/openpi)
+  - A compression-based action tokenization scheme that accelerates autoregressive VLA training by 5x with performance comparable to diffusion models. | Task: Robot Control
+
+* 25.02 [Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://www.pi.website/research/hirobot) | [Paper📑](https://arxiv.org/pdf/2502.19417)
+  - A hierarchical VLA model with a high-level VLM for reasoning and a low-level VLA for execution, enabling complex, open-ended instruction following. | Task: Robot Control
+
+* 25.03 [Gemini Robotics: Bringing AI into the Physical World](https://arxiv.org/abs/2503.20020) | [Paper📑](https://arxiv.org/pdf/2503.20020) [Code🖥️](https://github.com/embodiedreasoning/ERQA) [Project🌐](https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/) [Dataset🤗](https://github.com/embodiedreasoning/ERQA)
+  - A VLA model built on the Gemini foundation model, demonstrating significant improvements in generality, interactivity, and dexterity for complex tasks. | Task: Advanced & Dexterous Manipulation
+
+* 25.03 [COT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models](https://arxiv.org/abs/2503.22020) | [Paper📑](https://arxiv.org/pdf/2503.22020) [Project🌐](https://cot-vla.github.io/)
+  - A method that incorporates explicit visual CoT reasoning into VLAs by predicting future image frames autoregressively as visual goals before generating a short action sequence to achieve these goals. | Task: Robotics
+
+* 25.03 [GR00T: A Foundation Model for General-Purpose Robotics](https://arxiv.org/abs/2503.14734) | [Paper📑](https://arxiv.org/pdf/2503.14734) [Code🖥️](https://github.com/NVIDIA/Isaac-GR00T) [Model🤗](https://huggingface.co/nvidia/GR00T-N1.5-3B) [Dataset🤗](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim)
+  - A general-purpose foundation model for robot learning that takes multimodal instructions and past observations to generate actions for the robot to execute. | Task: Robotics
+
+* 25.04 [π0.5: a Vision-Language-Action Model with Open-World Generalization](https://www.pi.website/blog/pi05) | [Paper📑](https://www.physicalintelligence.company/download/pi05.pdf)
+  - An evolution of π₀ that uses co-training on diverse tasks to achieve long-horizon, dexterous manipulation in novel, unseen environments. | Task: Robot Control
+
+
+* 25.06 [Chain-of-Action: Faithful and Deterministic Robot Policy via Language-guided State-Action Augmentation](https://chain-of-action.github.io/) | [Paper📑](https://arxiv.org/pdf/2506.09990) [Code🖥️](https://github.com/ByteDance-Seed/Chain-of-Action) [Project🌐](https://chain-of-action.github.io/) [Model🤗](https://huggingface.co/Solomonz/Chain-of-Action)
+  - A novel robot policy, Chain-of-Action (CoA), that uses language as an intermediate representation to explicitly reason about the chain of actions for a given task, while being fully deterministic during inference. | Task: Robotics
+
+* 25.07 [Vision-Language-Action Instruction Tuning: From Understanding to Manipulation](https://yangs03.github.io/InstructVLA_Home/) | [Paper📑](https://arxiv.org/pdf/2507.17520) [Code🖥️](https://github.com/InternRobotics/InstructVLA) [Project🌐](https://yangs03.github.io/InstructVLA_Home/) [Model🤗](https://huggingface.co/datasets/ShuaiYang03/VLA_Instruction_Tuning)
+  - An end-to-end VLA model, InstructVLA, that introduces a novel training paradigm called Vision-Language-Action Instruction Tuning (VLA-IT) to preserve the flexible reasoning of VLMs while delivering high-performance robotic manipulation. | Task: Robotic
+
+* 25.07 [MinD: Learning A Dual-System World Model for Real-Time Planning and Implicit Risk Analysis](https://manipulate-in-dream.github.io/) | [Paper📑](https://www.arxiv.org/pdf/2506.18897) [Code🖥️](https://github.com/manipulate-in-dream/MinD) [Project🌐](https://manipulate-in-dream.github.io/)
+  - A dual-system world model, MinD, that enables real-time, risk-aware planning by conditioning a high-frequency action policy on single-step latent predictions from a low-frequency video generation model. | Task: Robotic
 
 
 ### Others
