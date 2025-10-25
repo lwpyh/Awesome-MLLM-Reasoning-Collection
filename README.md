@@ -134,6 +134,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Explore how reconciling several foundation models with a novel unified memory mechanism could tackle the challenging video understanding problem  | Task: Video captioning & QA
 
 #### Audio MLLM
+* 25.10 [UALM: Unified Audio Language Model for Understanding, Generation and Reasoning](https://arxiv.org/abs/2510.12000)  [Project🌐](https://research.nvidia.com/labs/adlr/UALM/)
+* 25.09 [MiMo Audio: Audio Language Models are Few-Shot Learners](https://github.com/XiaomiMiMo/MiMo-Audio) [Project🌐](https://xiaomimimo.github.io/MiMo-Audio-Demo/)  [Code🖥️](https://github.com/XiaomiMiMo/MiMo-Audio)
 * 25.07 [Audio Entailment: Assessing Deductive Reasoning for Audio Understanding](https://arxiv.org/abs/2407.18062)
 * 25.07 [Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models](https://arxiv.org/abs/2507.08128)
 * 25.05 [AudSemThinker: Enhancing Audio-Language Models Through Reasoning over Semantics of Sound](https://arxiv.org/abs/2505.14142)
@@ -362,6 +364,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="reasoning-with-agent"></a>
 ### Reasoning with Agent/Tool
 
+* 25.10 [AudioToolAgent: An Agentic Framework for Audio-Language Models](https://arxiv.org/abs/2510.02995v1) | [Paper📑](https://arxiv.org/abs/2510.02995v1) 
 * 25.06 [Ego-R1: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/abs/2506.13654)|[Paper📑](https://arxiv.org/pdf/2506.13654) [Code🖥️](https://github.com/egolife-ai/Ego-R1) [Project🌐](https://egolife-ai.github.io/Ego-R1/)
 * 25.05 [ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.19470) | [Paper📑](https://arxiv.org/pdf/2503.19470) [Code🖥️](https://github.com/Agent-RL/ReCall) 
 * 25.05 [Reinforcement Learning for Long-Horizon Interactive LLM Agents](https://arxiv.org/abs/2502.01600)|[Paper📑](https://arxiv.org/pdf/2502.01600) 
@@ -450,6 +453,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Impove reasoning capability, emotion recognition accuracy, and generalization ability with RLVR.  | Task: Emotion recognition
 
 #### Audio MLLM
+* 25.02 [ADIFF: Explaining audio difference using natural language](https://arxiv.org/abs/2502.04476)  [Code🖥️](https://github.com/soham97/ADIFF)  [Model](https://zenodo.org/records/14706090)
 * 24.09 [What Are They Doing? Joint Audio-Speech Co-Reasoning](https://arxiv.org/abs/2409.14526)
 * 24.09 [Chain-of-Thought Prompting for Speech Translation](https://arxiv.org/abs/2409.11538)
 
@@ -464,11 +468,15 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 | Date  | Project                                                      | Task                                          | Links                                                        |
 | ----- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ |
+| 25.09 | MDAR: A Multi-scene Dynamic Audio Reasoning Benchmark | Complex, Multi-scene, & Dynamically Evolving Speech & Audio Reasonin | [[📑 Paper]](https://arxiv.org/abs/2509.22461)  [[💻 Code]](https://github.com/luckyerr/MDAR) |
+| 25.09 | MiMo-Audio-Eval Toolkit | Speech/Sound/Music Reasoning | [[💻 Code]](https://github.com/XiaomiMiMo/MiMo-Audio-Eval?tab=readme-ov-file)
 | 25.08 | SpeechR: A Benchmark for Speech Reasoning in Large Audio-Language Models | Speech  Reasoning | [[📑 Paper]](https://www.arxiv.org/abs/2508.02018)  [[💻 Code]](https://github.com/Yanda95/SpeechR) [[Data]](https://drive.google.com/file/d/1BH2r2idILwUHX0NKsXz6GsSXdO0qWly8/view) |
+| 25.08 | MMAU-Pro: A Challenging and Comprehensive Benchmark for Holistic Evaluation of Audio General Intelligence | Long-form, Spatial, and Multi-audio Reasoning on Speech/Music/Sound | [[📑 Paper]](https://arxiv.org/abs/2508.13992)  [[🤗 Data]](https://huggingface.co/datasets/gamma-lab-umd/MMAU-Pro)  |
 | 25.07 | Towards Video Thinking Test: A Holistic Benchmark for Advanced Video  Reasoning and Understanding | Video Reasoning and Understanding             | [[📑 Paper]](https://arxiv.org/abs/2507.15028).  [[🌐 Project]](https://zhangyuanhan-ai.github.io/video-tt/) [[🤗 Data]](https://huggingface.co/datasets/lmms-lab/video-tt) |
 | 25.06 | FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation | Financial Multi-Modal Reasoning Reasoning     | [[📑 Paper]](https://github.com/luo-junyu/FinMME). [[💻 Code]](https://github.com/luo-junyu/FinMME). [[🤗 Data]](https://huggingface.co/datasets/luojunyu/FinMME) |
 | 25.06 | MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos | Video Reasoning                               | [[📑 Paper]](https://arxiv.org/abs/2506.04141). [[💻 Code]](https://github.com/GaryStack/MMR-V). [[🌐 Project]](https://mmr-v.github.io/home_page.html) [[🤗 Data]](https://huggingface.co/datasets/JokerJan/MMR-VBench) |
 | 25.06 | OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models | Spatial Reasoning                             | [[📑 Paper]](https://arxiv.org/abs/2506.03135). [[💻 Code]](https://github.com/qizekun/OmniSpatial). [[🌐 Project]](https://qizekun.github.io/omnispatial/) [[🤗 Data]](https://huggingface.co/qizekun/datasets/OmniSpatial) |
+| 25.06 | MMSU: A Massive Multi-task Spoken Language Understanding and Reasoning Benchmark | Phonatics, Prosody, Rhetoric, Syntactics, Semantics, and Paralinguistics in Speech Understanding & Reasoning | [[📑 Paper]](https://arxiv.org/abs/2506.04779)  [[💻 Code]](https://github.com/dingdongwang/mmsu_bench)  [[🤗 Data]](https://huggingface.co/datasets/ddwang2000/MMSU)
 | 25.05 | Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities | Video&Audio Reasoning | [[📑 Paper]](https://arxiv.org/abs/2505.17862) [[💻 Code]](https://github.com/Lliar-liar/Daily-Omni)  [[🌐 Project]](https://lliar-liar.github.io/Daily-Omni/) [[🤗 Data]](https://huggingface.co/datasets/liarliar/Daily-Omni) |
 | 25.05 | MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix | Multi-step Audio Reasoning                    | [[📑 Paper]](https://arxiv.org/abs/2505.13032). [[💻 Code]](https://github.com/ddlBoJack/MMAR). [[🎥 demo]](https://youtube.com/watch?v=Dab13opIGqU) [[🤗 Data]](https://huggingface.co/datasets/BoJack/MMAR) |
 | 25.05 | On Path to Multimodal Generalist: General-Level and General-Bench | Multimodal Generation                         | [[🌐 Project]](https://generalist.top/) [[📑 Paper]](https://arxiv.org/abs/2505.04620) [[🤗 Data]](https://huggingface.co/General-Level) |
