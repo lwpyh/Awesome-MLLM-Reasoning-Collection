@@ -348,6 +348,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 <a name="VisualGeneration"></a>
 ### Visual Generation
 #### Image MLLM
+* 25.11 [IE-Critic-R1: Advancing the Explanatory Measurement of Text-Driven Image Editing for Human Perception Alignment](https://arxiv.org/abs/2511.18055) | [Paper📑](https://arxiv.org/abs/2511.18055) [Code🖥️](https://github.com/Coobiw/IE-Critic-R1) [Model🤗](https://huggingface.co/Coobiw/IE-Critic-R1-7B) [Dataset🤗](https://huggingface.co/datasets/Coobiw/IE-Bench-4k) [ColdStart SFT🤗](https://huggingface.co/datasets/Coobiw/IE-Bench-CoT-mixed)
+  - IE-Critic-R1 treats image editing quality assessment as a reasoning task and implement "R1 moment" (longer reasoning thoughts, better performance). It is a pointwise, generative reward model, leveraging Chain-of-Thought (CoT) reasoning SFT and RLVR to provide accurate, human-aligned evaluations of image editing. | Task: Image Editing Quality Asssessment
 * 25.05 [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/pdf/2505.00703) | [Paper📑](https://arxiv.org/pdf/2505.00703) [Code🖥️](https://github.com/CaraJ7/T2I-R1)
   - A novel reasoning-enhanced text-to-image generation model powered by RL with a bi-level CoT reasoning process | Task: Video Generation
 * 25.03 [GoT: Unleashing Reasoning Capability of Multimodal Large Language Model for Visual Generation and Editing](https://arxiv.org/pdf/2503.10639) | [Paper📑](https://arxiv.org/pdf/2503.10639) 
@@ -533,6 +535,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 | **Open-LLaVA-Video-R1** | ![Open-LLaVA-Video-R1](https://img.shields.io/github/stars/Hui-design/Open-LLaVA-Video-R1) | [💻 GitHub](https://github.com/Hui-design/Open-LLaVA-Video-R1) |
 | **R1V-Free** | ![R1V-Free](https://img.shields.io/github/stars/Exgc/R1V-Free) | [💻 GitHub](https://github.com/Exgc/R1V-Free) |
 | **SeekWorld** | ![SeekWorld](https://img.shields.io/github/stars/TheEighthDay/SeekWorld) | [💻 GitHub](https://github.com/TheEighthDay/SeekWorld) |
+| **IE-Critic-R1** | ![SeekWorld](https://img.shields.io/github/stars/Coobiw/IE-Critic-R1) | [💻 GitHub](https://github.com/Coobiw/IE-Critic-R1) [🤗 Model](https://huggingface.co/Coobiw/IE-Critic-R1-7B) [🤗 Data](https://huggingface.co/datasets/Coobiw/IE-Bench-4k) [🤗 ColdStart SFT](https://huggingface.co/datasets/Coobiw/IE-Bench-CoT-mixed) |
 
 <a name="Contributiong"></a>
 ## Contributing 
