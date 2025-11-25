@@ -167,6 +167,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Music-language for understanding and captioning tasks.
 
 #### Omni MLLM
+* 25.07 [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities](https://arxiv.org/abs/2507.06261)
+* 25.05 [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388)
 * 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/abs/2505.04623)
 * 25.03 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215)
 * 25.01 [OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561)
@@ -468,6 +470,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 | Date  | Project                                                      | Task                                          | Links                                                        |
 | ----- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ |
+| 25.10 | OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs | Long-context, Video-Audio Unerstanding & Reasonin | [[📑 Paper]](https://arxiv.org/abs/2510.10689v1)  [[💻 Code]](https://github.com/NJU-LINK/OmniVideoBench) [[🌐 Project]](https://omnivideobench.github.io/omnivideobench_home/) [[🤗 Data]](https://huggingface.co/datasets/NJU-LINK/OmniVideoBench)|
+| 25.10 | XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models | Capability Balancing among Different Modalities | [[📑 Paper]](https://arxiv.org/abs/2510.15148)  [[💻 Code]](https://github.com/XingruiWang/XModBench) [[🌐 Project]](https://xingruiwang.github.io/projects/XModBench/) |
 | 25.09 | MDAR: A Multi-scene Dynamic Audio Reasoning Benchmark | Complex, Multi-scene, & Dynamically Evolving Speech & Audio Reasonin | [[📑 Paper]](https://arxiv.org/abs/2509.22461)  [[💻 Code]](https://github.com/luckyerr/MDAR) |
 | 25.09 | MiMo-Audio-Eval Toolkit | Speech/Sound/Music Reasoning | [[💻 Code]](https://github.com/XiaomiMiMo/MiMo-Audio-Eval?tab=readme-ov-file)
 | 25.08 | SpeechR: A Benchmark for Speech Reasoning in Large Audio-Language Models | Speech  Reasoning | [[📑 Paper]](https://www.arxiv.org/abs/2508.02018)  [[💻 Code]](https://github.com/Yanda95/SpeechR) [[Data]](https://drive.google.com/file/d/1BH2r2idILwUHX0NKsXz6GsSXdO0qWly8/view) |
