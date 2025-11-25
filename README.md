@@ -167,8 +167,9 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Music-language for understanding and captioning tasks.
 
 #### Omni MLLM
+* 25.10 [InteractiveOmni: A Unified Omni-modal Model for Audio-Visual Multi-turn Dialogue](https://arxiv.org/abs/2510.13747#:~:text=,visual%20interaction.%20To%20enable)
+* 25.09 [Qwen3-Omni Technical Report](https://arxiv.org/abs/2509.17765)
 * 25.07 [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities](https://arxiv.org/abs/2507.06261)
-* 25.05 [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388)
 * 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/abs/2505.04623)
 * 25.03 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215)
 * 25.01 [OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561)
@@ -346,7 +347,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 
 <a name="VisualGeneration"></a>
-### Visual Generation
+### Visual-Audio Generation
 #### Image MLLM
 * 25.05 [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/pdf/2505.00703) | [Paper📑](https://arxiv.org/pdf/2505.00703) [Code🖥️](https://github.com/CaraJ7/T2I-R1)
   - A novel reasoning-enhanced text-to-image generation model powered by RL with a bi-level CoT reasoning process | Task: Video Generation
@@ -361,12 +362,15 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 #### Video MLLM 
 * 25.02 [C-Drag:Chain-of-Thought Driven Motion Controller for Video Generation](https://arxiv.org/pdf/2502.19868) | [Paper📑](https://arxiv.org/pdf/2502.19868) [Code🖥️](https://github.com/WesLee88524/C-Drag-Official-Repo) [Dataset🤗](https://drive.google.com/file/d/1L2SYadeqZPObvSj9Mb6fK-KHtR0n-DKk/view)
   - A Chain-of-Thought-based motion controller for controllable video generation | Task: Video Generation
+#### Audio MLLM
+* 25.06 [ThinkSound: Chain-of-Thought Reasoning in Multimodal Large Language Models for Audio Generation and Editing](https://arxiv.org/abs/2506.21448)
 
 
 <a name="reasoning-with-agent"></a>
 ### Reasoning with Agent/Tool
-
+* 25.11 [Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything](https://arxiv.org/abs/2511.02834)
 * 25.10 [AudioToolAgent: An Agentic Framework for Audio-Language Models](https://arxiv.org/abs/2510.02995v1) | [Paper📑](https://arxiv.org/abs/2510.02995v1) 
+* 25.08 [Think Before You Segment: An Object-aware Reasoning Agent for Referring Audio-Visual Segmentation](https://arxiv.org/abs/2508.04418)
 * 25.06 [Ego-R1: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/abs/2506.13654)|[Paper📑](https://arxiv.org/pdf/2506.13654) [Code🖥️](https://github.com/egolife-ai/Ego-R1) [Project🌐](https://egolife-ai.github.io/Ego-R1/)
 * 25.05 [ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.19470) | [Paper📑](https://arxiv.org/pdf/2503.19470) [Code🖥️](https://github.com/Agent-RL/ReCall) 
 * 25.05 [Reinforcement Learning for Long-Horizon Interactive LLM Agents](https://arxiv.org/abs/2502.01600)|[Paper📑](https://arxiv.org/pdf/2502.01600) 
@@ -472,10 +476,13 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 | ----- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ |
 | 25.10 | OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs | Long-context, Video-Audio Unerstanding & Reasonin | [[📑 Paper]](https://arxiv.org/abs/2510.10689v1)  [[💻 Code]](https://github.com/NJU-LINK/OmniVideoBench) [[🌐 Project]](https://omnivideobench.github.io/omnivideobench_home/) [[🤗 Data]](https://huggingface.co/datasets/NJU-LINK/OmniVideoBench)|
 | 25.10 | XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models | Capability Balancing among Different Modalities | [[📑 Paper]](https://arxiv.org/abs/2510.15148)  [[💻 Code]](https://github.com/XingruiWang/XModBench) [[🌐 Project]](https://xingruiwang.github.io/projects/XModBench/) |
+| 25.10 | StreamingCoT: A Dataset for Temporal Dynamics and Multimodal Chain-of-Thought Reasoning in Streaming VideoQA | Termporal Reasoning | [[📑 Paper]](https://arxiv.org/abs/2510.25332) |
+| 25.10 | Valor32k-AVQA v2.0: Open-Ended Audio-Visual Question Answering Dataset and Benchmark | Common Sense Omni Reasoning | [[📑 Paper]](https://dl.acm.org/doi/10.1145/3746027.3758261) |
 | 25.09 | MDAR: A Multi-scene Dynamic Audio Reasoning Benchmark | Complex, Multi-scene, & Dynamically Evolving Speech & Audio Reasonin | [[📑 Paper]](https://arxiv.org/abs/2509.22461)  [[💻 Code]](https://github.com/luckyerr/MDAR) |
 | 25.09 | MiMo-Audio-Eval Toolkit | Speech/Sound/Music Reasoning | [[💻 Code]](https://github.com/XiaomiMiMo/MiMo-Audio-Eval?tab=readme-ov-file)
 | 25.08 | SpeechR: A Benchmark for Speech Reasoning in Large Audio-Language Models | Speech  Reasoning | [[📑 Paper]](https://www.arxiv.org/abs/2508.02018)  [[💻 Code]](https://github.com/Yanda95/SpeechR) [[Data]](https://drive.google.com/file/d/1BH2r2idILwUHX0NKsXz6GsSXdO0qWly8/view) |
 | 25.08 | MMAU-Pro: A Challenging and Comprehensive Benchmark for Holistic Evaluation of Audio General Intelligence | Long-form, Spatial, and Multi-audio Reasoning on Speech/Music/Sound | [[📑 Paper]](https://arxiv.org/abs/2508.13992)  [[🤗 Data]](https://huggingface.co/datasets/gamma-lab-umd/MMAU-Pro)  |
+| 25.08 | R²-AVSBench: Think Before You Segment: An Object-aware Reasoning Agent for Referring Audio-Visual Segmentation | Segmentation Reasoning | [[📑 Paper]](https://arxiv.org/abs/2508.04418) [[🤗 Data]](https://drive.google.com/drive/folders/1Qz7MxBs7IpxgcTH8CaUsU3i9d366gRhM)|
 | 25.07 | Towards Video Thinking Test: A Holistic Benchmark for Advanced Video  Reasoning and Understanding | Video Reasoning and Understanding             | [[📑 Paper]](https://arxiv.org/abs/2507.15028).  [[🌐 Project]](https://zhangyuanhan-ai.github.io/video-tt/) [[🤗 Data]](https://huggingface.co/datasets/lmms-lab/video-tt) |
 | 25.06 | FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation | Financial Multi-Modal Reasoning Reasoning     | [[📑 Paper]](https://github.com/luo-junyu/FinMME). [[💻 Code]](https://github.com/luo-junyu/FinMME). [[🤗 Data]](https://huggingface.co/datasets/luojunyu/FinMME) |
 | 25.06 | MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos | Video Reasoning                               | [[📑 Paper]](https://arxiv.org/abs/2506.04141). [[💻 Code]](https://github.com/GaryStack/MMR-V). [[🌐 Project]](https://mmr-v.github.io/home_page.html) [[🤗 Data]](https://huggingface.co/datasets/JokerJan/MMR-VBench) |
@@ -488,6 +495,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 | 25.04 | IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs | Image-Grounded Video Perception and Reasoning | [[📑 Paper]](https://arxiv.org/pdf/2504.15415) [[💻 Code]](https://github.com/multimodal-art-projection/IV-Bench) |
 | 25.04 | Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing | Reasoning-Informed viSual Editing             | [[📑 Paper]](https://arxiv.org/abs/2504.02826) [[💻 Code]](https://github.com/PhoenixZ810/RISEBench) |
 | 25.04 | CMI-Bench: A Comprehensive Benchmark for Evaluating Music Instruction Following | Music Information Retrieval & Knowledge       | [[📑 Paper]](https://arxiv.org/abs/2506.12285)  [[💻 Code]](https://github.com/nicolaus625/CMI-bench)    |
+| 25.03 | MAVERIX: Multimodal Audio-Visual Evaluation Reasoning IndeX | Common Sense Omni Reasoning | [[📑 Paper]](https://arxiv.org/abs/2503.21699) [[🌐 Project]](https://maverix-benchmark.github.io/)| 
 | 25.03 | V-STaR : Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning | Spatio-temporal Reasoning                     | [[🌐 Project]](https://v-star-bench.github.io/) [[📑 Paper]](https://arxiv.org/abs/2311.17982) [[🤗 Data]](https://huggingface.co/datasets/V-STaR-Bench/V-STaR) |
 | 25.03 | MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs | Spatio-temporal Understanding                 | [[📑Paper]](https://arxiv.org/pdf/2503.13111)                 |
 | 25.03 | Integrating Chain-of-Thought for Multimodal Alignment: A Study on 3D Vision-Language Learning | 3D-CoT                                        | [[📑 Paper]](https://arxiv.org/pdf/2503.06232) [[🤗 Data]](https://huggingface.co/datasets/Battam/3D-CoT) |
