@@ -281,8 +281,18 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 ### Math Reasoning
 #### Image MLLM
+* 25.11 [Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](https://arxiv.org/abs/2511.18437) | [Paper📑](https://arxiv.org/abs/2511.18437) [Code🖥️](https://github.com/MiliLab/PEARL) [Model🤗](https://huggingface.co/Rex1090/PEARL-8B)
+   - Introduce a perception checklist to anchor RL policy updates in verified visual evidence and prevent hallucinations. | Task: Math
+* 25.11 [Metis-HOME: Hybrid Optimized Mixture-of-Experts for Multimodal Reasoning](https://arxiv.org/abs/2510.20519) | [Paper📑](https://arxiv.org/abs/2510.20519) [Code🖥️](https://github.com/MM-Thinking/Metis-HOME) [Model🤗](https://huggingface.co/mmthinking/Metis-HOME)
+  - Use a mixture-of-experts framework with dynamic routing for balancing complex reasoning and general tasks. | Task: Math
+* 25.10 [Metis-SPECS: Decoupling Multimodal Learning via Self-distilled Preference-based Cold Start](https://arxiv.org/abs/2510.25801) | [Paper📑](https://arxiv.org/abs/2510.25801) [Code🖥️](https://github.com/Kwen-Chen/SPECS-VL)
+  - Replace supervised fine-tuning with self-distilled, preference-based cold starts to improve RL generalization. | Task: Math
+* 25.09 [DeepSketcher: Internalizing Visual Manipulation for Multimodal Reasoning](https://arxiv.org/abs/2509.25866) | [Paper📑](https://arxiv.org/abs/2509.25866) [Code🖥️](https://github.com/MiliLab/DeepSketcher)
+  - Internalize visual reasoning by directly manipulating visual embeddings using code-rendered trajectories, bypassing external tools and reducing grounding noise. | Task: Math
 * 25.07 [The Synergy Dilemma of Long-CoT SFT and RL: Investigating Post-Training Techniques for Reasoning VLMs](https://www.arxiv.org/abs/2507.07562) [Paper📑](https://www.arxiv.org/abs/2507.07562) [Code🖥️](https://github.com/JierunChen/SFT-RL-SynergyDilemma) 
   - a systematic investigation into the distinct roles and interplay of long-CoT SFT and RL across multiple multimodal reasoning benchmarks. | Task: Math
+* 25.06 [Metis-RISE: RL Incentivizes and SFT Enhances Multimodal Reasoning Model Learning](https://arxiv.org/abs/2506.13056) | [Paper📑](https://arxiv.org/abs/2506.13056) [Code🖥️](https://github.com/MM-Thinking/Metis-RISE) [Model🤗](https://github.com/MM-Thinking/Metis-RISE)
+  - Reverse the training pipeline by first using RL for reasoning exploration, then applying SFT with self-distilled and expert-augmented trajectories for stability and capability enhancement. | Task: Math
 * 25.06 [SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis](https://arxiv.org/abs/2506.02096) [Paper📑](https://arxiv.org/abs/2506.02096) [Code🖥️](https://github.com/NUS-TRAIL/SynthRL) [Model🤗](https://huggingface.co/collections/Jakumetsu/synthrl-6839d265136fa9ca717105c5)
   - A novel framework that enhances the reasoning capabilities of multimodal large language models. | Task: Math
 * 25.06 [SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](https://arxiv.org/abs/2506.01713) [Paper📑](https://arxiv.org/abs/2506.01713) [Code🖥️](https://github.com/SUSTechBruce/SRPO_MLLMs) [Model🤗](https://huggingface.co/datasets/SRPOMLLMs/srpo-sft-data)
@@ -333,18 +343,58 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 <a name="ChartRasoning"></a>
 ### Chart Rasoning
-* 25.07 [Chart-R1: Chain-of-Thought Supervision and Reinforcement for Advanced Chart Reasoner](https://arxiv.org/abs/2507.15509) | [Paper📑](https://arxiv.org/abs/2507.15509) [Code🖥️](https://github.com/DocTron-hub/Chart-R1)
-  - Combines chain-of-thought supervision with reinforcement learning, supported by programmatically synthesized step-by-step reasoning data. | Task: Chart Reasoning
+
+* 25.09 [Visual Programmability: A Guide for Code-as-Thought in Chart Understanding](https://arxiv.org/abs/2509.09286) | [Paper📑](https://arxiv.org/abs/2509.09286) [Code🖥️](https://github.com/Aphelios-Tang/Code-as-Thought)
+   - Introduce an adaptive framework that enables VLMs to dynamically choose between code-based and visual reasoning pathways for chart understanding. | Task: Chart Reasoning
+* 25.07 [Chart-R1: Chain-of-Thought Supervision and Reinforcement for Advanced Chart Reasoner](https://arxiv.org/abs/2507.15509) | [Paper📑](https://arxiv.org/abs/2507.15509) [Code🖥️](https://github.com/DocTron-hub/Chart-R1) [Model🤗](https://huggingface.co/collections/DocTron/chart-r1)
+  - Combine chain-of-thought supervision with reinforcement learning, supported by programmatically synthesized step-by-step reasoning data. | Task: Chart Reasoning
+* 25.06 [ChartReasoner: Code-Driven Modality Bridging for Long-Chain Reasoning in Chart Question Answering](https://arxiv.org/abs/2506.10116) | [Paper📑](https://arxiv.org/abs/2506.10116)
+  - Combine chart code generation with long-chain reasoning LLMs to produce detailed reasoning processes. | Task: Chart Reasoning
+* 25.05 [Point-RFT: Improving Multimodal Reasoning with Visually Grounded Reinforcement Finetuning](https://arxiv.org/abs/2505.19702) | [Paper📑](https://arxiv.org/abs/2505.19702)
+  - Introduce a visually grounded chain-of-thought (CoT) paradigm, enabling the model to generate CoT reasoning aligned with visual elements. | Task: Chart Reasoning
+* 25.04 [Bespoke-MiniChart-7B: Pushing The Frontiers Of Open VLMs For Chart Understanding](https://www.bespokelabs.ai/blog/bespoke-minichart-7b) | [Project🌐](https://www.bespokelabs.ai/blog/bespoke-minichart-7b) [Model🤗](https://huggingface.co/bespokelabs/Bespoke-MiniChart-7B)
+  - Employ a three-stage training process, combining rejection sampling and DPO optimization to enhance out-of-distribution generalization. | Task: Chart Reasoning
 * 25.03 [MDocAgent: A Multi-Modal Multi-Agent Framework for Document Understanding](https://arxiv.org/pdf/2503.13964v1) | [Paper📑](https://arxiv.org/pdf/2503.13964v1) [Code🖥️](https://github.com/aiming-lab/MDocAgent)
-  - Integrates text and image retrieval through various agents, enabling collaborative reasoning across modalities. | Task: Document Reasoning
+  - Integrate text and image retrieval through various agents, enabling collaborative reasoning across modalities. | Task: Document Reasoning
+* 24.11 [ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild](https://arxiv.org/abs/2407.04172) | [Paper📑](https://arxiv.org/abs/2407.04172) [Code🖥️](https://github.com/vis-nlp/ChartGemma) [Model🤗](https://huggingface.co/ahmed-masry/chartgemma) [Dataset🤗](https://huggingface.co/datasets/ahmed-masry/ChartGemma)
+  - Generate multi-task instruction-tuning data from real chart images and integrating both COT and POT reasoning pathways. | Task: Chart Reasoning
 * 24.09 (ICLR25 Oral) [ChartMoE: Mixture of Diversely Aligned Expert Connector for Chart Understanding](https://arxiv.org/abs/2409.03277) | [Paper📑](https://arxiv.org/abs/2409.03277) [Code🖥️](https://github.com/IDEA-FinAI/ChartMoE) [Model🤗](https://huggingface.co/IDEA-FinAI/chartmoe) [Dataset🤗](https://huggingface.co/datasets/Coobiw/ChartMoE-Data)
-  - Utilize diverse chart-text aligned tasks (chart -> table/json/python-code) to augment chart understanding and reasoning
+  - Utilize diverse chart-text aligned tasks (chart -> table/json/python-code) to augment chart understanding and reasoning. | Task: Chart Reasoning
 * 24.09 [ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning](https://arxiv.org/abs/2402.12185) | [Project🌐](https://unimodal4reasoning.github.io/DocGenome_page/)  [Paper📑](https://arxiv.org/abs/2402.12185) [Code🖥️](https://github.com/Alpha-Innovator/ChartVLM)
   - Offer a new perspective on handling chart reasoning tasks that strongly depend on interpretable patterns. | Task: Chart Reasoning
 * 24.07 (EMNLP24) [Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053) | [Paper📑](https://arxiv.org/abs/2407.07053)  [Project🌐](https://multi-modal-self-instruct.github.io/) [Code🖥️](https://github.com/zwq2018/Multi-modal-Self-instruct) [Dataset🤗](https://huggingface.co/datasets/zwq2018/Multi-modal-Self-instruct)
   - A multi-modal self-instruct, utilizing large language models and their code capabilities to synthesize massive abstract images and visual reasoning instructions across daily scenarios. | Task: Chart Reasoning
-* 24.02 (ACL24) [ChartAssisstant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning](https://arxiv.org/abs/2401.02384) | [Paper📑](https://arxiv.org/abs/2401.02384) [Code🖥️](https://github.com/OpenGVLab/ChartAst) [Dataset🤗]
+* 24.04 (EMNLP24) [TinyChart: Efficient Chart Understanding with Visual Token Merging and Program-of-Thoughts Learning](https://arxiv.org/abs/2404.16635) | [Paper📑](https://arxiv.org/abs/2404.16635) [Code🖥️](https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/TinyChart) [Model🤗](https://huggingface.co/mPLUG/TinyChart-3B-768-siglip) [Dataset🤗](https://huggingface.co/datasets/mPLUG/TinyChartData)
+  - Employ PoT learning for numerical reasoning and Vision Token Merging to compress visual features from high-resolution images. | Task: Chart Reasoning
+* 24.04 (MM24) [OneChart: Purify the Chart Structural Extraction via One Auxiliary Token](https://arxiv.org/abs/2404.09987) | [Paper📑](https://arxiv.org/abs/2404.09987) [Project🌐](https://onechartt.github.io/) [Code🖥️](https://github.com/LingyvKong/OneChart) [Model🤗](https://huggingface.co/kppkkp/OneChart) 
+  - Introduce an auxiliary token and decoder combined with a customized L1 loss to enhance the reliability of structured and numerical information extraction. | Task: Chart Reasoning
+* 24.04 (MM24) [NovaChart: A Large-scale Dataset towards Chart Understanding and Generation of Multimodal Large Language Models](https://dl.acm.org/doi/10.1145/3664647.3680790) | [Paper📑](https://dl.acm.org/doi/10.1145/3664647.3680790) [Code🖥️](https://github.com/Elucidator-V/NovaChart) [Dataset🤗](https://huggingface.co/datasets/ympan/novachart)
+  - Construct a large-scale dataset for chart understanding and generation, covering 18 different chart types and 15 unique tasks. | Task: Chart Reasoning
+* 24.02 (ACL24) [ChartAssisstant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning](https://arxiv.org/abs/2401.02384) | [Paper📑](https://arxiv.org/abs/2401.02384) [Code🖥️](https://github.com/OpenGVLab/ChartAst) [Dataset🤗](https://huggingface.co/datasets/FanqingM/ChartAssistant)
   - Use large-scale chart data to align and instruction tuning | Task: Chart Reasoning
+* 23.11 [ChartLlama: A Multimodal LLM for Chart Understanding and Generation](https://arxiv.org/abs/2311.16483) | [Paper📑](https://arxiv.org/abs/2311.16483) [Project🌐](https://tingxueronghua.github.io/ChartLlama/) [Code🖥️](https://github.com/tingxueronghua/ChartLlama-code) [Model🤗](https://huggingface.co/listen2you002/ChartLlama-13b) [Dataset🤗](https://huggingface.co/datasets/listen2you002/ChartLlama-Dataset)
+  - Generate a diverse and high-quality instruction-tuning dataset using GPT-4, and use LLaVA for unified multi-task training. | Task: Chart Reasoning
+* 23.10 (EMNLP23) [UniChart: A Universal Vision-language Pretrained Model for
+Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper📑](https://arxiv.org/abs/2305.14761) [Code🖥️](https://github.com/vis-nlp/UniChart) [Model🤗](https://huggingface.co/ahmed-masry/unichart-base-960) [Dataset🤗](https://huggingface.co/datasets/ahmed-masry/unichart-pretrain-data)
+  - Pretrains on a large and diverse chart dataset, explicitly modeling visual elements and structures. | Task: Chart Reasoning
+
+#### Benchmark
+* 25.11 (EMNLP25) [ChartM3: A Multi-Stage Code-Driven Pipeline for Constructing Multi-Dimensional and Multi-Step Visual Reasoning Data in Chart Comprehension](https://arxiv.org/abs/2511.02415) | [Paper📑](https://arxiv.org/abs/2511.02415)
+  - Provide an evaluation set of 2,871 high-quality samples covering 62 chart types and 60 real-world scenarios, focusing on multi-dimensional and multi-step visual reasoning and complex business analysis. | Task: Chart Reasoning
+* 25.05 [ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models](https://arxiv.org/abs/2505.13444) | [Paper📑](https://arxiv.org/abs/2505.13444) [Project🌐](https://chartmuseum-leaderboard.github.io/) [Code🖥️](https://github.com/Liyan06/ChartMuseum) [Dataset🤗](https://huggingface.co/datasets/lytang/ChartMuseum)
+  - Feature real-world chart images and four distinct question types that assess textual, visual, combined, and synthesis reasoning abilities. | Task: Chart Reasoning
+* 25.04 [CHARTQAPRO : A More Diverse and Challenging Benchmark for Chart Question Answering](https://arxiv.org/abs/2504.05506v2) | [Paper📑](https://arxiv.org/abs/2504.05506v2) [Code🖥️](https://github.com/vis-nlp/ChartQAPro) [Dataset🤗](https://huggingface.co/datasets/ahmed-masry/ChartQAPro)
+  - Introduce a diverse benchmark with 1,341 charts and 1,948 questions covering various chart types and question formats, designed to rigorously evaluate the chart reasoning capabilities of large vision-language models in real-world scenarios. | Task: Chart Reasoning
+* 25.01 (AAAI25) [EvoChart: A Benchmark and a Self-Training Approach Towards Real-World Chart Understanding](https://arxiv.org/abs/2409.01577) | [Paper📑](https://arxiv.org/abs/2409.01577) [Code🖥️](https://github.com/MuyeHuang/EvoChart) [Dataset🤗](https://huggingface.co/datasets/MuyeHuang/EvoChart-QA-Benchmark)
+  - Feature 650 real-world charts, 1,250 expert-curated questions, and strict and flexible automatic evaluation metrics to assess chart comprehension abilities of VLMs in practical scenarios. | Task: Chart Reasoning
+* 24.06 (NIPS24) [CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs](https://arxiv.org/abs/2406.18521) | [Paper📑](https://arxiv.org/abs/2406.18521) [Project🌐](https://charxiv.github.io/) [Code🖥️](https://github.com/princeton-nlp/CharXiv) [Dataset🤗](https://huggingface.co/datasets/princeton-nlp/CharXiv)
+  - Focus on real and complex charts from arXiv papers, covering eight major domains. All content is expert-curated and verified, with evaluation using GPT-4o scoring and binary correctness metrics. | Task: Chart Reasoning
+* 24.06 (VRISP25) [ChartBench: A Benchmark for Complex Visual Reasoning in Charts](https://arxiv.org/abs/2312.15915) | [Paper📑](https://arxiv.org/abs/2312.15915) [Project🌐](https://chartbench.github.io/) [Code🖥️](https://github.com/IDEA-FinAI/ChartBench) [Dataset🤗](https://huggingface.co/datasets/SincereX/ChartBench)
+  - Cover 9 major categories and 42 subcategories of charts without data point annotations, emphasizing numerical extraction ability. | Task: Chart Reasoning
+* 24.04 (NAACL24) [MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning](https://arxiv.org/abs/2311.10774) | [Paper📑](https://arxiv.org/abs/2311.10774) [Code🖥️](https://github.com/FuxiaoLiu/MMC) [Dataset🤗](https://huggingface.co/datasets/xywang1/MMC)
+  - Propose a comprehensive human-annotated benchmark with nine distinct tasks evaluating reasoning capabilities over various charts, and support both GPT-4 scoring and multiple-choice exact matching. | Task: Chart Reasoning
+* 22.05 (ACL22) [ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning](https://arxiv.org/abs/2203.10244) | [Paper📑](https://arxiv.org/abs/2203.10244) [Code🖥️](https://github.com/vis-nlp/ChartQA) [Dataset🤗](https://huggingface.co/datasets/ahmed-masry/ChartQA)
+  - Use real-world charts and open-ended questions to evaluate chart understanding, reasoning, and data extraction, with relaxed accuracy as the metric. | Task: Chart Reasoning
 
 
 <a name="VisualGeneration"></a>
