@@ -71,7 +71,39 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - First-place NeurIPS 2025 DCVLR challenge submission revealing difficulty-based example selection as dominant driver in data curation. | Task: Reasoning & Understanding
 * 26.01 [MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models](https://arxiv.org/abs/2601.21181) | [Paper📑](https://arxiv.org/abs/2601.21181)
   - Modality-adaptive decoding to mitigate cross-modal hallucinations in MLLMs by dynamically adjusting decoding. | Task: Reasoning & Understanding
-* 25.07 [GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://arxiv.org/abs/2507.01006) | [Paper📑](https://arxiv.org/abs/2507.01006) [Code🖥️](https://github.com/THUDM/GLM-4.1V-Thinking) 
+* 25.12 [OneThinker: All-in-one Reasoning Model for Image and Video](https://arxiv.org/abs/2512.03043) | [Paper📑](https://arxiv.org/abs/2512.03043)
+  - Unifies image and video understanding across diverse visual tasks using RL with EMA-GRPO technique. | Task: Reasoning & Understanding
+* 25.12 [Puzzle Curriculum GRPO for Vision-Centric Reasoning](https://arxiv.org/abs/2512.14944) | [Paper📑](https://arxiv.org/abs/2512.14944)
+  - Supervision-free RL method enhancing visual reasoning in VLMs through self-supervised puzzle environments. | Task: Reasoning & Understanding
+* 25.12 [Robust-R1: Degradation-Aware Reasoning for Robust Visual Understanding](https://arxiv.org/abs/2512.17532) | [Paper📑](https://arxiv.org/abs/2512.17532)
+  - Enhances MLLM robustness to visual degradations by modeling degradation parameters through structured reasoning chains. | Task: Reasoning & Understanding
+* 25.12 [See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning](https://arxiv.org/abs/2512.22120) | [Paper📑](https://arxiv.org/abs/2512.22120)
+  - Improves VLM multimodal reasoning via paired masked views to enforce fine-grained visual reliance. | Task: Reasoning & Understanding
+* 25.11 [OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe](https://arxiv.org/abs/2511.16334) | [Paper📑](https://arxiv.org/abs/2511.16334)
+  - Open general-purpose framework for advancing multimodal reasoning. | Task: Reasoning & Understanding
+* 25.11 [ThinkMorph: Emergent Properties in Multimodal Interleaved Chain-of-Thought Reasoning](https://arxiv.org/abs/2510.27492) | [Paper📑](https://arxiv.org/abs/2510.27492)
+  - Studies emergent properties in multimodal interleaved chain-of-thought reasoning. | Task: Reasoning & Understanding
+* 25.11 [TiDAR: Think in Diffusion, Talk in Autoregression](https://arxiv.org/abs/2511.08923) | [Paper📑](https://arxiv.org/abs/2511.08923)
+  - Combines diffusion-based thinking with autoregressive generation for multimodal reasoning. | Task: Reasoning & Understanding
+* 25.10 [TTRV: Test-Time Reinforcement Learning for Vision Language Models](https://arxiv.org/abs/2510.06783) | [Paper📑](https://arxiv.org/abs/2510.06783)
+  - Test-time reinforcement learning applied to vision-language models for improved reasoning. | Task: Reasoning & Understanding
+* 25.10 [VLM-FO1: Bridging the Gap Between High-Level Reasoning and Fine-Grained Perception in VLMs](https://arxiv.org/abs/2509.25916) | [Paper📑](https://arxiv.org/abs/2509.25916)
+  - Improves VLMs' ability to combine high-level reasoning with detailed visual perception. | Task: Reasoning & Understanding
+* 25.10 [ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping](https://arxiv.org/abs/2510.08457) | [Paper📑](https://arxiv.org/abs/2510.08457)
+  - Adaptive reasoning for multimodal models using entropy shaping. | Task: Reasoning & Understanding
+* 25.09 [R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs via Bi-Mode Annealing and RL](https://arxiv.org/abs/2508.21113) | [Paper📑](https://arxiv.org/abs/2508.21113)
+  - Training method using RL and annealing to improve auto-thinking and reasoning in multimodal LLMs. | Task: Reasoning & Understanding
+* 25.09 [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal Training](https://arxiv.org/abs/2509.23661) | [Paper📑](https://arxiv.org/abs/2509.23661)
+  - Open-source framework for training multimodal vision-language models. | Task: Reasoning & Understanding
+* 25.08 [Thyme: Think Beyond Images](https://arxiv.org/abs/2508.11630) | [Paper📑](https://arxiv.org/abs/2508.11630)
+  - Multimodal reasoning system that extends beyond surface-level image understanding to higher-level thinking. | Task: Reasoning & Understanding
+* 25.08 [Controlling Multimodal LLMs via Reward-guided Decoding](https://arxiv.org/abs/2508.11616) | [Paper📑](https://arxiv.org/abs/2508.11616)
+  - Controls MLLM reasoning outputs through reward-based generation guidance at decoding time. | Task: Reasoning & Understanding
+* 25.08 [Self-Rewarding Vision-Language Model via Reasoning Decomposition](https://arxiv.org/abs/2508.15882) | [Paper📑](https://arxiv.org/abs/2508.15882)
+  - VLM that uses reasoning decomposition and self-reward to improve visual reasoning quality. | Task: Reasoning & Understanding
+* 25.08 [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471) | [Paper📑](https://arxiv.org/abs/2508.06471)
+  - Foundation model with strong agentic, reasoning, and coding capabilities across modalities. | Task: Reasoning & Understanding
+* 25.07 [GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://arxiv.org/abs/2507.01006) | [Paper📑](https://arxiv.org/abs/2507.01006) [Code🖥️](https://github.com/THUDM/GLM-4.1V-Thinking)
   - A reasoning-centric training framework for general-purpose multimodal reasoning. | Task: Reasoning & Understainding
 * 25.07 [MiCo: Multi-image Contrast for Reinforcement Visual Reasoning](https://arxiv.org/abs/2506.22434) | [Paper📑](https://arxiv.org/abs/2506.22434)
    - Construct image triplets comprising two augmented views of the same image and a third, similar but distinct image. | Task: Reasoning & Understainding
@@ -123,6 +155,18 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 #### Video MLLM
 * 26.01 [Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation](https://arxiv.org/abs/2512.24271) | [Paper📑](https://arxiv.org/abs/2512.24271)
   - Uses counterfactual video generation to reduce hallucinations and improve temporal reasoning in multimodal LLMs. | Task: Video Understanding & Reasoning
+* 25.12 [Rethinking Chain-of-Thought Reasoning for Videos](https://arxiv.org/abs/2512.09616) | [Paper📑](https://arxiv.org/abs/2512.09616)
+  - Proposes improved chain-of-thought reasoning strategies specifically designed for video understanding tasks. | Task: Video Understanding & Reasoning
+* 25.12 [SAGE: Training Smart Any-Horizon Agents for Long Video Reasoning with RL](https://arxiv.org/abs/2512.13874) | [Paper📑](https://arxiv.org/abs/2512.13874)
+  - RL-based framework training agents for long-horizon video reasoning across variable time spans. | Task: Video Understanding & Reasoning
+* 25.11 [Video-R4: Reinforcing Text-Rich Video Reasoning with Visual Rumination](https://arxiv.org/abs/2511.17490) | [Paper📑](https://arxiv.org/abs/2511.17490)
+  - Enhances reasoning over text-rich video content via visual rumination. | Task: Video Understanding & Reasoning
+* 25.10 [Video-Thinker: Sparking "Thinking with Videos" via Reinforcement Learning](https://arxiv.org/abs/2510.23473) | [Paper📑](https://arxiv.org/abs/2510.23473)
+  - Reasoning framework enabling models to think with video inputs via RL. | Task: Video Understanding & Reasoning
+* 25.10 [StreamingVLM: Real-Time Understanding for Infinite Video Streams](https://arxiv.org/abs/2510.09608) | [Paper📑](https://arxiv.org/abs/2510.09608)
+  - Real-time video stream understanding with multimodal LLMs. | Task: Video Understanding & Reasoning
+* 25.09 [Video models are zero-shot learners and reasoners](https://arxiv.org/abs/2509.20328) | [Paper📑](https://arxiv.org/abs/2509.20328)
+  - Demonstrates zero-shot reasoning capabilities in video models. | Task: Video Understanding & Reasoning
 * 25.07 [Scaling RL to Long Videos](https://arxiv.org/abs/2507.07966)| [Paper📑](https://arxiv.org/pdf/2507.07966) [Model🤗](https://huggingface.co/Efficient-Large-Model/LongVILA-R1-7B) [Code🖥️](https://github.com/NVlabs/Long-RL)
 * 25.06 [DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](https://arxiv.org/abs/2506.07464)|[Paper📑](https://arxiv.org/pdf/2506.07464)
 * 25.06 [VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](https://arxiv.org/abs/2505.12434) | [Paper📑](https://arxiv.org/abs/2505.12434) [Model🤗](https://huggingface.co/QiWang98/VideoRFT) [Code🖥️](https://github.com/QiWang98/VideoRFT)
@@ -190,8 +234,16 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Music-language for understanding and captioning tasks.
 
 #### Omni MLLM
+* 25.12 [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631) | [Paper📑](https://arxiv.org/abs/2511.21631)
+  - Advanced VLM excelling in text and multimodal understanding supporting up to 256K tokens of interleaved text, images, and video. | Task: Reasoning & Understanding
 * 25.10 [InteractiveOmni: A Unified Omni-modal Model for Audio-Visual Multi-turn Dialogue](https://arxiv.org/abs/2510.13747#:~:text=,visual%20interaction.%20To%20enable)
+* 25.10 [Ming-Flash-Omni: A Sparse, Unified Architecture for Multimodal Perception and Generation](https://arxiv.org/abs/2510.24821) | [Paper📑](https://arxiv.org/abs/2510.24821)
+  - Unified sparse architecture for multimodal perception and generation across modalities. | Task: Reasoning & Understanding
+* 25.10 [OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM](https://arxiv.org/abs/2510.15870) | [Paper📑](https://arxiv.org/abs/2510.15870)
+  - Multimodal LLM for comprehensive understanding across all modalities. | Task: Reasoning & Understanding
 * 25.09 [Qwen3-Omni Technical Report](https://arxiv.org/abs/2509.17765)
+* 25.09 [Lavida-O: Elastic Large Masked Diffusion Models for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2509.19244) | [Paper📑](https://arxiv.org/abs/2509.19244)
+  - Unified model for multimodal understanding and generation across modalities. | Task: Reasoning & Understanding
 * 25.07 [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities](https://arxiv.org/abs/2507.06261)
 * 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/abs/2505.04623)
 * 25.03 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215)
@@ -212,6 +264,16 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Efficient mask tokenization representing arbitrary segmentation masks with just two tokens, enabling reasoning-driven segmentation. | Task: Reasoning Segmentation
 * 26.01 [Towards Pixel-Level VLM Perception via Simple Points Prediction](https://arxiv.org/abs/2601.19228) | [Paper📑](https://arxiv.org/abs/2601.19228)
   - Enables pixel-level perception in VLMs through simple points prediction, bridging VLM reasoning and fine-grained spatial detection. | Task: Detection & Grounding
+* 25.12 [ReVSeg: Incentivizing the Reasoning Chain for Video Segmentation with Reinforcement Learning](https://arxiv.org/abs/2512.02835) | [Paper📑](https://arxiv.org/abs/2512.02835)
+  - Uses RL to incentivize reasoning chains for improved video segmentation. | Task: Reasoning Segmentation
+* 25.12 [InSight-o3: Empowering Multimodal Foundation Models with Generalized Visual Search](https://arxiv.org/abs/2512.18745) | [Paper📑](https://arxiv.org/abs/2512.18745)
+  - Enhances multimodal models with generalized visual search for improved grounding. | Task: Detection & Grounding
+* 25.11 [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719) | [Paper📑](https://arxiv.org/abs/2511.16719)
+  - Advances segmentation with concept-based reasoning. | Task: Reasoning Segmentation
+* 25.10 [Decomposed Attention Fusion in MLLMs for Training-Free Video Reasoning Segmentation](https://arxiv.org/abs/2510.19592) | [Paper📑](https://arxiv.org/abs/2510.19592)
+  - Video reasoning and segmentation with multimodal models without training. | Task: Reasoning Segmentation
+* 25.09 [RefAM: Attention Magnets for Zero-Shot Referral Segmentation](https://arxiv.org/abs/2509.22650) | [Paper📑](https://arxiv.org/abs/2509.22650)
+  - Zero-shot referral segmentation using attention-based visual reasoning. | Task: Reasoning Segmentation
 * 25.07 [UrbanLLaVA: A Multi-modal Large Language Model for Urban Intelligence with Spatial Reasoning and Understanding](https://arxiv.org/abs/2506.23219) | [Paper📑](https://arxiv.org/abs/2506.23219) [Code🖥️](https://github.com/tsinghua-fib-lab/UrbanLLaVA) 
   - A multi-stage training framework that decouples spatial reasoning enhancement from domain knowledge learning, thereby improving performance across diverse urban tasks.   | Task: Urban tasks
 * 25.07 [Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs](https://arxiv.org/abs/2506.21656) | [Paper📑](https://arxiv.org/abs/2506.21656)
@@ -257,6 +319,18 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Training-free test-time reasoning framework transforming VLMs into active viewpoint reasoners through coarse-to-fine 3D exploration, +11.56% on OpenEQA. | Task: Spatial Reasoning
 * 26.01 [Think3D: Thinking with Space for Spatial Reasoning](https://arxiv.org/abs/2601.13029) | [Paper📑](https://arxiv.org/abs/2601.13029)
   - Framework for spatial reasoning enabling models to reason in 3D space for improved visual understanding tasks. | Task: Spatial Reasoning & 3D Understanding
+* 25.12 [SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](https://arxiv.org/abs/2512.04069) | [Paper📑](https://arxiv.org/abs/2512.04069)
+  - Tool-augmented spatial reasoning using double interactive reinforcement learning. | Task: Spatial Reasoning
+* 25.12 [COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence](https://arxiv.org/abs/2512.04563) | [Paper📑](https://arxiv.org/abs/2512.04563)
+  - Unified model combining cooperative perception with spatial intelligence reasoning. | Task: Spatial Reasoning
+* 25.11 [SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards](https://arxiv.org/abs/2511.07403) | [Paper📑](https://arxiv.org/abs/2511.07403)
+  - Uses reinforcement learning with spatial rewards to improve 3D reasoning in MLLMs. | Task: Spatial Reasoning & 3D Understanding
+* 25.11 [G2VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning](https://arxiv.org/abs/2511.21688) | [Paper📑](https://arxiv.org/abs/2511.21688)
+  - Unifies 3D reconstruction and spatial reasoning in a geometry-grounded VLM. | Task: Spatial Reasoning & 3D Understanding
+* 25.10 [SpaceVista: All-Scale Visual Spatial Reasoning from mm to km](https://arxiv.org/abs/2510.09606) | [Paper📑](https://arxiv.org/abs/2510.09606)
+  - Spatial reasoning across multiple scales in visual understanding. | Task: Spatial Reasoning
+* 25.08 [3D-R1: Enhancing Reasoning in 3D VLMs for Unified Scene Understanding](https://arxiv.org/abs/2507.23478) | [Paper📑](https://arxiv.org/abs/2507.23478)
+  - Enhances reasoning capabilities of 3D vision-language models for unified 3D scene understanding. | Task: Spatial Reasoning & 3D Understanding
 * 25.04 [Perspective-Aware Reasoning in Vision-Language Models via Mental Imagery Simulation](https://arxiv.org/pdf/2504.17207) | [Paper📑](https://arxiv.org/pdf/2504.17207) [Project🌐](https://apc-vlm.github.io/) [Code🖥️](https://github.com/KAIST-Visual-AI-Group/APC-VLM) 
   - A framework for perspective-aware reasoning in vision-language models (VLMs) through mental imagery simulation. | Task: Spatial Reasoning & Understanding
 * 25.04 [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning](https://arxiv.org/html/2503.20752v2) | [Paper📑](https://arxiv.org/html/2503.20752v2) [Project🌐](https://tanhuajie.github.io/ReasonRFT/) [Code🖥️](https://github.com/tanhuajie/Reason-RFT) [Dataset🤗](https://huggingface.co/datasets/tanhuajie2001/Reason-RFT-CoT-Dataset)
@@ -284,6 +358,16 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Addresses task progress estimation in VLMs with Progress-Bench benchmark and ProgressLM-3B model. | Task: Temporal Reasoning & Understanding
 * 26.01 [HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding](https://arxiv.org/abs/2601.14724) | [Paper📑](https://arxiv.org/abs/2601.14724)
   - Efficient streaming video understanding via hierarchical KV cache memory enabling temporal reasoning over long videos. | Task: Temporal Reasoning
+* 25.12 [4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation](https://arxiv.org/abs/2512.17012) | [Paper📑](https://arxiv.org/abs/2512.17012)
+  - Region-level 4D (3D + temporal) understanding through perceptual distillation. | Task: Spatial-Temporal Understanding
+* 25.12 [MMSI-Video-Bench: A Holistic Benchmark for Video-Based Spatial Intelligence](https://arxiv.org/abs/2512.10863) | [Paper📑](https://arxiv.org/abs/2512.10863)
+  - Comprehensive benchmark for evaluating spatial intelligence in video understanding. | Task: Spatial-Temporal Understanding
+* 25.11 [VLA-4D: Embedding 4D Awareness into Vision-Language-Action Models for SpatioTemporally Coherent Robotic Manipulation](https://arxiv.org/abs/2511.17199) | [Paper📑](https://arxiv.org/abs/2511.17199)
+  - Incorporates 4D spatiotemporal awareness into VLA models for coherent robotic manipulation. | Task: Spatial-Temporal Understanding
+* 25.10 [Trace Anything: Representing Any Video in 4D via Trajectory Fields](https://arxiv.org/abs/2510.13802) | [Paper📑](https://arxiv.org/abs/2510.13802)
+  - 4D spatial-temporal representation learning from video. | Task: Spatial-Temporal Understanding
+* 25.08 [VLM4D: Towards Spatiotemporal Awareness in Vision Language Models](https://arxiv.org/abs/2508.02095) | [Paper📑](https://arxiv.org/abs/2508.02095)
+  - Extends VLMs with spatiotemporal reasoning for understanding spatial and temporal dynamics. | Task: Spatial-Temporal Understanding
 * 25.05 [MUSEG: Reinforcing Video Temporal Understanding via Timestamp-Aware Multi-Segment Grounding](https://arxiv.org/abs/2505.20715) | [Paper📑](https://arxiv.org/abs/2505.20715) [Code💻](https://github.com/THUNLP-MT/MUSEG)
 * 25.04 [VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2504.06958) | [Paper📑](https://arxiv.org/pdf/2504.06958) [Code💻](https://github.com/OpenGVLab/VideoChat-R1)
   - A novel spatiao-temporal perception framework with GRPO | Task: Spatial Understanding and Grounding
@@ -329,6 +413,14 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Multimodal tool-integrated reasoning framework enhancing chain-of-thought with tool use for complex math/science problems. | Task: Math
 * 26.01 [MMFormalizer: Multimodal Autoformalization in the Wild](https://arxiv.org/abs/2601.03017) | [Paper📑](https://arxiv.org/abs/2601.03017)
   - Framework for automatically formalizing multimodal mathematical content from images and text into formal representations. | Task: Math
+* 25.11 [MathSE: Improving Multimodal Mathematical Reasoning via Self-Evolving Iterative Reflection and Reward-Guided Fine-Tuning](https://arxiv.org/abs/2511.06805) | [Paper📑](https://arxiv.org/abs/2511.06805)
+  - Improves multimodal math reasoning via iterative self-evolution and reward-guided training. | Task: Math
+* 25.10 [Training Vision-Language Process Reward Models for Test-Time Scaling in Multimodal Reasoning](https://arxiv.org/abs/2509.23250) | [Paper📑](https://arxiv.org/abs/2509.23250)
+  - Process reward models for scaling multimodal reasoning at test time. | Task: Math
+* 25.09 [BaseReward: A Strong Baseline for Multimodal Reward Model](https://arxiv.org/abs/2509.16127) | [Paper📑](https://arxiv.org/abs/2509.16127)
+  - Strong baseline reward model for multimodal RL-based alignment. | Task: Math
+* 25.08 [MathReal: A Real Scene Benchmark for Evaluating Math Reasoning in MLLMs](https://arxiv.org/abs/2508.06009) | [Paper📑](https://arxiv.org/abs/2508.06009)
+  - Benchmark for evaluating multimodal math reasoning using real-world scene photographs. | Task: Math
 * 25.11 [Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](https://arxiv.org/abs/2511.18437) | [Paper📑](https://arxiv.org/abs/2511.18437) [Code🖥️](https://github.com/MiliLab/PEARL) [Model🤗](https://huggingface.co/Rex1090/PEARL-8B)
    - Introduce a perception checklist to anchor RL policy updates in verified visual evidence and prevent hallucinations. | Task: Math
 * 25.11 [Metis-HOME: Hybrid Optimized Mixture-of-Experts for Multimodal Reasoning](https://arxiv.org/abs/2510.20519) | [Paper📑](https://arxiv.org/abs/2510.20519) [Code🖥️](https://github.com/MM-Thinking/Metis-HOME) [Model🤗](https://huggingface.co/mmthinking/Metis-HOME)
@@ -394,6 +486,12 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 * 26.01 [ChartVerse: Scaling Chart Reasoning via Reliable Programmatic Synthesis from Scratch](https://arxiv.org/abs/2601.13606) | [Paper📑](https://arxiv.org/abs/2601.13606) [Code🖥️](https://github.com/starriver030515/ChartVerse) [Model🤗](https://huggingface.co/opendatalab/ChartVerse-8B) [Dataset🤗](https://huggingface.co/datasets/opendatalab/ChartVerse-SFT-1.8M)
   - Scalable chart reasoning framework using Rollout Posterior Entropy; ChartVerse-8B surpasses its teacher model Qwen3-VL-30B. | Task: Chart Reasoning
+* 25.10 [From Charts to Code: A Hierarchical Benchmark for Multimodal Models](https://arxiv.org/abs/2510.17932) | [Paper📑](https://arxiv.org/abs/2510.17932)
+  - Benchmark for chart understanding and code generation from charts. | Task: Chart Reasoning
+* 25.09 [Visual-TableQA: Open-Domain Benchmark for Reasoning over Table Images](https://arxiv.org/abs/2509.07966) | [Paper📑](https://arxiv.org/abs/2509.07966)
+  - Benchmark for visual question answering and reasoning over table images. | Task: Chart Reasoning
+* 25.09 [MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing](https://arxiv.org/abs/2509.22186) | [Paper📑](https://arxiv.org/abs/2509.22186)
+  - Efficient VLM for parsing and understanding high-resolution documents. | Task: Document Reasoning
 * 25.09 [Visual Programmability: A Guide for Code-as-Thought in Chart Understanding](https://arxiv.org/abs/2509.09286) | [Paper📑](https://arxiv.org/abs/2509.09286) [Code🖥️](https://github.com/Aphelios-Tang/Code-as-Thought)
    - Introduce an adaptive framework that enables VLMs to dynamically choose between code-based and visual reasoning pathways for chart understanding. | Task: Chart Reasoning
 * 25.07 [Chart-R1: Chain-of-Thought Supervision and Reinforcement for Advanced Chart Reasoner](https://arxiv.org/abs/2507.15509) | [Paper📑](https://arxiv.org/abs/2507.15509) [Code🖥️](https://github.com/DocTron-hub/Chart-R1) [Model🤗](https://huggingface.co/collections/DocTron/chart-r1)
@@ -456,6 +554,10 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
   - Bridges multimodal understanding and image generation via In-Context Chain-of-Thought (IC-CoT) with RL-based training. | Task: Image Generation & Editing
 * 26.01 [Unified Thinker: A General Reasoning Modular Core for Image Generation](https://arxiv.org/abs/2601.03127) | [Paper📑](https://arxiv.org/abs/2601.03127)
   - General reasoning modular core enhancing image generation models with chain-of-thought reasoning capabilities. | Task: Image Generation
+* 25.12 [REASONEDIT: Towards Reasoning-Enhanced Image Editing Models](https://arxiv.org/abs/2511.22625) | [Paper📑](https://arxiv.org/abs/2511.22625)
+  - Enhances image editing models with explicit reasoning capabilities. | Task: Image Editing
+* 25.12 [EditThinker: Unlocking Iterative Reasoning for Any Image Editor](https://arxiv.org/abs/2512.05965) | [Paper📑](https://arxiv.org/abs/2512.05965)
+  - Enables iterative reasoning in image editing through a reasoning-aware framework. | Task: Image Editing
 * 25.11 [IE-Critic-R1: Advancing the Explanatory Measurement of Text-Driven Image Editing for Human Perception Alignment](https://arxiv.org/abs/2511.18055) | [Paper📑](https://arxiv.org/abs/2511.18055) [Code🖥️](https://github.com/Coobiw/IE-Critic-R1) [Model🤗](https://huggingface.co/Coobiw/IE-Critic-R1-7B) [Dataset🤗](https://huggingface.co/datasets/Coobiw/IE-Bench-4k) [ColdStart SFT🤗](https://huggingface.co/datasets/Coobiw/IE-Bench-CoT-mixed)
   - IE-Critic-R1 treats image editing quality assessment as a reasoning task and implement "R1 moment" (longer reasoning thoughts, better performance). It is a pointwise, generative reward model, leveraging Chain-of-Thought (CoT) reasoning SFT and RLVR to provide accurate, human-aligned evaluations of image editing. | Task: Image Editing Quality Asssessment
 * 25.05 [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/pdf/2505.00703) | [Paper📑](https://arxiv.org/pdf/2505.00703) [Code🖥️](https://github.com/CaraJ7/T2I-R1)
@@ -468,12 +570,22 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
   - The first comprehensive investigation of the potential of CoT reasoning to enhance autoregressive image generation. | Task: Image Generation
 * 24.12 [EVLM: Self-Reflective Multimodal Reasoning for Cross-Dimensional Visual Editing](https://arxiv.org/pdf/2412.10566) | [Paper📑](https://arxiv.org/pdf/2412.10566)
   - A system designed to interpret such instructions in conjunction with reference visuals, producing precise and context-aware editing prompts.  | Task: Image Generation
-#### Video MLLM 
+#### Video MLLM
+* 25.11 [Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation](https://arxiv.org/abs/2511.14993) | [Paper📑](https://arxiv.org/abs/2511.14993)
+  - Foundation model family for image and video generation. | Task: Video Generation
+* 25.11 [Planning with Sketch-Guided Verification for Physics-Aware Video Generation](https://arxiv.org/abs/2511.17450) | [Paper📑](https://arxiv.org/abs/2511.17450)
+  - Physics-aware video generation with sketch-based planning and verification. | Task: Video Generation
+* 25.10 [PhysMaster: Mastering Physical Representation for Video Generation via RL](https://arxiv.org/abs/2510.13809) | [Paper📑](https://arxiv.org/abs/2510.13809)
+  - Physical reasoning for video generation with reinforcement learning. | Task: Video Generation
 * 25.02 [C-Drag:Chain-of-Thought Driven Motion Controller for Video Generation](https://arxiv.org/pdf/2502.19868) | [Paper📑](https://arxiv.org/pdf/2502.19868) [Code🖥️](https://github.com/WesLee88524/C-Drag-Official-Repo) [Dataset🤗](https://drive.google.com/file/d/1L2SYadeqZPObvSj9Mb6fK-KHtR0n-DKk/view)
   - A Chain-of-Thought-based motion controller for controllable video generation | Task: Video Generation
 #### Audio MLLM
 * 26.01 [LTX-2: Efficient Joint Audio-Visual Foundation Model](https://arxiv.org/abs/2601.03233) | [Paper📑](https://arxiv.org/abs/2601.03233) [Code🖥️](https://github.com/Lightricks/LTX-2) [Model🤗](https://huggingface.co/Lightricks/LTX-2)
   - Open-source 14B+5B asymmetric dual-stream audiovisual diffusion model generating synchronized video and audio with bidirectional cross-attention. | Task: Audio-Visual Generation
+* 25.11 [UniAVGen: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions](https://arxiv.org/abs/2511.03334) | [Paper📑](https://arxiv.org/abs/2511.03334)
+  - Unified audio-video generation using cross-modal interactions. | Task: Audio-Visual Generation
+* 25.11 [Harmony: Harmonizing Audio and Video Generation through Cross-Task Synergy](https://arxiv.org/abs/2511.21579) | [Paper📑](https://arxiv.org/abs/2511.21579)
+  - Harmonizes audio and video generation via cross-task synergy. | Task: Audio-Visual Generation
 * 25.06 [ThinkSound: Chain-of-Thought Reasoning in Multimodal Large Language Models for Audio Generation and Editing](https://arxiv.org/abs/2506.21448)
 
 
@@ -491,9 +603,29 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
   - Flow-based generative models applied as GUI interaction agents with visual reasoning capabilities. | Task: GUI Agent
 * 26.01 [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent](https://arxiv.org/abs/2601.09636) | [Paper📑](https://arxiv.org/abs/2601.09636)
   - Personalized GUI agent aligning hierarchical implicit user intent with long-term user-centric records. | Task: GUI Agent
+* 25.12 [Step-GUI Technical Report](https://arxiv.org/abs/2512.15431) | [Paper📑](https://arxiv.org/abs/2512.15431)
+  - Step-by-step GUI agent with visual understanding. | Task: GUI Agent
+* 25.12 [MAI-UI Technical Report: Real-World Centric Foundation GUI Agents](https://arxiv.org/abs/2512.22047) | [Paper📑](https://arxiv.org/abs/2512.22047)
+  - Foundation model for real-world GUI agent interaction with visual grounding. | Task: GUI Agent
 * 25.11 [Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything](https://arxiv.org/abs/2511.02834)
-* 25.10 [AudioToolAgent: An Agentic Framework for Audio-Language Models](https://arxiv.org/abs/2510.02995v1) | [Paper📑](https://arxiv.org/abs/2510.02995v1) 
+* 25.11 [DeepEyesV2: Toward Agentic Multimodal Model](https://arxiv.org/abs/2511.05271) | [Paper📑](https://arxiv.org/abs/2511.05271)
+  - Agentic multimodal model with tool-use and reasoning capabilities. | Task: Multimodal Agent
+* 25.11 [GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization](https://arxiv.org/abs/2511.15705) | [Paper📑](https://arxiv.org/abs/2511.15705)
+  - Combines visual reasoning with web augmentation for agentic geolocalization. | Task: Visual Reasoning Agent
+* 25.10 [AudioToolAgent: An Agentic Framework for Audio-Language Models](https://arxiv.org/abs/2510.02995v1) | [Paper📑](https://arxiv.org/abs/2510.02995v1)
+* 25.10 [GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness](https://arxiv.org/abs/2510.00536) | [Paper📑](https://arxiv.org/abs/2510.00536)
+  - Efficient GUI interaction agents using visual understanding with spatio-temporal KV cache. | Task: GUI Agent
+* 25.09 [UItron: Foundational GUI Agent with Advanced Perception and Planning](https://arxiv.org/abs/2508.21767) | [Paper📑](https://arxiv.org/abs/2508.21767)
+  - Multimodal agent for GUI understanding and interaction. | Task: GUI Agent
+* 25.09 [BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent](https://arxiv.org/abs/2509.15566) | [Paper📑](https://arxiv.org/abs/2509.15566)
+  - Reasoning model for GUI agent visual understanding and interaction. | Task: GUI Agent
 * 25.08 [Think Before You Segment: An Object-aware Reasoning Agent for Referring Audio-Visual Segmentation](https://arxiv.org/abs/2508.04418)
+* 25.08 [OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use](https://arxiv.org/abs/2508.04482) | [Paper📑](https://arxiv.org/abs/2508.04482)
+  - Survey of MLLM-based agents that operate computing devices via visual understanding. | Task: GUI Agent
+* 25.08 [InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization](https://arxiv.org/abs/2508.05731) | [Paper📑](https://arxiv.org/abs/2508.05731)
+  - Multimodal agent for GUI understanding with visual grounding and adaptive exploration. | Task: GUI Agent
+* 25.08 [CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent](https://arxiv.org/abs/2508.20096) | [Paper📑](https://arxiv.org/abs/2508.20096)
+  - Dual-brain architecture for multimodal computer-use agent with decoupled RL. | Task: GUI Agent
 * 25.06 [Ego-R1: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/abs/2506.13654)|[Paper📑](https://arxiv.org/pdf/2506.13654) [Code🖥️](https://github.com/egolife-ai/Ego-R1) [Project🌐](https://egolife-ai.github.io/Ego-R1/)
 * 25.05 [ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning](https://arxiv.org/abs/2503.19470) | [Paper📑](https://arxiv.org/pdf/2503.19470) [Code🖥️](https://github.com/Agent-RL/ReCall) 
 * 25.05 [Reinforcement Learning for Long-Horizon Interactive LLM Agents](https://arxiv.org/abs/2502.01600)|[Paper📑](https://arxiv.org/pdf/2502.01600) 
@@ -516,6 +648,18 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
 #### Image MLLM
 * 26.01 [UniX: Unifying Autoregression and Diffusion for Chest X-Ray Understanding and Generation](https://arxiv.org/abs/2601.11522) | [Paper📑](https://arxiv.org/abs/2601.11522) [Code🖥️](https://github.com/ZrH42/UniX) [Model🤗](https://huggingface.co/ZrH42/UniX)
   - Unified medical foundation model combining autoregressive understanding and diffusion generation for chest X-rays, +46.1% in understanding. | Task: Medical Image Understanding & Generation
+* 25.12 [OralGPT-Omni: A Versatile Dental Multimodal Large Language Model](https://arxiv.org/abs/2511.22055) | [Paper📑](https://arxiv.org/abs/2511.22055)
+  - Versatile dental MLLM for oral health diagnosis and reasoning across modalities. | Task: Medical Reasoning
+* 25.12 [DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry](https://arxiv.org/abs/2512.11558) | [Paper📑](https://arxiv.org/abs/2512.11558)
+  - Incentivizes complex multimodal reasoning for dental diagnosis and treatment. | Task: Medical Reasoning
+* 25.12 [Colon-X: Advancing Intelligent Colonoscopy from Multimodal Understanding to Clinical Reasoning](https://arxiv.org/abs/2512.03667) | [Paper📑](https://arxiv.org/abs/2512.03667)
+  - Advances colonoscopy with multimodal understanding and clinical reasoning capabilities. | Task: Medical Reasoning
+* 25.10 [M3Retrieve: Benchmarking Multimodal Retrieval for Medicine](https://arxiv.org/abs/2510.06888) | [Paper📑](https://arxiv.org/abs/2510.06888)
+  - Multimodal retrieval benchmark for medical domain. | Task: Medical Reasoning
+* 25.09 [MedVista3D: Vision-Language Modeling for Reducing Diagnostic Errors in 3D CT Disease Detection](https://arxiv.org/abs/2509.03800) | [Paper📑](https://arxiv.org/abs/2509.03800)
+  - VLM for medical 3D CT analysis to reduce diagnostic errors. | Task: Medical Reasoning
+* 25.08 [MedBLINK: Probing Basic Perception in Multimodal Language Models for Medicine](https://arxiv.org/abs/2508.02951) | [Paper📑](https://arxiv.org/abs/2508.02951)
+  - Tests multimodal LLMs on basic medical visual perception tasks. | Task: Medical Reasoning
 #### Audio MLLM
 * 25.04 (ICASSP 2025) [AuscMLLM: Bridging Classification and Reasoning in Heart Sound Analysis with a Multimodal Large Language Model](https://ieeexplore.ieee.org/document/10889373) |
 * 24.09 (JBHI 2024) [Multi-Task Learning for Audio-Based Infant Cry Detection and Reasoning](https://ieeexplore.ieee.org/document/10663705) | 
@@ -545,6 +689,41 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
 
 * 26.01 [VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory](https://arxiv.org/abs/2601.08665) | [Paper📑](https://arxiv.org/abs/2601.08665)
   - Embodied navigation agent with adaptive reasoning combining visual perception and linguistic memory. | Task: Embodied Navigation
+
+* 25.12 [DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reasoning and Action](https://arxiv.org/abs/2511.22134) | [Paper📑](https://arxiv.org/abs/2511.22134)
+  - Decouples reasoning and action for more generalizable embodied agents. | Task: Robotic Manipulation
+* 25.12 [HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for VLA Models](https://arxiv.org/abs/2512.09928) | [Paper📑](https://arxiv.org/abs/2512.09928)
+  - Enriches VLA models with hindsight, insight, and foresight via motion representations. | Task: Robotic Manipulation
+* 25.12 [LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator](https://arxiv.org/abs/2512.10605) | [Paper📑](https://arxiv.org/abs/2512.10605)
+  - General-purpose language-driven robotic agent for embodied task execution. | Task: Robotic Manipulation
+* 25.12 [Steering VLA Models as Anti-Exploration: A Test-Time Scaling Approach](https://arxiv.org/abs/2512.02834) | [Paper📑](https://arxiv.org/abs/2512.02834)
+  - Test-time scaling approach for steering VLA models for safe embodied behavior. | Task: Robot Control
+* 25.11 [WMPO: World Model-based Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.09515) | [Paper📑](https://arxiv.org/abs/2511.09515)
+  - World model-based policy optimization for VLA models in robotics. | Task: Robot Control
+* 25.11 [RynnVLA-002: A Unified Vision-Language-Action and World Model](https://arxiv.org/abs/2511.17502) | [Paper📑](https://arxiv.org/abs/2511.17502)
+  - Unified VLA and world model for robotic manipulation. | Task: Robot Control
+* 25.11 [Mantis: A Versatile Vision-Language-Action Model with Disentangled Visual Foresight](https://arxiv.org/abs/2511.16175) | [Paper📑](https://arxiv.org/abs/2511.16175)
+  - VLA model with disentangled visual foresight for robotic control. | Task: Robot Control
+* 25.11 [MobileVLA-R1: Reinforcing Vision-Language-Action for Mobile Robots](https://arxiv.org/abs/2511.17889) | [Paper📑](https://arxiv.org/abs/2511.17889)
+  - Reinforcement-based VLA model for mobile robot tasks. | Task: Robot Control
+* 25.10 [VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards](https://arxiv.org/abs/2510.00406) | [Paper📑](https://arxiv.org/abs/2510.00406)
+  - Fine-tuning VLA models using RL with verified rewards in world simulators. | Task: Robot Control
+* 25.10 [InternVLA-M1: A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy](https://arxiv.org/abs/2510.13778) | [Paper📑](https://arxiv.org/abs/2510.13778)
+  - VLA framework for robotic control with spatial grounding. | Task: Robot Control
+* 25.10 [X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model](https://arxiv.org/abs/2510.10274) | [Paper📑](https://arxiv.org/abs/2510.10274)
+  - Cross-embodiment VLA model for scalable robot learning. | Task: Robot Control
+* 25.10 [GigaBrain-0: A World Model-Powered Vision-Language-Action Model](https://arxiv.org/abs/2510.19430) | [Paper📑](https://arxiv.org/abs/2510.19430)
+  - VLA model integrating world models for robot reasoning. | Task: Robot Control
+* 25.09 [Robix: A Unified Model for Robot Interaction, Reasoning and Planning](https://arxiv.org/abs/2509.01106) | [Paper📑](https://arxiv.org/abs/2509.01106)
+  - Unified robotics model combining visual reasoning with interaction and planning. | Task: Robot Control
+* 25.09 [FLOWER: Democratizing Generalist Robot Policies with Efficient VLA Flow Policies](https://arxiv.org/abs/2509.04996) | [Paper📑](https://arxiv.org/abs/2509.04996)
+  - Vision-language-action model for generalist robot policies. | Task: Robot Control
+* 25.08 [RynnEC: Bringing MLLMs into Embodied World](https://arxiv.org/abs/2508.14160) | [Paper📑](https://arxiv.org/abs/2508.14160)
+  - Integrates multimodal LLMs into embodied AI settings for physical-world reasoning. | Task: Embodied Reasoning
+* 25.08 [Do What? Teaching Vision-Language-Action Models to Reject the Impossible](https://arxiv.org/abs/2508.16292) | [Paper📑](https://arxiv.org/abs/2508.16292)
+  - Trains VLA models to reason about task feasibility and reject impossible instructions. | Task: Robot Control
+* 25.08 [Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in VLA Policies](https://arxiv.org/abs/2508.20072) | [Paper📑](https://arxiv.org/abs/2508.20072)
+  - Uses discrete diffusion for action decoding in vision-language-action robotic policies. | Task: Robot Control
 
 * 23.07 [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/) | [Paper📑](https://arxiv.org/pdf/2307.15818) [Project🌐](https://robotics-transformer2.github.io)
   - Co-finetunes a VLM on web and robot data, establishing the VLA paradigm by transferring internet-scale knowledge to robot control. | Task: General Robotic Manipulation
@@ -594,6 +773,12 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
   - Uses video generation models as visual reasoners for text-to-image generation, showing temporal modeling transfers to improved spatial reasoning. | Task: Image Generation
 * 26.01 [OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models](https://arxiv.org/abs/2601.21639) | [Paper📑](https://arxiv.org/abs/2601.21639)
   - Holistic OCR framework within end-to-end vision-language models for comprehensive text understanding in images. | Task: OCR & Document Understanding
+* 25.12 [GroundingME: Exposing the Visual Grounding Gap in MLLMs through Multi-Dimensional Evaluation](https://arxiv.org/abs/2512.17495) | [Paper📑](https://arxiv.org/abs/2512.17495)
+  - Exposes and evaluates visual grounding gaps in MLLMs across multiple dimensions. | Task: Visual Grounding
+* 25.11 [Monet: Reasoning in Latent Visual Space Beyond Images and Language](https://arxiv.org/abs/2511.21395) | [Paper📑](https://arxiv.org/abs/2511.21395)
+  - Enables vision-language reasoning in latent visual space, going beyond standard image-text paradigms. | Task: Reasoning
+* 25.10 [SeeingEye: Agentic Information Flow Unlocks Multimodal Reasoning In Text-only LLMs](https://arxiv.org/abs/2510.25092) | [Paper📑](https://arxiv.org/abs/2510.25092)
+  - Enables multimodal reasoning in text-only LLMs through agentic information flow. | Task: Reasoning
 * 25.04 [InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners](https://arxiv.org/pdf/2504.14239) | [Paper📑](https://arxiv.org/pdf/2504.14239) [Code🖥️](https://github.com/Reallm-Labs/InfiGUI-R1)
   - an MLLM-based GUI agent designed to progressively evolve agents from Reactive Actors to Deliberative Reasoners. | task: UI
 * 25.04 [GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents](https://arxiv.org/pdf/2504.10458) | [Paper📑](https://arxiv.org/pdf/2504.10458)
@@ -635,10 +820,23 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
 | 26.01 | FutureOmni: Evaluating Future Forecasting from Omni-Modal Context | Omni-Modal Temporal Reasoning | [[📑 Paper]](https://arxiv.org/abs/2601.13836) |
 | 26.01 | Afri-MCQA: Multimodal Cultural Question Answering for African Languages | Multilingual Multimodal Reasoning | [[📑 Paper]](https://arxiv.org/abs/2601.05699) |
 | 26.01 | AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark | Cultural Multimodal Reasoning | [[📑 Paper]](https://arxiv.org/abs/2601.17645) |
+| 25.12 | HERBench: Multi-Evidence Integration in Video Question Answering | Video Reasoning | [[📑 Paper]](https://arxiv.org/abs/2512.14870) |
+| 25.12 | SVBench: Evaluation of Video Generation Models on Social Reasoning | Video Social Reasoning | [[📑 Paper]](https://arxiv.org/abs/2512.21507) |
+| 25.12 | IF-Bench: Benchmarking MLLMs for Infrared Images | Infrared Image Understanding | [[📑 Paper]](https://arxiv.org/abs/2512.09663) |
+| 25.12 | VABench: Comprehensive Benchmark for Audio-Video Generation | Audio-Video Generation | [[📑 Paper]](https://arxiv.org/abs/2512.09299) |
+| 25.11 | MME-CC: Challenging Multi-Modal Evaluation Benchmark of Cognitive Capacity | Cognitive Capacity | [[📑 Paper]](https://arxiv.org/abs/2511.03146) |
+| 25.11 | GGBench: Geometric Generative Reasoning Benchmark for Unified Multimodal Models | Geometric Reasoning | [[📑 Paper]](https://arxiv.org/abs/2511.11134) |
+| 25.11 | WEAVE: Benchmarking In-context Interleaved Comprehension and Generation | Multimodal Comprehension & Generation | [[📑 Paper]](https://arxiv.org/abs/2511.11434) |
+| 25.10 | Uni-MMMU: Massive Multi-discipline Multimodal Unified Benchmark | Multimodal Multi-discipline Reasoning | [[📑 Paper]](https://arxiv.org/abs/2510.13759) |
+| 25.10 | PhysToolBench: Benchmarking Physical Tool Understanding for MLLMs | Physical Tool Understanding | [[📑 Paper]](https://arxiv.org/abs/2510.09507) |
+| 25.10 | BEAR: Benchmarking Multimodal Language Models for Atomic Embodied Capabilities | Embodied AI Capabilities | [[📑 Paper]](https://arxiv.org/abs/2510.08759) |
 | 25.10 | OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs | Long-context, Video-Audio Unerstanding & Reasonin | [[📑 Paper]](https://arxiv.org/abs/2510.10689v1)  [[💻 Code]](https://github.com/NJU-LINK/OmniVideoBench) [[🌐 Project]](https://omnivideobench.github.io/omnivideobench_home/) [[🤗 Data]](https://huggingface.co/datasets/NJU-LINK/OmniVideoBench)|
 | 25.10 | XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models | Capability Balancing among Different Modalities | [[📑 Paper]](https://arxiv.org/abs/2510.15148)  [[💻 Code]](https://github.com/XingruiWang/XModBench) [[🌐 Project]](https://xingruiwang.github.io/projects/XModBench/) |
 | 25.10 | StreamingCoT: A Dataset for Temporal Dynamics and Multimodal Chain-of-Thought Reasoning in Streaming VideoQA | Termporal Reasoning | [[📑 Paper]](https://arxiv.org/abs/2510.25332) |
 | 25.10 | Valor32k-AVQA v2.0: Open-Ended Audio-Visual Question Answering Dataset and Benchmark | Common Sense Omni Reasoning | [[📑 Paper]](https://dl.acm.org/doi/10.1145/3746027.3758261) |
+| 25.09 | MARS2 2025 Challenge on Multimodal Reasoning | Multimodal Reasoning Challenge | [[📑 Paper]](https://arxiv.org/abs/2509.14142) |
+| 25.09 | Visual-TableQA: Open-Domain Benchmark for Reasoning over Table Images | Table Reasoning | [[📑 Paper]](https://arxiv.org/abs/2509.07966) |
+| 25.09 | AHELM: A Holistic Evaluation of Audio-Language Models | Audio-Language Understanding | [[📑 Paper]](https://arxiv.org/abs/2508.21376) |
 | 25.09 | MDAR: A Multi-scene Dynamic Audio Reasoning Benchmark | Complex, Multi-scene, & Dynamically Evolving Speech & Audio Reasonin | [[📑 Paper]](https://arxiv.org/abs/2509.22461)  [[💻 Code]](https://github.com/luckyerr/MDAR) |
 | 25.09 | MiMo-Audio-Eval Toolkit | Speech/Sound/Music Reasoning | [[💻 Code]](https://github.com/XiaomiMiMo/MiMo-Audio-Eval?tab=readme-ov-file)
 | 25.08 | SpeechR: A Benchmark for Speech Reasoning in Large Audio-Language Models | Speech  Reasoning | [[📑 Paper]](https://www.arxiv.org/abs/2508.02018)  [[💻 Code]](https://github.com/Yanda95/SpeechR) [[Data]](https://drive.google.com/file/d/1BH2r2idILwUHX0NKsXz6GsSXdO0qWly8/view) |
