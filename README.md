@@ -75,6 +75,20 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Uses comics as a visual medium to improve multimodal reasoning efficiency while preserving temporal structure and narrative coherence. | Task: Reasoning & Understanding
 * 26.02 [SwimBird: Eliciting Switchable Reasoning Mode in Hybrid Autoregressive MLLMs](https://arxiv.org/abs/2602.06040) | [Paper📑](https://arxiv.org/abs/2602.06040) [Code🖥️](https://github.com/Accio-Lab/SwimBird) [Dataset🤗](https://huggingface.co/datasets/Accio-Lab/SwimBird-SFT-92K)
   - Hybrid autoregressive MLLM dynamically switching between text-only, vision-only, and interleaved vision-text reasoning modes based on input queries. | Task: Reasoning & Understanding
+* 26.02 [What does RL improve for Visual Reasoning? A Frankenstein-Style Analysis](https://arxiv.org/abs/2602.12395) | [Paper📑](https://arxiv.org/abs/2602.12395) [Code🖥️](https://github.com/tianyi-lab/Frankenstein) [Model🤗](https://huggingface.co/AIcell/Frankenstein-RL)
+  - Analyzes what RL actually improves in VLMs for visual reasoning, finding RL primarily refines mid-to-late transformer layers that improve vision-to-reasoning alignment. | Task: Reasoning & Understanding
+* 26.02 [On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs](https://arxiv.org/abs/2602.12506) | [Paper📑](https://arxiv.org/abs/2602.12506)
+  - Shows RL fine-tuning of VLMs introduces vulnerability to textual perturbations and reveals an accuracy-faithfulness trade-off undermining chain-of-thought reliability. | Task: Reasoning & Understanding
+* 26.02 [Thinking with Drafting: Optical Decompression via Logical Reconstruction](https://arxiv.org/abs/2602.11731) | [Paper📑](https://arxiv.org/abs/2602.11731)
+  - TwD reconstructs logical structures from compressed visual tokens via Domain-Specific Language, forcing models to draft reasoning as executable code for self-verification. | Task: Reasoning & Understanding
+* 26.02 [Visual Persuasion: What Influences Decisions of Vision-Language Models?](https://arxiv.org/abs/2602.15278) | [Paper📑](https://arxiv.org/abs/2602.15278)
+  - Studies VLM visual decision-making through controlled image-based choice tasks with systematic perturbations to identify visual vulnerabilities and safety concerns. | Task: Reasoning & Understanding
+* 26.02 [Adapting Vision-Language Models for E-commerce Understanding at Scale](https://arxiv.org/abs/2602.11733) | [Paper📑](https://arxiv.org/abs/2602.11733)
+  - Adapts general-purpose VLMs for e-commerce product understanding via a 4M-item visual instruction tuning dataset covering deep product attributes and dynamic extraction. | Task: Reasoning & Understanding
+* 26.02 [Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception](https://arxiv.org/abs/2602.11858) | [Paper📑](https://arxiv.org/abs/2602.11858) [Code🖥️](https://github.com/inclusionAI/Zooming-without-Zooming) [Model🤗](https://huggingface.co/inclusionAI/ZwZ-8B)
+  - Trains MLLMs to internally perform iterative zooming during inference via distillation, eliminating repeated tool calls while improving fine-grained visual perception. | Task: Reasoning & Understanding
+* 26.02 [DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories](https://arxiv.org/abs/2602.10809) | [Paper📑](https://arxiv.org/abs/2602.10809) [Code🖥️](https://github.com/RUC-NLPIR/DeepImageSearch) [Dataset🤗](https://huggingface.co/datasets/RUC-NLPIR/DISBench)
+  - Reformulates image retrieval as multi-step reasoning over visual histories with DISBench benchmark and a modular agent with dual-memory system. | Task: Reasoning & Understanding
 * 26.01 [MMFineReason: Closing the Multimodal Reasoning Gap via Open Data-Centric Methods](https://arxiv.org/abs/2601.21821) | [Paper📑](https://arxiv.org/abs/2601.21821) [Model🤗](https://huggingface.co/OpenDataArena/MMFineReason-8B) [Dataset🤗](https://huggingface.co/datasets/OpenDataArena/MMFineReason-1.8M-Qwen3-VL-235B-Thinking)
   - A 1.8M-sample multimodal reasoning dataset with high-quality CoT annotations; the 8B model approaches Qwen3-VL-32B-Thinking performance. | Task: Reasoning & Understanding
 * 26.01 [DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models](https://arxiv.org/abs/2512.24165) | [Paper📑](https://arxiv.org/abs/2512.24165) [Code🖥️](https://github.com/lcqysl/DiffThinker) [Model🤗](https://huggingface.co/yhx12/DiffThinker) [Dataset🤗](https://huggingface.co/datasets/yhx12/DiffThinker_Eval)
@@ -183,6 +197,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Video generation models achieve zero-shot generalization for visual reasoning by using generated frames as intermediate reasoning steps with a visual test-time scaling law. | Task: Video Understanding & Reasoning
 * 26.02 [Multimodal Fact-Level Attribution for Verifiable Reasoning](https://arxiv.org/abs/2602.11509) | [Paper📑](https://arxiv.org/abs/2602.11509) [Code🖥️](https://github.com/meetdavidwan/murgat)
   - MuRGAt benchmark requiring MLLMs to provide precise fact-level citations across video, audio, and modalities, finding strong models frequently hallucinate citations despite correct reasoning. | Task: Video Understanding & Reasoning
+* 26.02 [Towards Universal Video MLLMs with Attribute-Structured and Quality-Verified Instructions](https://arxiv.org/abs/2602.13013) | [Paper📑](https://arxiv.org/abs/2602.13013) [Code🖥️](https://github.com/HVision-NKU/ASID-Caption) [Model🤗](https://huggingface.co/AudioVisual-Caption/ASID-Captioner-7B) [Dataset🤗](https://huggingface.co/datasets/AudioVisual-Caption/ASID-1M)
+  - ASID-Caption suite with 1M structured audiovisual annotations and quality verification pipeline for fine-grained audiovisual video understanding across multiple attribute dimensions. | Task: Video Understanding & Reasoning
+* 26.02 [VisPhyWorld: Probing Physical Reasoning via Code-Driven Video Reconstruction](https://arxiv.org/abs/2602.13294) | [Paper📑](https://arxiv.org/abs/2602.13294) [Code🖥️](https://github.com/TIGER-AI-Lab/VisPhyWorld)
+  - Execution-based framework evaluating physical reasoning in MLLMs by requiring executable simulator code from visual observations; VisPhyBench (209 scenes) reveals MLLMs struggle to infer physical parameters. | Task: Video Understanding & Reasoning
 * 26.01 [Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation](https://arxiv.org/abs/2512.24271) | [Paper📑](https://arxiv.org/abs/2512.24271)
   - Uses counterfactual video generation to reduce hallucinations and improve temporal reasoning in multimodal LLMs. | Task: Video Understanding & Reasoning
 * 25.12 [Rethinking Chain-of-Thought Reasoning for Videos](https://arxiv.org/abs/2512.09616) | [Paper📑](https://arxiv.org/abs/2512.09616)
@@ -270,6 +288,14 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Compact on-device unified multimodal model (~3s/512×512 on iPhone) outperforming Show-O and JanusFlow on generation and visual understanding benchmarks. | Task: Reasoning & Understanding
 * 26.02 [OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention](https://arxiv.org/abs/2602.05847) | [Paper📑](https://arxiv.org/abs/2602.05847)
   - Reinforced framework for omnivideo models improving mixed-modality reasoning by combining query-intensive grounding and modality-attentive fusion via contrastive learning. | Task: Reasoning & Understanding
+* 26.02 [UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](https://arxiv.org/abs/2602.12279) | [Paper📑](https://arxiv.org/abs/2602.12279)
+  - Framework enabling unified multimodal models to perform iterative CoT test-time scaling, showing sequential reasoning is more efficient than parallel sampling for both generation and understanding. | Task: Reasoning & Understanding
+* 26.02 [Best of Both Worlds: Multimodal Reasoning and Generation via Unified Discrete Flow Matching](https://arxiv.org/abs/2602.12221) | [Paper📑](https://arxiv.org/abs/2602.12221)
+  - UniDFlow, a unified discrete flow-matching framework decoupling understanding and generation via low-rank adapters and multimodal preference alignment, achieving SOTA across 8 benchmarks. | Task: Reasoning & Understanding
+* 26.02 [Understanding vs. Generation: Navigating Optimization Dilemma in Multimodal Models](https://arxiv.org/abs/2602.15772) | [Paper📑](https://arxiv.org/abs/2602.15772) [Code🖥️](https://github.com/sen-ye/R3)
+  - R3 (Reason-Reflect-Refine) framework reformulating single-step generation into multi-step generate-understand-regenerate process to resolve the trade-off between multimodal understanding and generation. | Task: Reasoning & Understanding
+* 26.02 [BrowseComp-V3: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents](https://arxiv.org/abs/2602.12876) | [Paper📑](https://arxiv.org/abs/2602.12876)
+  - 300-question benchmark for complex multi-hop reasoning across text and visual modalities with deep web search; even SOTA models achieve only 36% accuracy, with the OmniSeeker unified browsing agent. | Task: Reasoning & Understanding
 * 25.12 [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631) | [Paper📑](https://arxiv.org/abs/2511.21631)
   - Advanced VLM excelling in text and multimodal understanding supporting up to 256K tokens of interleaved text, images, and video. | Task: Reasoning & Understanding
 * 25.10 [InteractiveOmni: A Unified Omni-modal Model for Audio-Visual Multi-turn Dialogue](https://arxiv.org/abs/2510.13747#:~:text=,visual%20interaction.%20To%20enable)
@@ -298,6 +324,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Retrieval-augmented test-time adapter for open-vocabulary segmentation fusing textual prompts with pixel-annotated visual support features to narrow zero-shot vs. supervised gap. | Task: Reasoning Segmentation
 * 26.02 [Seg-ReSearch: Segmentation with Interleaved Reasoning and External Search](https://arxiv.org/abs/2602.04454) | [Paper📑](https://arxiv.org/abs/2602.04454) [Code🖥️](https://github.com/iSEE-Laboratory/Seg-ReSearch) [Dataset🤗](https://huggingface.co/datasets/iSEE-Laboratory/OK_VOS)
   - Novel segmentation paradigm enabling interleaved reasoning and external search to overcome knowledge bottlenecks, with OK-VOS benchmark for open-knowledge video object segmentation. | Task: Reasoning Segmentation
+* 26.02 [Conversational Image Segmentation: Grounding Abstract Concepts with Scalable Supervision](https://arxiv.org/abs/2602.13195) | [Paper📑](https://arxiv.org/abs/2602.13195) [Code🖥️](https://github.com/AadSah/ConverSeg)
+  - CIS task grounding abstract intent-driven concepts into pixel-accurate masks beyond categorical queries, with ConverSeg benchmark, ConverSeg-Net model, and AI-powered scalable data engine. | Task: Reasoning Segmentation
 * 26.01 [Urban Socio-Semantic Segmentation with Vision-Language Reasoning](https://arxiv.org/abs/2601.10477) | [Paper📑](https://arxiv.org/abs/2601.10477) [Code🖥️](https://github.com/AMAP-ML/SocioReasoner) [Model🤗](https://huggingface.co/vvangfaye/SocioReasoner-3B) [Dataset🤗](https://huggingface.co/datasets/vvangfaye/SocioSeg)
   - Vision-language reasoning framework for urban satellite segmentation identifying both physical and social categories via multi-stage reasoning. | Task: Reasoning Segmentation
 * 26.01 [SAMTok: Representing Any Mask with Two Words](https://arxiv.org/abs/2601.16093) | [Paper📑](https://arxiv.org/abs/2601.16093)
@@ -369,6 +397,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Benchmark of 1,400 VQA pairs across six spatial reasoning categories revealing VLMs achieve only ~55% vs. 87.6% human accuracy (ICLR 2026). | Task: Spatial Reasoning
 * 26.02 [LangMap: A Hierarchical Benchmark for Open-Vocabulary Goal Navigation](https://arxiv.org/abs/2602.02220) | [Paper📑](https://arxiv.org/abs/2602.02220) [Code🖥️](https://github.com/bo-miao/LangMap)
   - Multi-granularity open-vocabulary navigation task with 414 object categories and 18K+ navigation tasks across scene, room, region, and instance levels. | Task: Spatial Grounding & Navigation
+* 26.02 [GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics](https://arxiv.org/abs/2602.12617) | [Paper📑](https://arxiv.org/abs/2602.12617) [Code🖥️](https://github.com/HVision-NKU/GeoAgent) [Model🤗](https://huggingface.co/ghost233lism/GeoAgent) [Dataset🤗](https://huggingface.co/datasets/ghost233lism/GeoSeek)
+  - Geolocation reasoning model using RL with geo-similarity and consistency rewards over GeoSeek dataset, enabling fine-grained address-level localization with human-like reasoning. | Task: Spatial Reasoning
 * 26.01 [CoV: Chain-of-View Prompting for Spatial Reasoning](https://arxiv.org/abs/2601.05172) | [Paper📑](https://arxiv.org/abs/2601.05172) [Code🖥️](https://github.com/ziplab/CoV)
   - Training-free test-time reasoning framework transforming VLMs into active viewpoint reasoners through coarse-to-fine 3D exploration, +11.56% on OpenEQA. | Task: Spatial Reasoning
 * 26.01 [Think3D: Thinking with Space for Spatial Reasoning](https://arxiv.org/abs/2601.13029) | [Paper📑](https://arxiv.org/abs/2601.13029)
@@ -406,6 +436,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Omni Dense Captioning with six-dimensional structural schema generating time-aware audio-visual narratives with explicit timestamps, surpassing Gemini-2.5-Pro on the task. | Task: Temporal Grounding/Understanding
 * 26.02 [4RC: 4D Reconstruction via Conditional Querying Anytime and Anywhere](https://arxiv.org/abs/2602.10094) | [Paper📑](https://arxiv.org/abs/2602.10094)
   - 4D dynamic scene reconstruction framework with conditional querying at arbitrary space-time locations for flexible spatiotemporal understanding of dynamic scenes. | Task: Spatial-Temporal Understanding
+* 26.02 [Learning Situated Awareness in the Real World](https://arxiv.org/abs/2602.16682) | [Paper📑](https://arxiv.org/abs/2602.16682)
+  - SAW-Bench evaluates egocentric situated awareness using 786 real-world videos from smart glasses with 2,071+ QA pairs, revealing a 37.66% human-model performance gap in observer-centric spatial reasoning. | Task: Temporal Grounding/Understanding
+* 26.02 [MoRL: Reinforced Reasoning for Unified Motion Understanding and Generation](https://arxiv.org/abs/2602.14534) | [Paper📑](https://arxiv.org/abs/2602.14534) [Code🖥️](https://github.com/AIGeeksGroup/MoRL)
+  - Unified multimodal motion model combining SFT and RL with Chain-of-Motion (CoM) reasoning and large-scale CoT datasets for human motion understanding and generation. | Task: Spatial-Temporal Understanding
 * 26.01 [VideoLoom: A Video Large Language Model for Joint Spatial-Temporal Understanding](https://arxiv.org/abs/2601.07290) | [Paper📑](https://arxiv.org/abs/2601.07290) [Code🖥️](https://github.com/JPShi/VideoLoom) [Model🤗](https://huggingface.co/JPShi/VideoLoom-8B)
   - Unified Video LLM for joint spatial-temporal understanding with LoomData-8.7k dataset and LoomBench benchmark. | Task: Spatial-Temporal Understanding
 * 26.01 [VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](https://arxiv.org/abs/2601.05175) | [Paper📑](https://arxiv.org/abs/2601.05175) [Code🖥️](https://github.com/IVUL-KAUST/VideoAuto-R1)
@@ -471,6 +505,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - 103K-sample RLVR training dataset for multimodal K12 mathematical reasoning with diverse topics and rich visual elements, generalizing to general multimodal reasoning tasks. | Task: Math
 * 26.02 [Vision-DeepResearch: Incentivizing DeepResearch Capability in Multimodal Large Language Models](https://arxiv.org/abs/2601.22060) | [Paper📑](https://arxiv.org/abs/2601.22060) [Code🖥️](https://github.com/Osilly/Vision-DeepResearch)
   - Multimodal deep-research paradigm enabling multi-turn, multi-entity, multi-scale visual and textual search via cold-start supervision and RL. | Task: Math
+* 26.02 [LaViDa-R1: Advancing Reasoning for Unified Multimodal Diffusion Language Models](https://arxiv.org/abs/2602.14147) | [Paper📑](https://arxiv.org/abs/2602.14147)
+  - Multimodal reasoning diffusion LM using SFT + multi-task RL with answer-forcing, tree search, and complementary likelihood estimation for visual math reasoning and image editing. | Task: Math
+* 26.02 [Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings](https://arxiv.org/abs/2602.13823) | [Paper📑](https://arxiv.org/abs/2602.13823) [Code🖥️](https://github.com/ZoengHN/Embed-RL)
+  - Reasoning-driven multimodal embedding framework using Embedder-Guided RL (EG-RL) to optimize Traceability Chain-of-Thought generation for improved cross-modal semantic consistency. | Task: Math
 * 26.01 [CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving](https://arxiv.org/abs/2601.01874) | [Paper📑](https://arxiv.org/abs/2601.01874) [Project🌐](https://shchen233.github.io/cogflow/)
   - Cognitive-inspired three-stage framework (Perception-Internalization-Reasoning) for visual math with MathCog dataset of 120K+ annotations. | Task: Math
 * 26.01 [MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning](https://arxiv.org/abs/2512.23412) | [Paper📑](https://arxiv.org/abs/2512.23412)
@@ -556,6 +594,8 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Adapts block discrete diffusion for OCR enabling parallel token processing, achieving up to 3× faster inference while maintaining near-SOTA accuracy. | Task: Document Reasoning
 * 26.02 [PaddleOCR-VL-1.5: Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing](https://arxiv.org/abs/2601.21957) | [Paper📑](https://arxiv.org/abs/2601.21957)
   - Compact 0.9B VLM for multi-task document parsing in diverse real-world conditions covering OCR, layout understanding, and chart comprehension. | Task: Document Reasoning
+* 26.02 [ExStrucTiny: A Benchmark for Schema-Variable Structured Information Extraction from Document Images](https://arxiv.org/abs/2602.12203) | [Paper📑](https://arxiv.org/abs/2602.12203)
+  - Benchmark unifying key entity extraction, relation extraction, and VQA for structured information extraction from document images, evaluating VLMs on schema adaptation and answer localization. | Task: Document Reasoning
 * 26.02 [MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning](https://arxiv.org/abs/2601.21468) | [Paper📑](https://arxiv.org/abs/2601.21468)
   - Layout-aware visual memory mechanisms for MLLMs to improve long-horizon document and OCR reasoning efficiency. | Task: Document Reasoning
 * 26.01 [ChartVerse: Scaling Chart Reasoning via Reliable Programmatic Synthesis from Scratch](https://arxiv.org/abs/2601.13606) | [Paper📑](https://arxiv.org/abs/2601.13606) [Code🖥️](https://github.com/starriver030515/ChartVerse) [Model🤗](https://huggingface.co/opendatalab/ChartVerse-8B) [Dataset🤗](https://huggingface.co/datasets/opendatalab/ChartVerse-SFT-1.8M)
@@ -624,6 +664,8 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
 #### Image MLLM
 * 26.02 [DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing](https://arxiv.org/abs/2602.12205) | [Paper📑](https://arxiv.org/abs/2602.12205) [Code🖥️](https://github.com/DeepGenTeam/DeepGen) [Model🤗](https://huggingface.co/deepgenteam/DeepGen-1.0)
   - Lightweight 5B unified model for image generation and editing using hierarchical feature extraction, learnable think tokens, and MR-GRPO reinforcement learning, outperforming much larger models. | Task: Image Generation
+* 26.02 [UniWeTok: An Unified Binary Tokenizer with Codebook Size 2^128 for Unified Multimodal Large Language Model](https://arxiv.org/abs/2602.14178) | [Paper📑](https://arxiv.org/abs/2602.14178) [Code🖥️](https://github.com/shallowdream204/BitDance)
+  - Unified discrete tokenizer with massive binary codebook (2^128) for high-fidelity image reconstruction and generation in multimodal LLMs, achieving FID 1.38 with lower training compute. | Task: Image Generation
 * 26.02 [UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing](https://arxiv.org/abs/2602.02437) | [Paper📑](https://arxiv.org/abs/2602.02437) [Code🖥️](https://github.com/AlenjandroWang/UniReason) [Model🤗](https://huggingface.co/Alex11556666/UniReason)
   - Integrates text-to-image generation and editing through dual reasoning with world knowledge planning and visual refinement on reasoning-intensive benchmarks. | Task: Image Generation
 * 26.02 [Generated Reality: Human-centric World Simulation using Interactive Video Generation](https://arxiv.org/abs/2602.18422) | [Paper📑](https://arxiv.org/abs/2602.18422) [Project🌐](https://codeysun.github.io/generated-reality/)
@@ -653,6 +695,12 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
 #### Video MLLM
 * 26.02 [SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model](https://arxiv.org/abs/2602.21818) | [Paper📑](https://arxiv.org/abs/2602.21818)
   - Unified multimodal video foundation model enabling simultaneous video+audio generation, editing, and inpainting via dual-stream architecture, supporting 1080p/32FPS/15s with synchronized audio. | Task: Video Generation
+* 26.02 [AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories](https://arxiv.org/abs/2602.14941) | [Paper📑](https://arxiv.org/abs/2602.14941) [Code🖥️](https://github.com/wz0919/AnchorWeave)
+  - Addresses long-term video generation consistency using multiple local geometric memories and multi-anchor weaving controller for camera-controllable long-horizon scene generation. | Task: Video Generation
+* 26.02 [OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence](https://arxiv.org/abs/2602.08683) | [Paper📑](https://arxiv.org/abs/2602.08683) [Code🖥️](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) [Model🤗](https://huggingface.co/collections/lmms-lab-encoder/onevision-encoder)
+  - Vision encoder applying codec-aligned sparsity to focus on 3.1%-25% of signal-rich patches, outperforming Qwen3-ViT and SigLIP2 across 16 benchmarks with 4.1% average improvement on video understanding. | Task: Video Understanding
+* 26.02 [CoPE-VideoLM: Codec Primitives For Efficient Video Language Models](https://arxiv.org/abs/2602.13191) | [Paper📑](https://arxiv.org/abs/2602.13191)
+  - Uses video codec primitives (motion vectors and residuals) instead of dense per-frame embeddings, reducing time-to-first-token by up to 86% and token usage by up to 93% across 14 video benchmarks. | Task: Video Understanding
 * 26.02 [Solaris: Building a Multiplayer Video World Model in Minecraft](https://arxiv.org/abs/2602.22208) | [Paper📑](https://arxiv.org/abs/2602.22208) [Code🖥️](https://github.com/solaris-wm/solaris) [Model🤗](https://huggingface.co/nyu-visionx/solaris)
   - Multiplayer video world model for consistent multi-view observations in coordinated multi-agent Minecraft environments using Checkpointed Self Forcing technique. | Task: Video Generation
 * 26.02 [MOVA: Towards Scalable and Synchronized Video-Audio Generation](https://arxiv.org/abs/2602.08794) | [Paper📑](https://arxiv.org/abs/2602.08794) [Code🖥️](https://github.com/OpenMOSS/MOVA) [Model🤗](https://huggingface.co/collections/OpenMOSS-Team/mova)
@@ -697,6 +745,12 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
   - Reasoning-first WebPRM formulating reward modeling as text generation to improve web navigation through structured justifications and preference verdicts (ICLR 2026). | Task: GUI Agent
 * 26.02 [Sparse Video Generation Propels Real-World Beyond-the-View Vision-Language Navigation](https://arxiv.org/abs/2602.05827) | [Paper📑](https://arxiv.org/abs/2602.05827) [Code🖥️](https://github.com/opendrivelab/sparsevideonav)
   - SparseVideoNav uses video generation for sparse future planning in beyond-the-view VLN tasks, achieving 27× speed-up and 2.5× higher success rate over LLM baselines. | Task: Visual Reasoning Agent
+* 26.02 [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.14721) | [Paper📑](https://arxiv.org/abs/2602.14721)
+  - Open-web simulator trained on 1M+ interactions enabling long-horizon reasoning for web agents; models trained on WebWorld-synthesized trajectories show +9.2% improvement on WebArena. | Task: GUI Agent
+* 26.02 [AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines](https://arxiv.org/abs/2602.14296) | [Paper📑](https://arxiv.org/abs/2602.14296)
+  - Synthesizes controllable web environments as FSMs translated to interactive websites by coding agents for automated trajectory generation at $0.04/trajectory, with 7B agent outperforming baselines on WebVoyager. | Task: GUI Agent
+* 26.02 [MMA: Multimodal Memory Agent](https://arxiv.org/abs/2602.16493) | [Paper📑](https://arxiv.org/abs/2602.16493) [Code🖥️](https://github.com/AIGeeksGroup/MMA)
+  - Improves long-horizon multimodal agent performance via dynamic memory reliability scoring and introduces the "Visual Placebo Effect" with MMA-Bench for evaluating belief dynamics. | Task: Multimodal Agent
 * 26.01 [AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning](https://arxiv.org/abs/2601.18631) | [Paper📑](https://arxiv.org/abs/2601.18631) [Code🖥️](https://github.com/ssmisya/AdaReasoner) [Model🤗](https://huggingface.co/AdaReasoner/AdaReasoner-7B-Randomized)
   - Multimodal model family learning tool usage as a reasoning skill via Tool-GRPO, +24.9% improvement surpassing GPT-4 on visual reasoning benchmarks. | Task: Visual Reasoning with Tools
 * 26.01 [SenseNova-MARS: Empowering Multimodal Agentic Reasoning and Search via Reinforcement Learning](https://arxiv.org/abs/2512.24330) | [Paper📑](https://arxiv.org/abs/2512.24330)
@@ -762,6 +816,12 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
   - Specialized MLLM for hepatocellular carcinoma diagnosis with Sparse Topo-Pack Attention modeling tissue topology; includes HepatoPathoVQA (33K expert-validated Q&A pairs). | Task: Medical Reasoning
 * 26.02 [MedCLIPSeg: Probabilistic Vision-Language Adaptation for Medical Image Segmentation](https://arxiv.org/abs/2602.20423) | [Paper📑](https://arxiv.org/abs/2602.20423) [Code🖥️](https://github.com/HealthX-Lab/MedCLIPSeg) [Model🤗](https://huggingface.co/TahaKoleilat/MedCLIPSeg)
   - Adapts CLIP for medical image segmentation via Probabilistic Vision-Language Adapter with uncertainty-aware attention, tested across 16 datasets spanning 5 modalities and 6 organs. | Task: Medical Reasoning
+* 26.02 [MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs](https://arxiv.org/abs/2602.12705) | [Paper📑](https://arxiv.org/abs/2602.12705)
+  - Medical VLM combining entity-aware continual pretraining for rare diseases, RL for expert-level reasoning, and tool-augmented agentic training for multi-step diagnostic reasoning with reduced hallucination. | Task: Medical Reasoning
+* 26.02 [ClinAlign: Scaling Healthcare Alignment from Clinician Preference](https://arxiv.org/abs/2602.09653) | [Paper📑](https://arxiv.org/abs/2602.09653) [Code🖥️](https://github.com/AQ-MedAI/ClinAlign) [Model🤗](https://huggingface.co/AQ-MedAI/ClinAlign-30B-A3B)
+  - Two-stage LLM alignment using physician-verified examples and distilled clinical principles, with a 30B model activating 3B parameters at inference achieving SOTA on medical benchmarks. | Task: Medical Reasoning
+* 26.02 [Uncertainty-Aware Vision-Language Segmentation for Medical Imaging](https://arxiv.org/abs/2602.14498) | [Paper📑](https://arxiv.org/abs/2602.14498) [Code🖥️](https://github.com/arya-domain/UA-VLS)
+  - Multimodal segmentation with Modality Decoding Attention Blocks (MoDAB) and Spectral-Entropic Uncertainty Loss for medical image segmentation from radiological images and clinical text. | Task: Medical Reasoning
 * 26.01 [UniX: Unifying Autoregression and Diffusion for Chest X-Ray Understanding and Generation](https://arxiv.org/abs/2601.11522) | [Paper📑](https://arxiv.org/abs/2601.11522) [Code🖥️](https://github.com/ZrH42/UniX) [Model🤗](https://huggingface.co/ZrH42/UniX)
   - Unified medical foundation model combining autoregressive understanding and diffusion generation for chest X-rays, +46.1% in understanding. | Task: Medical Image Understanding & Generation
 * 25.12 [OralGPT-Omni: A Versatile Dental Multimodal Large Language Model](https://arxiv.org/abs/2511.22055) | [Paper📑](https://arxiv.org/abs/2511.22055)
@@ -826,6 +886,45 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
 
 * 26.02 [Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs](https://arxiv.org/abs/2602.21198) | [Paper📑](https://arxiv.org/abs/2602.21198) [Code🖥️](https://github.com/Reflective-Test-Time-Planning/Reflective-Test-Time-Planning)
   - Reflective Test-Time Planning with reflection-in-action and reflection-on-action enabling long-horizon credit assignment in robot decision-making. | Task: Embodied Reasoning
+
+* 26.02 [RISE: Self-Improving Robot Policy with Compositional World Model](https://arxiv.org/abs/2602.11075) | [Paper📑](https://arxiv.org/abs/2602.11075)
+  - Addresses VLA brittleness in contact-rich manipulation using a compositional world model to predict multi-view futures and evaluate imagined outcomes, achieving +35-45% gains across real-world tasks. | Task: Robotic Manipulation
+
+* 26.02 [chi_0: Resource-Aware Robust Manipulation via Taming Distributional Inconsistencies](https://arxiv.org/abs/2602.09021) | [Paper📑](https://arxiv.org/abs/2602.09021) [Code🖥️](https://github.com/OpenDriveLab/KAI0) [Model🤗](https://huggingface.co/OpenDriveLab-org/Kai0)
+  - Resource-efficient robotic manipulation using model arithmetic weight-space merging and stage-aware advantage estimation for dual-arm garment tasks, achieving 250% higher success than pi_0.5. | Task: Robotic Manipulation
+
+* 26.02 [EgoHumanoid: Unlocking In-the-Wild Loco-Manipulation with Robot-Free Egocentric Demonstration](https://arxiv.org/abs/2602.10106) | [Paper📑](https://arxiv.org/abs/2602.10106)
+  - Enables humanoid loco-manipulation via co-training VLA policies using abundant egocentric human demonstrations with limited robot data, achieving 51% improvement over robot-only baselines. | Task: Robotic Manipulation
+
+* 26.02 [MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation](https://arxiv.org/abs/2602.11337) | [Paper📑](https://arxiv.org/abs/2602.11337) [Code🖥️](https://github.com/allenai/molmospaces)
+  - Open ecosystem with 230k+ diverse indoor environments and 130k annotated assets supporting MuJoCo/Isaac/ManiSkill, with 8 benchmark tasks and strong sim-to-real correlation (R=0.96). | Task: Robot Simulation
+
+* 26.02 [ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning](https://arxiv.org/abs/2602.11236) | [Paper📑](https://arxiv.org/abs/2602.11236) [Code🖥️](https://github.com/amap-cvlab/ABot-Manipulation) [Model🤗](https://huggingface.co/acvlab/ABot-M0-LIBERO)
+  - Unified robotic manipulation framework standardizing 6M+ trajectories and introducing Action Manifold Learning (AML) for improved action prediction on low-dimensional manifolds. | Task: Robotic Manipulation
+
+* 26.02 [RLinf-Co: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models](https://arxiv.org/abs/2602.12628) | [Paper📑](https://arxiv.org/abs/2602.12628)
+  - RL-based sim-real co-training for VLA policies using two-stage warm-start SFT + RL fine-tuning with auxiliary supervised loss, achieving +24% on OpenVLA and +20% on pi_0.5 in real-world success. | Task: Robotic Manipulation
+
+* 26.02 [Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution](https://arxiv.org/abs/2602.12684) | [Paper📑](https://arxiv.org/abs/2602.12684) [Code🖥️](https://github.com/XiaomiRobotics/Xiaomi-Robotics-0)
+  - Open-source VLA combining large-scale cross-embodiment pretraining with asynchronous execution for real-time deployment, achieving SOTA on simulation benchmarks with consumer-grade GPU compatibility. | Task: Robotic Manipulation
+
+* 26.02 [GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning](https://arxiv.org/abs/2602.04315) | [Paper📑](https://arxiv.org/abs/2602.04315) [Code🖥️](https://github.com/AIGeeksGroup/GeneralVLA)
+  - Hierarchical VLA for zero-shot robotic manipulation via affordance segmentation, 3D trajectory planning, and 3D-aware control policy, outperforming VoxPoser without real-world demonstrations. | Task: Robotic Manipulation
+
+* 26.02 [RynnBrain: Open Embodied Foundation Models](https://arxiv.org/abs/2602.14979) | [Paper📑](https://arxiv.org/abs/2602.14979) [Code🖥️](https://github.com/alibaba-damo-academy/RynnBrain) [Model🤗](https://huggingface.co/Alibaba-DAMO-Academy/RynnBrain-8B) [Dataset🤗](https://huggingface.co/datasets/Alibaba-DAMO-Academy/RynnBrain-Bench)
+  - Open-source spatiotemporal foundation model unifying perception, reasoning, and planning for embodied intelligence, outperforming existing models on 20 embodied benchmarks. | Task: Embodied Reasoning
+
+* 26.02 [Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation](https://arxiv.org/abs/2602.16705) | [Paper📑](https://arxiv.org/abs/2602.16705)
+  - HERO enables humanoid robots to manipulate diverse real-world objects using inverse kinematics and neural forward model, reducing end-effector tracking error 3.2x for reliable surface manipulation. | Task: Robotic Manipulation
+
+* 26.02 [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922) | [Paper📑](https://arxiv.org/abs/2602.15922) [Code🖥️](https://github.com/dreamzero0/dreamzero)
+  - DreamZero uses video diffusion as a World Action Model (WAM) for robot skill generalization with 2x improvement in novel environments at real-time 7Hz closed-loop control. | Task: Robotic Manipulation
+
+* 26.02 [Learning Native Continuation for Action Chunking Flow Policies](https://arxiv.org/abs/2602.12978) | [Paper📑](https://arxiv.org/abs/2602.12978)
+  - Legato, a training-time continuation method for action-chunked VLA policies producing smoother trajectories, achieving ~10% improvements in smoothness and task completion across 5 manipulation tasks. | Task: Robotic Manipulation
+
+* 26.02 [BiManiBench: A Hierarchical Benchmark for Evaluating Bimanual Coordination of Multimodal Large Language Models](https://arxiv.org/abs/2602.08392) | [Paper📑](https://arxiv.org/abs/2602.08392) [Code🖥️](https://github.com/bimanibench/BiManiBench)
+  - Evaluates 30+ MLLMs on bimanual robotic tasks across spatial reasoning, action planning, and end-effector control tiers, finding persistent failures in dual-arm spatial grounding. | Task: Robotic Manipulation
 
 * 26.01 [ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models](https://arxiv.org/abs/2601.11404) | [Paper📑](https://arxiv.org/abs/2601.11404)
   - Action Chain-of-Thought paradigm for VLA models with Explicit and Implicit Action Reasoner components, achieving 98.5% on LIBERO. | Task: Robotic Manipulation
@@ -931,6 +1030,8 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
   - Benchmark testing whether VLMs truly understand text rendered visually in images as well as plain text, revealing a significant comprehension gap. | Task: Reasoning
 * 26.02 [From Perception to Action: An Interactive Benchmark for Vision Reasoning](https://arxiv.org/abs/2602.21015) | [Paper📑](https://arxiv.org/abs/2602.21015) [Code🖥️](https://github.com/Social-AI-Studio/CHAIN)
   - CHAIN 3D physics-driven interactive benchmark evaluating whether VLMs understand causal constraints and execute structured action sequences in mechanical puzzles. | Task: Reasoning
+* 26.02 [SAM 3D Body: Robust Full-Body Human Mesh Recovery](https://arxiv.org/abs/2602.15989) | [Paper📑](https://arxiv.org/abs/2602.15989) [Code🖥️](https://github.com/facebookresearch/sam-3d-body)
+  - Promptable model for single-image 3D human mesh recovery using the Momentum Human Rig (MHR) parametric representation, supporting 2D keypoint/mask prompts with strong generalization. | Task: 3D Human Pose Estimation
 * 26.01 [CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation](https://arxiv.org/abs/2601.10061) | [Paper📑](https://arxiv.org/abs/2601.10061)
   - Uses video generation models as visual reasoners for text-to-image generation, showing temporal modeling transfers to improved spatial reasoning. | Task: Image Generation
 * 26.01 [OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models](https://arxiv.org/abs/2601.21639) | [Paper📑](https://arxiv.org/abs/2601.21639)
@@ -982,6 +1083,9 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
 | 26.02 | DeepVision-103K: Verifiable multimodal math dataset for RLVR training | Math Reasoning | [[📑 Paper]](https://arxiv.org/abs/2602.16742) [[💻 Code]](https://github.com/SKYLENAGE-AI/DeepVision-103K) [[🤗 Data]](https://huggingface.co/datasets/skylenage/DeepVision-103K) |
 | 26.02 | UniVBench: Unified evaluation for video foundation models across understanding, generation, editing | Video Foundation Model Evaluation | [[📑 Paper]](https://arxiv.org/abs/2602.21835) [[💻 Code]](https://github.com/JianhuiWei7/UniVBench) |
 | 26.02 | RISE-Video: Benchmark for video generators decoding implicit world rules | Video Generation Reasoning | [[📑 Paper]](https://arxiv.org/abs/2602.05986) [[💻 Code]](https://github.com/VisionXLab/Rise-Video) [[🤗 Data]](https://huggingface.co/datasets/VisionXLab/RISE-Video) |
+| 26.02 | SAW-Bench: Egocentric Situated Awareness evaluation with 786 smart-glass videos and 2,071+ QA pairs | Spatial Reasoning | [[📑 Paper]](https://arxiv.org/abs/2602.16682) |
+| 26.02 | BrowseComp-V3: 300-question visual benchmark for complex multi-hop multimodal web search | Multimodal Browsing | [[📑 Paper]](https://arxiv.org/abs/2602.12876) |
+| 26.02 | BiManiBench: Hierarchical benchmark for bimanual coordination evaluation in MLLMs | Bimanual Robotics | [[📑 Paper]](https://arxiv.org/abs/2602.08392) [[💻 Code]](https://github.com/bimanibench/BiManiBench) |
 | 26.01 | MMFineReason: Closing the Multimodal Reasoning Gap via Open Data-Centric Methods | Multimodal Reasoning | [[📑 Paper]](https://arxiv.org/abs/2601.21821) [[🤗 Model]](https://huggingface.co/OpenDataArena/MMFineReason-8B) [[🤗 Data]](https://huggingface.co/datasets/OpenDataArena/MMFineReason-1.8M-Qwen3-VL-235B-Thinking) |
 | 26.01 | ChartVerse: Scaling Chart Reasoning via Reliable Programmatic Synthesis | Chart Reasoning | [[📑 Paper]](https://arxiv.org/abs/2601.13606) [[💻 Code]](https://github.com/starriver030515/ChartVerse) [[🤗 Model]](https://huggingface.co/opendatalab/ChartVerse-8B) [[🤗 Data]](https://huggingface.co/datasets/opendatalab/ChartVerse-SFT-1.8M) |
 | 26.01 | VideoLoom: Joint Spatial-Temporal Understanding with LoomBench | Spatial-Temporal Reasoning | [[📑 Paper]](https://arxiv.org/abs/2601.07290) [[💻 Code]](https://github.com/JPShi/VideoLoom) [[🤗 Model]](https://huggingface.co/JPShi/VideoLoom-8B) |
