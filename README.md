@@ -4,6 +4,14 @@
 👏 Welcome to the Awesome-MLLM-Reasoning-Collections repository! This repository is a carefully curated collection of papers, code, datasets, benchmarks, and resources focused on reasoning within Multimodal Large Language Models (MLLMs).
 
 Feel free to ⭐ star and fork this repository to keep up with the latest advancements and contribute to the community.
+
+<!-- ---- -->
+![alt text](image.png)
+
+A conceptual trajectory of multimodal reasoning, evolving from static image-level understanding, through temporal video and audio reasoning, to holistic omni-level reasoning, and finally toward embodied embedding reasoning with perception–action interaction. This progression reflects increasing reasoning scope, compositionality, and interactivity.
+
+
+<!-- ---- -->
 ### Table of Contents
 - [Awesome-MLLM-Reasoning-Collection](#awesome-mllm-reasoning-collection)
     - [Table of Contents](#table-of-contents)
@@ -47,6 +55,10 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 <a name="PapersandProjects"></a>
 ## Papers and Projects 📄
+![alt text](image-1.png)
+
+An evolutionary landscape of several representative multi-modal reasoning frameworks from 2022 to 2025. 
+
 
 <a name="VQA"></a>
 ### Commonsense Reasoning
