@@ -298,6 +298,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
   - Music-language for understanding and captioning tasks.
 
 #### Omni MLLM
+* 26.05 [Boosting Omni-Modal Language Models: Staged Post-Training with Visually Debiased Evaluation](https://arxiv.org/abs/2605.12034) [Project](https://cheliu-computation.github.io/omni/) [Dataset🤗](https://huggingface.co/datasets/che111/OmniClean)
 * 26.02 [OmniGAIA: Towards Native Omni-Modal AI Agents](https://arxiv.org/abs/2602.22897) | [Paper📑](https://arxiv.org/abs/2602.22897) [Code🖥️](https://github.com/RUC-NLPIR/OmniGAIA) [Model🤗](https://huggingface.co/RUC-NLPIR/OmniAtlas-Qwen3-30B-A3B) [Dataset🤗](https://huggingface.co/datasets/RUC-NLPIR/OmniGAIA)
   - OmniGAIA benchmark for omni-modal agent evaluation on cross-modal reasoning and tool-use, with OmniAtlas agent trained via hindsight-guided tree exploration and OmniDPO. | Task: Reasoning & Understanding
 * 26.02 [Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device](https://arxiv.org/abs/2602.20161) | [Paper📑](https://arxiv.org/abs/2602.20161) [Code🖥️](https://github.com/Amshaker/Mobile-O) [Model🤗](https://huggingface.co/Amshaker/Mobile-O-0.5B-iOS)
@@ -325,6 +326,7 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 * 25.07 [Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities](https://arxiv.org/abs/2507.06261)
 * 25.05 [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/abs/2505.04623)
 * 25.03 [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215)
+* 25.2 [NEXUS-O: An Omni-Perceptive and -Interactive Model for Language, Audio, and Vision](https://dl.acm.org/doi/abs/10.1145/3746027.3754752?__cf_chl_f_tk=gmStl8l40OUgZYOvz8YVgo..7ZtwlsEpVMXtyVbmse4-1782936702-1.0.1.1-UIm4rPzEge5or9KZNNli2MpH1RplcVKQbWQWnAEsxG8)
 * 25.01 [OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561)
 * 24.10 [Baichuan-Omni Technical Report](https://arxiv.org/abs/2410.08565)
 * 24.09 [MIO: A Foundation Model on Multimodal Tokens](https://arxiv.org/html/2409.17692v1)
