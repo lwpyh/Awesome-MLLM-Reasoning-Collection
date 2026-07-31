@@ -2,7 +2,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://www.researchgate.net/profile/Zixu-Cheng/publication/408827669_From_Static_Perception_to_Interactive_Decision_A_Survey_of_Multimodal_Reasoning/links/6a51766337be4e7a63c3e26b/From-Static-Perception-to-Interactive-Decision-A-Survey-of-Multimodal-Reasoning.pdf)
 
-**⚠️ Repository notice: On 31 May 2026, this repository was targeted by an apparent coordinated fake-star attack that also affected many other open-source repositories. Its star count rose abnormally from approximately 673 to more than 14,000 within a single day, despite no promotion or involvement from the maintainers. We reported the incident to GitHub but have not received a substantive response. We remain sincerely grateful to the 670+ genuine supporters whose earlier stars may no longer be displayed—your support and trust have always been deeply appreciated. 💙**
+## ⚠️ Repository notice
+
+**On 31 May 2026, this repository was targeted by an apparent coordinated fake-star attack that also affected many other open-source repositories. Its star count rose abnormally from approximately 673 to more than 14,000 within a single day, despite no promotion or involvement from the maintainers. We reported the incident to GitHub but have not received a substantive response. We remain sincerely grateful to the 670+ genuine supporters whose earlier stars may no longer be displayed—your support and trust have always been deeply appreciated. 💙**
 
 👏 Welcome to the Awesome-MLLM-Reasoning-Collections repository! This repository is a carefully curated collection of papers, code, datasets, benchmarks, and resources focused on reasoning within Multimodal Large Language Models (MLLMs).
 
