@@ -1,5 +1,6 @@
 # Awesome-MLLM-Reasoning-Collection
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://www.researchgate.net/profile/Zixu-Cheng/publication/408827669_From_Static_Perception_to_Interactive_Decision_A_Survey_of_Multimodal_Reasoning/links/6a51766337be4e7a63c3e26b/From-Static-Perception-to-Interactive-Decision-A-Survey-of-Multimodal-Reasoning.pdf)
 
 👏 Welcome to the Awesome-MLLM-Reasoning-Collections repository! This repository is a carefully curated collection of papers, code, datasets, benchmarks, and resources focused on reasoning within Multimodal Large Language Models (MLLMs).
 
@@ -10,9 +11,21 @@ Feel free to ⭐ star and fork this repository to keep up with the latest advanc
 
 A conceptual trajectory of multimodal reasoning, evolving from static image-level understanding, through temporal video and audio reasoning, to holistic omni-level reasoning, and finally toward embodied embedding reasoning with perception–action interaction. This progression reflects increasing reasoning scope, compositionality, and interactivity.
 
+## Citation
+
+If you find this repository or our survey useful for your research, please consider citing:
+
+```bibtex
+@article{hu2026static,
+  title   = {From Static Perception to Interactive Decision: A Survey of Multimodal Reasoning},
+  author  = {Hu, Jian and Cheng, Zixu and Ma, Yinghao and Dixit, Satvik and Pan, Bikang and Chen, Lei and Ma, Lin and Zeng, Zhixiong and Wang, Jiangya and Benetos, Emmanouil and others},
+  journal = {researchgate preprint},
+  year    = {2026}
+}
+```
 
 <!-- ---- -->
-### Table of Contents
+## Table of Contents
 - [Awesome-MLLM-Reasoning-Collection](#awesome-mllm-reasoning-collection)
     - [Table of Contents](#table-of-contents)
   - [Papers and Projects 📄](#papers-and-projects-)
