@@ -1159,6 +1159,7 @@ Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761) | [Paper�
 
 | Date  | Project                                                      | Task                                          | Links                                                        |
 | ----- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ |
+| 26.07 | Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text (ProVisE) | Spatial Reasoning | [[📑 Paper]](https://arxiv.org/abs/2607.21072) [[💻 Code]](https://github.com/ZJU-OmniAI/ProVisE) [[🌐 Project]](https://zju-omniai.github.io/ProVisE/) |
 | 26.03 | MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning | Multi-image Reasoning | [[📑 Paper]](https://arxiv.org/abs/2603.02024) [[🌐 Project]](https://mmr-life.github.io/) |
 | 26.03 | RIVER: A Benchmark for Real-World Video Reasoning in Long and Short Contexts | Video Temporal Reasoning | [[📑 Paper]](https://arxiv.org/abs/2603.03876) |
 | 26.03 | UniG2U-Bench: Comprehensive Benchmark for Unified Generation and Understanding MLLMs | Multimodal Evaluation | [[📑 Paper]](https://arxiv.org/abs/2603.03241) |
